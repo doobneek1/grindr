@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/home_tab_image" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" android:contentDescription="@null" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/home_tab_text_selector" android:ellipsize="end" android:gravity="center" android:id="@id/home_tab_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:contentDescription="@null" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" />
+</merge>

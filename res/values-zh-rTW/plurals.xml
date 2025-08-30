@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="boost_bundle_credits">
+        <item quantity="other">宣傳</item>
+    </plurals>
+    <plurals name="boost_bundle_credits_postfix">
+        <item quantity="other">每個%s</item>
+    </plurals>
+    <plurals name="chat">
+        <item quantity="other">則聊天記錄</item>
+    </plurals>
+    <plurals name="chat_record_time_left">
+        <item quantity="other">還剩餘%d秒</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">快轉 %d 秒</item>
+        <item quantity="one">快轉 %d 秒</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">倒轉 %d 秒</item>
+        <item quantity="one">倒轉 %d 秒</item>
+    </plurals>
+    <plurals name="expiring_remaining_count">
+        <item quantity="other">還剩餘 %d 張限時照片</item>
+    </plurals>
+    <plurals name="favoritesDaysAgo">
+        <item quantity="other">%d天前</item>
+    </plurals>
+    <plurals name="favoritesHoursAgo">
+        <item quantity="other">%d小時前</item>
+    </plurals>
+    <plurals name="groupchat_invite_members">
+        <item quantity="other">您邀請了%d人</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">個月</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 則新通知</item>
+        <item quantity="one">%d 則新通知</item>
+    </plurals>
+    <plurals name="note">
+        <item quantity="other">%d 個備註</item>
+    </plurals>
+    <plurals name="photoApproved">
+        <item quantity="other">您的個人頭像已通過審核</item>
+    </plurals>
+    <plurals name="photoModerated">
+        <item quantity="other">您的新個人頭像正在審核中</item>
+    </plurals>
+    <plurals name="photoRejected">
+        <item quantity="other">您的個人頭像已被退回</item>
+    </plurals>
+    <plurals name="pride_countdown_in_days">
+        <item quantity="other">%d 天後</item>
+    </plurals>
+    <plurals name="pride_countdown_in_hours">
+        <item quantity="other">%d 小時後</item>
+    </plurals>
+    <plurals name="pride_countdown_in_minutes">
+        <item quantity="other">%d 分鐘後</item>
+    </plurals>
+    <plurals name="private_video_remaining_count">
+        <item quantity="other">還剩餘 %d 個限時影片</item>
+    </plurals>
+    <plurals name="profileChattedHoursAgo">
+        <item quantity="other">在%d小時前聊過天</item>
+    </plurals>
+    <plurals name="profileChattedMinutesAgo">
+        <item quantity="other">在%d分鐘前聊過天</item>
+    </plurals>
+    <plurals name="profileFeetAbbreviated">
+        <item quantity="other">%d 英尺</item>
+    </plurals>
+    <plurals name="profileFeetAway">
+        <item quantity="other">距離%d英尺</item>
+    </plurals>
+    <plurals name="profileKilometersAbbreviated">
+        <item quantity="other">%d 公里</item>
+    </plurals>
+    <plurals name="profileKilometersAway">
+        <item quantity="other">距離%d公里</item>
+    </plurals>
+    <plurals name="profileMetersAbbreviated">
+        <item quantity="other">%d 公尺</item>
+    </plurals>
+    <plurals name="profileMetersAway">
+        <item quantity="other">距離%d公尺</item>
+    </plurals>
+    <plurals name="profileMetersAwayAbbreviated">
+        <item quantity="other">距離%d公尺</item>
+    </plurals>
+    <plurals name="profileMilesAbbreviated">
+        <item quantity="other">%d 英里</item>
+    </plurals>
+    <plurals name="profileMilesAway">
+        <item quantity="other">距離%d英里</item>
+    </plurals>
+    <plurals name="profileMilesAwayAbbreviated">
+        <item quantity="other">距離%d英里</item>
+    </plurals>
+    <plurals name="profileOnlineDaysAgo">
+        <item quantity="other">%d日前在線</item>
+    </plurals>
+    <plurals name="profileOnlineHoursAgo">
+        <item quantity="other">%d小時前在線</item>
+    </plurals>
+    <plurals name="profileTappedDaysAgo">
+        <item quantity="other">在%d天前Tap了您</item>
+    </plurals>
+    <plurals name="profileTappedHoursAgo">
+        <item quantity="other">在%d小時前Tap了您</item>
+    </plurals>
+    <plurals name="profileTappedMinutesAgo">
+        <item quantity="other">在%d分鐘前Tap了您</item>
+    </plurals>
+    <plurals name="profileViewedMeHoursAgo">
+        <item quantity="other">%d 小時前查看了您</item>
+    </plurals>
+    <plurals name="profileViewedMeMinutesAgo">
+        <item quantity="other">%d 分鐘前查看了您</item>
+    </plurals>
+    <plurals name="search_inbox">
+        <item quantity="other">%d 聊天</item>
+    </plurals>
+    <plurals name="sendExpiringPhotos">
+        <item quantity="other">傳送限時照片(%d)</item>
+    </plurals>
+    <plurals name="sendNonExpiringPhotos">
+        <item quantity="other">傳送 (%d)</item>
+    </plurals>
+    <plurals name="tap">
+        <item quantity="other">次 Tap</item>
+    </plurals>
+    <plurals name="video_call_less_than_n_min">
+        <item quantity="other">少於 %d 分鐘</item>
+    </plurals>
+    <plurals name="view">
+        <item quantity="other">次瀏覽</item>
+    </plurals>
+    <plurals name="viewed_me_count_less_than_thousand">
+        <item quantity="other">%s查看了您</item>
+    </plurals>
+    <plurals name="viewer">
+        <item quantity="other">%d 人查看過</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">週</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">年</item>
+    </plurals>
+</resources>

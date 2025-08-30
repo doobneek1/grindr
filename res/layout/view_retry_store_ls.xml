@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/retry_view" android:background="@color/grindr_transparent" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/feature_list_size" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:textColor="@color/grindr_middle_gray" android:gravity="center" android:id="@id/retry_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/something_went_wrong_please_try_again_2" />
+    <FrameLayout android:gravity="center" android:id="@id/retry_button" android:background="@drawable/bg_grey_1_round" android:layout_width="248.0dip" android:layout_height="62.0dip" android:layout_marginTop="18.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_black" android:layout_gravity="center" android:id="@id/retry_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_v2_retry" android:textAllCaps="false" android:fontFamily="@font/ibm_plex_sans_medium" />
+        <ProgressBar android:id="@id/retry_button_progress" android:visibility="gone" android:layout_width="21.0dip" android:layout_height="21.0dip" style="@style/BlackProgressBar" />
+    </FrameLayout>
+</LinearLayout>

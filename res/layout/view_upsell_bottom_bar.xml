@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_gravity="bottom" android:id="@id/more_profile_upsell_bottom_bar" android:layout_width="fill_parent" android:layout_height="68.0dip" android:foreground="?android:selectableItemBackground" app:cardBackgroundColor="@color/grindr_gold_star_gay" app:contentPaddingBottom="8.0dip" app:contentPaddingLeft="16.0dip" app:contentPaddingRight="16.0dip" app:contentPaddingTop="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="start|center" android:id="@id/more_profile_upsell_bottom_bar_image" android:layout_width="wrap_content" android:layout_height="20.0dip" android:adjustViewBounds="true" app:srcCompat="@drawable/xtra_v2_logo" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceAction1" android:textColor="@color/grindr_pure_black" android:layout_gravity="end|center" android:id="@id/more_profile_upsell_bottom_bar_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.google.android.material.card.MaterialCardView>

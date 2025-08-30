@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:background="@color/grindr_dark_gray_3" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/adQualityEduContainer" android:layout_width="fill_parent" android:layout_height="48.0dip" app:layout_constraintBottom_toTopOf="@id/banner_ad" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textSize="11.0sp" android:textColor="@color/text_secondary_dark_bg" android:id="@id/adTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ads_quality_edu_mrec_title" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iconAdsEduInfo" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginStart="8.0dip" app:srcCompat="@drawable/svg_ic_info_circle" app:tint="@color/grindr_middle_gray" />
+    </LinearLayout>
+    <com.grindrapp.android.ads.GrindrAdContainer android:id="@id/banner_ad" android:layout_width="@dimen/banner_ad_width" android:layout_height="@dimen/banner_ad_height" android:layout_marginBottom="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/adQualityEduContainer" />
+</androidx.constraintlayout.widget.ConstraintLayout>

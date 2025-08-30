@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/grindr_pure_white_alpha_25"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@drawable/rounded_cruise_profile_tag_background" />
+</ripple>

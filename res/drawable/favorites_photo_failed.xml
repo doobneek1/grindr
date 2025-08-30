@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/grindr_dark_gray_3" />
+    <item android:left="50.0dip" android:top="50.0dip" android:right="50.0dip" android:bottom="50.0dip">
+        <bitmap android:gravity="center" android:src="@drawable/photo_failed" />
+    </item>
+</layer-list>

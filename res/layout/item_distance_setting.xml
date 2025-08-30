@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/grindr_dark_gray_2" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iconImageView" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="center" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/titleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/text_secondary_dark_bg" android:id="@id/contentTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+    <RadioButton android:id="@id/radioButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:buttonTint="@color/golden_tint_button" />
+</LinearLayout>

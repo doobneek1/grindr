@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/thumbnail_image_view" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginStart="8.0dip" app:roundedCornerRadius="@dimen/photo_corner_radius" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="16.0dip">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/name_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reporting_lag_grindr_user" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/flag_image_view" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_recently_chat_flag" />
+        <View android:background="@color/grindr_pure_white_alpha_10" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

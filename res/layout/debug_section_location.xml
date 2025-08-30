@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.SwitchCompat android:textColor="@color/grindr_pure_white" android:id="@id/dialog_use_custom_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Use Set Location" style="@style/Debug" />
+    <android.widget.Space android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Debug">
+        <TextView android:gravity="end" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Latitude (-90.0 ~ 90.0): " android:layout_marginEnd="20.0dip" />
+        <com.grindrapp.android.base.view.IbmPlexEditText android:layout_gravity="center" android:id="@id/dialog_custom_latitude" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="numberSigned|numberDecimal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Debug">
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Longitude (-180.0 ~ 180.0): " />
+        <com.grindrapp.android.base.view.IbmPlexEditText android:layout_gravity="center" android:id="@id/dialog_custom_longitude" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="numberSigned|numberDecimal" />
+    </LinearLayout>
+    <android.widget.Space android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/dialog_set_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Set Location" style="@style/DebugButton" />
+</LinearLayout>

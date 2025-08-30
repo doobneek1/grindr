@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/testing_reminder_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/inbox_reminder_test_when_do_you_want" style="@style/IdentityDialogDescription" />
+    <View android:background="@color/grindr_gray_1" android:layout_width="fill_parent" android:layout_height="@dimen/horizontal_rule_height" />
+    <RadioGroup android:id="@id/testing_reminder_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/identity_general_margin">
+        <com.grindrapp.android.base.view.IbmPlexRadioButton android:id="@id/testing_reminder_one_day" android:text="@string/remind_me_tomorrow" style="@style/DialogRadioButton" />
+        <com.grindrapp.android.base.view.IbmPlexRadioButton android:id="@id/testing_reminder_one_week" android:text="@string/remind_me_in_a_week" style="@style/DialogRadioButton" />
+        <com.grindrapp.android.base.view.IbmPlexRadioButton android:id="@id/testing_reminder_dismiss" android:text="@string/dismiss_reminder" style="@style/DialogRadioButton" />
+    </RadioGroup>
+    <View android:background="@color/grindr_gray_1" android:layout_width="fill_parent" android:layout_height="@dimen/horizontal_rule_height" />
+</LinearLayout>

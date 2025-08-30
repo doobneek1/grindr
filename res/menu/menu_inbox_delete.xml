@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/svg_ic_inbox_toolbar_mute" android:id="@id/mute_conversations" android:visible="false" android:title="@string/chat_group_details_mute_conversation" app:showAsAction="always" />
+    <item android:icon="@drawable/svg_ic_inbox_pin" android:id="@id/pin_conversations" android:visible="false" android:title="@string/inbox_pin_conversations" app:showAsAction="always" />
+    <item android:icon="@drawable/delete_24dp" android:id="@id/delete_conversations" android:title="@string/inbox_delete_conversations_plural" app:showAsAction="always" />
+</menu>

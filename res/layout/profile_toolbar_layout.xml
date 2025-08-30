@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/profile_layout" android:layout_width="fill_parent" android:layout_height="48.0dip" android:alpha="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/profile_toolbar_top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/profile_toolbar_last_seen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-1.0dip" android:contentDescription="@null" android:layout_marginEnd="5.0dip" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:id="@id/profile_toolbar_display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@id/profile_toolbar_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:id="@id/profile_toolbar_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

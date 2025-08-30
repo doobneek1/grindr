@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/profile_pending_overlay" android:background="@color/grindr_pure_black_alpha_50" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/edit_profile_pending_clock" android:layout_width="@dimen/edit_profile_clock_size" android:layout_height="@dimen/edit_profile_clock_size" android:layout_marginBottom="@dimen/edit_profile_pending_clock_margin_bottom" android:layout_centerInParent="true" />
+</RelativeLayout>

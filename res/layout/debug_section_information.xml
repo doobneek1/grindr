@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_width="32.0dip" android:layout_height="32.0dip" app:lottie_autoPlay="true" app:lottie_fileName="lottie_onboard_page1_point.zip" app:lottie_loop="true" app:srcCompat="@drawable/svg_ic_search" style="@style/Debug" />
+    <TextView android:id="@id/dialog_chat_debug_profile_id" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Debug" />
+    <TextView android:id="@id/dialog_chat_debug_role" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Debug" />
+    <TextView android:id="@id/dialog_chat_debug_db_version" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Debug" />
+    <TextView android:id="@id/dialog_chat_debug_device_id" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Debug" />
+    <TextView android:id="@id/dialog_chat_debug_advertising_id" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Debug" />
+</LinearLayout>

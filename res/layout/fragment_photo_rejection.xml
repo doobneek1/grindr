@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:id="@id/background_view" android:background="@color/grindr_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/background_mask" android:background="@color/grindr_pure_black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <RelativeLayout android:id="@id/container" android:background="@drawable/bg_round_top_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:alpha="0.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/full_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="64.0dip">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/photo_rejection_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.grindrapp.android.view.CircleIndicator android:id="@id/pager_indicator" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:textColor="@color/grindr_pure_black" android:gravity="center" android:id="@id/goto_edit_profile_text_view" android:background="@drawable/bg_golden_marketing_round_26" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/photo_rejection_retry_button" android:textAllCaps="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:rippleColor="@color/grindr_pure_black_alpha_25" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_middle_gray" android:gravity="center" android:id="@id/view_photo_rules_text_view" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="0.0dip" android:text="@string/photo_rejection_rule_button" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/summary_content" android:layout_width="fill_parent" android:layout_height="64.0dip">
+            <RelativeLayout android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginStart="16.0dip">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/summary_drawee_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholderImage="@drawable/svg_cascade_no_photo" />
+                <ImageView android:background="@drawable/rounded_red_filled" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/profile_block_report" />
+            </RelativeLayout>
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textStyle="bold" android:textColor="@color/grindr_pure_black" android:id="@id/summary_content_text_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/photo_not_approved_title" android:layout_weight="1.0" android:layout_marginStart="12.0dip" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_golden_brown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photo_rejection_learn_more" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

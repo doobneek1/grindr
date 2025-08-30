@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="boost_bundle_credits">
+        <item quantity="other">Улучшен.</item>
+        <item quantity="one">Улучшение</item>
+        <item quantity="few">Улучшен.</item>
+        <item quantity="many">Улучшен.</item>
+    </plurals>
+    <plurals name="boost_bundle_credits_postfix">
+        <item quantity="other">%s/ea</item>
+        <item quantity="one">%s</item>
+        <item quantity="few">%s/ea</item>
+        <item quantity="many">%s/ea</item>
+    </plurals>
+    <plurals name="chat">
+        <item quantity="other">чат.</item>
+        <item quantity="one">чат</item>
+        <item quantity="few">чата</item>
+        <item quantity="many">чатов</item>
+    </plurals>
+    <plurals name="chat_record_time_left">
+        <item quantity="other">Осталось %d секунды</item>
+        <item quantity="one">Осталась %d секунда</item>
+        <item quantity="few">Осталось %d секунды</item>
+        <item quantity="many">Осталось %d секунд</item>
+    </plurals>
+    <plurals name="expiring_remaining_count">
+        <item quantity="other">Осталось %d фотографии с ограниченным сроком</item>
+        <item quantity="one">Осталась %d фотография с ограниченным сроком</item>
+        <item quantity="few">Осталось %d фотографии с ограниченным сроком</item>
+        <item quantity="many">Осталось %d фотографий с ограниченным сроком</item>
+    </plurals>
+    <plurals name="favoritesDaysAgo">
+        <item quantity="other">%d д. назад</item>
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d д. назад</item>
+        <item quantity="many">%d д. назад</item>
+    </plurals>
+    <plurals name="favoritesHoursAgo">
+        <item quantity="other">%d ч. назад</item>
+        <item quantity="one">%d ч. назад</item>
+        <item quantity="few">%d ч. назад</item>
+        <item quantity="many">%d ч. назад</item>
+    </plurals>
+    <plurals name="groupchat_invite_members">
+        <item quantity="other">Вы пригласили %d чел.</item>
+        <item quantity="one">Вы кого-то пригласили</item>
+        <item quantity="few">Вы пригласили %d чел.</item>
+        <item quantity="many">Вы пригласили %d чел.</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">мес.</item>
+        <item quantity="one">мес.</item>
+        <item quantity="few">мес.</item>
+        <item quantity="many">мес.</item>
+    </plurals>
+    <plurals name="note">
+        <item quantity="other">%d заметки</item>
+        <item quantity="one">%d заметка</item>
+        <item quantity="few">%d заметки</item>
+        <item quantity="many">%d заметок</item>
+    </plurals>
+    <plurals name="photoApproved">
+        <item quantity="other">Фотографии профиля одобрены</item>
+        <item quantity="one">Фотография профиля одобрена</item>
+        <item quantity="few">Фотографии профиля одобрены</item>
+        <item quantity="many">Фотографии профиля одобрены</item>
+    </plurals>
+    <plurals name="photoModerated">
+        <item quantity="other">Ваши новые фотографии профиля на рассмотрении</item>
+        <item quantity="one">Ваша новая фотография профиля на рассмотрении</item>
+        <item quantity="few">Ваши новые фотографии профиля на рассмотрении</item>
+        <item quantity="many">Ваши новые фотографии профиля на рассмотрении</item>
+    </plurals>
+    <plurals name="photoRejected">
+        <item quantity="other">Фотографии профиля отклонены</item>
+        <item quantity="one">Фотография профиля отклонена</item>
+        <item quantity="few">Фотографии профиля отклонены</item>
+        <item quantity="many">Фотографии профиля отклонены</item>
+    </plurals>
+    <plurals name="pride_countdown_in_days">
+        <item quantity="other">Через %d д.</item>
+        <item quantity="one">Через %d день</item>
+        <item quantity="few">Через %d дня</item>
+        <item quantity="many">Через %d дней</item>
+    </plurals>
+    <plurals name="pride_countdown_in_hours">
+        <item quantity="other">Через %d ч.</item>
+        <item quantity="one">Через %d час</item>
+        <item quantity="few">Через %d часа</item>
+        <item quantity="many">Через %d часов</item>
+    </plurals>
+    <plurals name="pride_countdown_in_minutes">
+        <item quantity="other">Через %d мин.</item>
+        <item quantity="one">Через %d минуту</item>
+        <item quantity="few">Через %d минуты</item>
+        <item quantity="many">Через %d минут</item>
+    </plurals>
+    <plurals name="private_video_remaining_count">
+        <item quantity="other">Осталось частных видео: %d</item>
+        <item quantity="one">Осталось частных видео: %d</item>
+        <item quantity="few">Осталось частных видео: %d</item>
+        <item quantity="many">Осталось частных видео: %d</item>
+    </plurals>
+    <plurals name="profileChattedHoursAgo">
+        <item quantity="other">Общались %d часа назад</item>
+        <item quantity="one">Общались %d час назад</item>
+        <item quantity="few">Общались %d часа назад</item>
+        <item quantity="many">Общались %d часов назад</item>
+    </plurals>
+    <plurals name="profileChattedMinutesAgo">
+        <item quantity="other">Общались %d минуты назад</item>
+        <item quantity="one">Общались %d минуту назад</item>
+        <item quantity="few">Общались %d минуты назад</item>
+        <item quantity="many">Общались %d минут назад</item>
+    </plurals>
+    <plurals name="profileFeetAbbreviated">
+        <item quantity="other">%d фута</item>
+        <item quantity="one">%d фут</item>
+        <item quantity="few">%d фута</item>
+        <item quantity="many">%d футов</item>
+    </plurals>
+    <plurals name="profileFeetAway">
+        <item quantity="other">%d фут. от вас</item>
+        <item quantity="one">%d фут. от вас</item>
+        <item quantity="few">%d фут. от вас</item>
+        <item quantity="many">%d фут. от вас</item>
+    </plurals>
+    <plurals name="profileKilometersAbbreviated">
+        <item quantity="other">%d км</item>
+        <item quantity="one">%d км</item>
+        <item quantity="few">%d км</item>
+        <item quantity="many">%d км</item>
+    </plurals>
+    <plurals name="profileKilometersAway">
+        <item quantity="other">%d км. от вас</item>
+        <item quantity="one">%d км. от вас</item>
+        <item quantity="few">%d км. от вас</item>
+        <item quantity="many">%d км. от вас</item>
+    </plurals>
+    <plurals name="profileMetersAbbreviated">
+        <item quantity="other">%d м</item>
+        <item quantity="one">%d м</item>
+        <item quantity="few">%d м</item>
+        <item quantity="many">%d м</item>
+    </plurals>
+    <plurals name="profileMetersAway">
+        <item quantity="other">%d м. от вас</item>
+        <item quantity="one">%d метр от вас</item>
+        <item quantity="few">%d м. от вас</item>
+        <item quantity="many">%d м. от вас</item>
+    </plurals>
+    <plurals name="profileMetersAwayAbbreviated">
+        <item quantity="other">%d м. от вас</item>
+        <item quantity="one">%d м. от вас</item>
+        <item quantity="few">%d м. от вас</item>
+        <item quantity="many">%d м. от вас</item>
+    </plurals>
+    <plurals name="profileMilesAbbreviated">
+        <item quantity="other">%d мили</item>
+        <item quantity="one">%d миля</item>
+        <item quantity="few">%d мили</item>
+        <item quantity="many">%d миль</item>
+    </plurals>
+    <plurals name="profileMilesAway">
+        <item quantity="other">%d мил. от вас</item>
+        <item quantity="one">%d мил. от вас</item>
+        <item quantity="few">%d мил. от вас</item>
+        <item quantity="many">%d мил. от вас</item>
+    </plurals>
+    <plurals name="profileMilesAwayAbbreviated">
+        <item quantity="other">%d мил. от вас</item>
+        <item quantity="one">%d мил. от вас</item>
+        <item quantity="few">%d мил. от вас</item>
+        <item quantity="many">%d мил. от вас</item>
+    </plurals>
+    <plurals name="profileOnlineDaysAgo">
+        <item quantity="other">В сети %d д. назад</item>
+        <item quantity="one">В сети %d день назад</item>
+        <item quantity="few">В сети %d д. назад</item>
+        <item quantity="many">В сети %d д. назад</item>
+    </plurals>
+    <plurals name="profileOnlineHoursAgo">
+        <item quantity="other">В сети %d ч. назад</item>
+        <item quantity="one">В сети %d час назад</item>
+        <item quantity="few">В сети %d ч. назад</item>
+        <item quantity="many">В сети %d ч. назад</item>
+    </plurals>
+    <plurals name="profileTappedDaysAgo">
+        <item quantity="other">Коснулся вас %d д. назад</item>
+        <item quantity="one">Коснулся вас %d день назад</item>
+        <item quantity="few">Коснулся вас %d д. назад</item>
+        <item quantity="many">Коснулся вас %d д. назад</item>
+    </plurals>
+    <plurals name="profileTappedHoursAgo">
+        <item quantity="other">Коснулся вас %d ч. назад</item>
+        <item quantity="one">Коснулся вас %d час назад</item>
+        <item quantity="few">Коснулся вас %d ч. назад</item>
+        <item quantity="many">Коснулся вас %d ч. назад</item>
+    </plurals>
+    <plurals name="profileTappedMinutesAgo">
+        <item quantity="other">Коснулся вас %d мин. назад</item>
+        <item quantity="one">Коснулся вас %d мин. назад</item>
+        <item quantity="few">Коснулся вас %d мин. назад</item>
+        <item quantity="many">Коснулся вас %d мин. назад</item>
+    </plurals>
+    <plurals name="profileViewedMeHoursAgo">
+        <item quantity="other">Посмотрел ваш профиль %d часа назад</item>
+        <item quantity="one">Посмотрел ваш профиль %d час назад</item>
+        <item quantity="few">Посмотрел ваш профиль %d часа назад</item>
+        <item quantity="many">Посмотрел ваш профиль %d часов назад</item>
+    </plurals>
+    <plurals name="profileViewedMeMinutesAgo">
+        <item quantity="other">Посмотрел ваш профиль %d минуты назад</item>
+        <item quantity="one">Посмотрел ваш профиль %d минуту назад</item>
+        <item quantity="few">Посмотрел ваш профиль %d минуты назад</item>
+        <item quantity="many">Посмотрел ваш профиль %d минут назад</item>
+    </plurals>
+    <plurals name="search_inbox">
+        <item quantity="other">%d чата</item>
+        <item quantity="one">%d чат</item>
+        <item quantity="few">%d чата</item>
+        <item quantity="many">%d чатов</item>
+    </plurals>
+    <plurals name="sendExpiringPhotos">
+        <item quantity="other">ОТПРАВИТЬ С ОГРАНИЧЕННЫМ СРОКОМ (%d)</item>
+        <item quantity="one">ОТПРАВИТЬ С ОГРАНИЧЕННЫМ СРОКОМ (%d)</item>
+        <item quantity="few">ОТПРАВИТЬ С ОГРАНИЧЕННЫМ СРОКОМ (%d)</item>
+        <item quantity="many">ОТПРАВИТЬ С ОГРАНИЧЕННЫМ СРОКОМ (%d)</item>
+    </plurals>
+    <plurals name="sendNonExpiringPhotos">
+        <item quantity="other">ОТПРАВИТЬ (%d)</item>
+        <item quantity="one">ОТПРАВИТЬ (%d)</item>
+        <item quantity="few">ОТПРАВИТЬ (%d)</item>
+        <item quantity="many">ОТПРАВИТЬ (%d)</item>
+    </plurals>
+    <plurals name="tap">
+        <item quantity="other">нажат.</item>
+        <item quantity="one">нажатие</item>
+        <item quantity="few">нажатия</item>
+        <item quantity="many">нажатий</item>
+    </plurals>
+    <plurals name="video_call_less_than_n_min">
+        <item quantity="other">Менее %d мин.</item>
+        <item quantity="one">Менее %d мин.</item>
+        <item quantity="few">Менее %d мин.</item>
+        <item quantity="many">Менее %d мин.</item>
+    </plurals>
+    <plurals name="view">
+        <item quantity="other">просм.</item>
+        <item quantity="one">просмотр</item>
+        <item quantity="few">просмотра</item>
+        <item quantity="many">просмотров</item>
+    </plurals>
+    <plurals name="viewed_me_count_less_than_thousand">
+        <item quantity="other">%s посмотрело ваш профиль</item>
+        <item quantity="one">%s посмотрело ваш профиль</item>
+        <item quantity="few">%s посмотрело ваш профиль</item>
+        <item quantity="many">%s посмотрело ваш профиль</item>
+    </plurals>
+    <plurals name="viewer">
+        <item quantity="other">%d зрители</item>
+        <item quantity="one">%d зритель</item>
+        <item quantity="few">%d зрителей</item>
+        <item quantity="many">%d зрителей</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">нед.</item>
+        <item quantity="one">нед.</item>
+        <item quantity="few">нед.</item>
+        <item quantity="many">нед.</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">г.</item>
+        <item quantity="one">год</item>
+        <item quantity="few">года</item>
+        <item quantity="many">лет</item>
+    </plurals>
+</resources>

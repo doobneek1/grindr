@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_tags_to_profile">
+        <item quantity="other">Tags adicionadas ao seu perfil</item>
+        <item quantity="one">Tag adicionada ao seu perfil</item>
+    </plurals>
+    <plurals name="boost_bundle_credits">
+        <item quantity="other">Melhorias</item>
+        <item quantity="one">Melhoria</item>
+    </plurals>
+    <plurals name="boost_bundle_credits_postfix">
+        <item quantity="other">%s/ea</item>
+        <item quantity="one">%s</item>
+    </plurals>
+    <plurals name="chat">
+        <item quantity="other">chats</item>
+        <item quantity="one">chat</item>
+    </plurals>
+    <plurals name="chat_record_time_left">
+        <item quantity="other">%d segundos restantes</item>
+        <item quantity="one">%d segundo restante</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Avançar %d segundos</item>
+        <item quantity="one">Avançar %d segundo</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Voltar %d segundos</item>
+        <item quantity="one">Voltar %d segundo</item>
+    </plurals>
+    <plurals name="expiring_remaining_count">
+        <item quantity="other">%d fotos que expiram restantes</item>
+        <item quantity="one">%d foto que expira restante</item>
+    </plurals>
+    <plurals name="favoritesDaysAgo">
+        <item quantity="other">%d dias atrás</item>
+        <item quantity="one">%d dia atrás</item>
+    </plurals>
+    <plurals name="favoritesHoursAgo">
+        <item quantity="other">%d h atrás</item>
+        <item quantity="one">%d h atrás</item>
+    </plurals>
+    <plurals name="groupchat_invite_members">
+        <item quantity="other">Você convidou %d pessoas</item>
+        <item quantity="one">Você convidou alguém</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">meses</item>
+        <item quantity="one">mês</item>
+    </plurals>
+    <plurals name="note">
+        <item quantity="other">%d anotações</item>
+        <item quantity="one">%d anotação</item>
+    </plurals>
+    <plurals name="photoApproved">
+        <item quantity="other">Suas fotos de perfil foram aprovadas</item>
+        <item quantity="one">Sua foto de perfil foi aprovada</item>
+    </plurals>
+    <plurals name="photoModerated">
+        <item quantity="other">Suas novas imagens de perfil estão sendo moderadas</item>
+        <item quantity="one">Sua nova imagem de perfil está sendo moderada</item>
+    </plurals>
+    <plurals name="photoRejected">
+        <item quantity="other">Suas fotos de perfil foram rejeitadas</item>
+        <item quantity="one">Sua foto de perfil foi rejeitada</item>
+    </plurals>
+    <plurals name="pride_countdown_in_days">
+        <item quantity="other">Em %d dias</item>
+        <item quantity="one">Em %d dia</item>
+    </plurals>
+    <plurals name="pride_countdown_in_hours">
+        <item quantity="other">Em %d horas</item>
+        <item quantity="one">Em %d hora</item>
+    </plurals>
+    <plurals name="pride_countdown_in_minutes">
+        <item quantity="other">Em %d minutos</item>
+        <item quantity="one">Em %d minuto</item>
+    </plurals>
+    <plurals name="private_video_remaining_count">
+        <item quantity="other">%d vídeos privados restantes</item>
+        <item quantity="one">%d vídeo privado restante</item>
+    </plurals>
+    <plurals name="profileChattedHoursAgo">
+        <item quantity="other">Conversou %d horas atrás</item>
+        <item quantity="one">Conversou %d hora atrás</item>
+    </plurals>
+    <plurals name="profileChattedMinutesAgo">
+        <item quantity="other">Conversou %d minutos atrás</item>
+        <item quantity="one">Conversou %d minuto atrás</item>
+    </plurals>
+    <plurals name="profileFeetAbbreviated">
+        <item quantity="other">%d pés</item>
+        <item quantity="one">%d pé</item>
+    </plurals>
+    <plurals name="profileFeetAway">
+        <item quantity="other">%d pés de distância</item>
+        <item quantity="one">%d pé de distância</item>
+    </plurals>
+    <plurals name="profileKilometersAbbreviated">
+        <item quantity="other">%d km</item>
+        <item quantity="one">%d km</item>
+    </plurals>
+    <plurals name="profileKilometersAway">
+        <item quantity="other">%d km de distância</item>
+        <item quantity="one">%d km de distância</item>
+    </plurals>
+    <plurals name="profileMetersAbbreviated">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="profileMetersAway">
+        <item quantity="other">%d metros de distância</item>
+        <item quantity="one">%d metro de distância</item>
+    </plurals>
+    <plurals name="profileMetersAwayAbbreviated">
+        <item quantity="other">%d m de distância</item>
+        <item quantity="one">%d m de distância</item>
+    </plurals>
+    <plurals name="profileMilesAbbreviated">
+        <item quantity="other">%d milhas</item>
+        <item quantity="one">%d milha</item>
+    </plurals>
+    <plurals name="profileMilesAway">
+        <item quantity="other">%d milhas de distância</item>
+        <item quantity="one">%d milha de distância</item>
+    </plurals>
+    <plurals name="profileMilesAwayAbbreviated">
+        <item quantity="other">%d mi de distância</item>
+        <item quantity="one">%d mi de distância</item>
+    </plurals>
+    <plurals name="profileOnlineDaysAgo">
+        <item quantity="other">Online %d dias atrás</item>
+        <item quantity="one">Online %d dia atrás</item>
+    </plurals>
+    <plurals name="profileOnlineHoursAgo">
+        <item quantity="other">Online %d horas atrás</item>
+        <item quantity="one">Online %d hora atrás</item>
+    </plurals>
+    <plurals name="profileTappedDaysAgo">
+        <item quantity="other">Tocou você há %d dias</item>
+        <item quantity="one">Tocou você há %d dia</item>
+    </plurals>
+    <plurals name="profileTappedHoursAgo">
+        <item quantity="other">Tocou você há %d horas</item>
+        <item quantity="one">Tocou você há %d hora</item>
+    </plurals>
+    <plurals name="profileTappedMinutesAgo">
+        <item quantity="other">Tocou você há %d minutos</item>
+        <item quantity="one">Tocou você há %d minuto</item>
+    </plurals>
+    <plurals name="profileViewedMeHoursAgo">
+        <item quantity="other">Viu você há %d horas</item>
+        <item quantity="one">Viu você há %d hora</item>
+    </plurals>
+    <plurals name="profileViewedMeMinutesAgo">
+        <item quantity="other">Viu você há %d minutos</item>
+        <item quantity="one">Viu você há %d minuto</item>
+    </plurals>
+    <plurals name="search_inbox">
+        <item quantity="other">%d chats</item>
+        <item quantity="one">%d chat</item>
+    </plurals>
+    <plurals name="sendExpiringPhotos">
+        <item quantity="other">EENVIAR FOTOS QUE EXPIRAM (%d)</item>
+        <item quantity="one">ENVIAR FOTOS QUE EXPIRAM (%d)</item>
+    </plurals>
+    <plurals name="sendNonExpiringPhotos">
+        <item quantity="other">ENVIAR (%d)</item>
+        <item quantity="one">ENVIAR (%d)</item>
+    </plurals>
+    <plurals name="tap">
+        <item quantity="other">taps</item>
+        <item quantity="one">tap</item>
+    </plurals>
+    <plurals name="video_call_less_than_n_min">
+        <item quantity="other">Menos de %d min</item>
+        <item quantity="one">Menos de %d min</item>
+    </plurals>
+    <plurals name="view">
+        <item quantity="other">visualizações</item>
+        <item quantity="one">visualização</item>
+    </plurals>
+    <plurals name="viewed_me_count_less_than_thousand">
+        <item quantity="other">%s visualizaram você</item>
+        <item quantity="one">%s visualizou você</item>
+    </plurals>
+    <plurals name="viewer">
+        <item quantity="other">%d pessoas viram</item>
+        <item quantity="one">%d pessoa viu</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">semanas</item>
+        <item quantity="one">semana</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">anos</item>
+        <item quantity="one">ano</item>
+    </plurals>
+</resources>

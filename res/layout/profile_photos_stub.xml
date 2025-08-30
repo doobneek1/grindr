@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/multiphoto_profile_image_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GoldenRodProgressBar" />
+    <ImageView android:layout_gravity="center" android:id="@id/multiphoto_profile_image_retry" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:contentDescription="@null" app:srcCompat="@drawable/retry_button" app:tint="@color/grindr_gray_2" />
+</FrameLayout>

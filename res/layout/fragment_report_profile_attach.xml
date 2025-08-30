@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:background="@color/grindr_pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/fragment_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_profile_attach_title" />
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView android:padding="46.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/report_profile_what_count" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_pure_black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/report_profile_attach_summary" android:lineSpacingExtra="2.0dip" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:textColor="@color/grindr_pure_black" android:id="@id/report_profile_attach_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="4.0dip" android:lineSpacingExtra="2.0dip" />
+            <FrameLayout android:id="@id/report_profile_attach_yes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:foreground="@drawable/transparent_dark_ripple">
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_pure_black" android:gravity="center" android:background="@color/grindr_gold_star_gay" android:padding="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/yes" android:textAllCaps="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/report_profile_attach_no" android:background="@drawable/transparent_dark_ripple" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_pure_black" android:gravity="center" android:background="@drawable/grey_border" android:padding="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no" android:textAllCaps="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</com.google.android.material.appbar.AppBarLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.camera.view.PreviewView android:id="@id/preview_view" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/preview_control_linear_layout" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_alignParentBottom="true">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/cancel_button" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:foregroundGravity="center" android:layout_marginStart="20.0dip" android:layout_alignParentStart="true" app:srcCompat="@drawable/private_video_cancel" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/flash_button" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:foregroundGravity="center" android:layout_marginStart="20.0dip" android:layout_toEndOf="@id/cancel_button" app:srcCompat="@drawable/private_video_flash_off" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/turn_camera_button" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_change_lens_facing" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/mute_button" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_marginEnd="20.0dip" android:layout_toStartOf="@id/turn_camera_button" app:srcCompat="@drawable/svg_video_unmute" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:gravity="center" android:id="@id/video_countdown" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/record_button" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_centerInParent="true" app:srcCompat="@drawable/private_video_record_circle" />
+        <com.grindrapp.android.view.CircularProgressBar android:id="@id/progress_circular" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.grindrapp.android.view.GrindrVideoControllerView android:id="@id/grindr_video_controller_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/view_progress_bar" />
+</RelativeLayout>

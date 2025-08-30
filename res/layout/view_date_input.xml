@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:orientation="horizontal" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.grindrapp.android.base.view.IbmPlexEditText android:id="@id/date_input_box_m1" android:hint="M" style="@style/OnboardPinInputText" />
+    <com.grindrapp.android.base.view.IbmPlexEditText android:id="@id/date_input_box_m2" android:hint="M" style="@style/OnboardPinInputText" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH3" android:textColor="@color/grindr_dark_gray_1" android:id="@id/date_slash_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="/" />
+    <com.grindrapp.android.base.view.IbmPlexEditText android:id="@id/date_input_box_d1" android:hint="D" style="@style/OnboardPinInputText" />
+    <com.grindrapp.android.base.view.IbmPlexEditText android:id="@id/date_input_box_d2" android:hint="D" style="@style/OnboardPinInputText" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH3" android:textColor="@color/grindr_dark_gray_1" android:id="@id/date_slash_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="/" />
+    <com.grindrapp.android.base.view.IbmPlexEditText android:id="@id/date_input_box_y1" android:hint="Y" style="@style/OnboardPinInputText" />
+    <com.grindrapp.android.base.view.IbmPlexEditText android:id="@id/date_input_box_y2" android:hint="Y" style="@style/OnboardPinInputText" />
+</merge>

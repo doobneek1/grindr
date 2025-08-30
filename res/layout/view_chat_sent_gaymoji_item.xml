@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.grindrapp.android.view.ChatSentMessageContainer android:background="@color/grindr_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/message_container" android:layout_marginStart="48.0dip" style="@style/messageContainerV2.sent">
+        <com.grindrapp.android.view.ChatReplyBoxView android:layout_gravity="start" android:id="@id/reply_layout_box" android:background="@drawable/reply_message_rectangle_rounded_corner_with_background_all_rounded_corner" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/chat_reply_arrow" android:paddingTop="@dimen/chat_image_padding_top_reply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="5.0dip" app:layout_constraintEnd_toStartOf="@id/gaymoji_item" app:layout_constraintTop_toBottomOf="@id/reply_layout_box" app:srcCompat="@drawable/ic_reply_arrow_sent" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/gaymoji_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintLeft_toRightOf="@id/chat_reply_arrow" app:layout_constraintTop_toTopOf="@id/chat_reply_arrow" app:layout_goneMarginTop="0.0dip" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.grindrapp.android.view.ChatSentMessageContainer>

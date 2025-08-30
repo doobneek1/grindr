@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/store_tabs_bar" android:layout_width="0.0dip" android:layout_height="?actionBarSize" android:layout_weight="1.0" app:tabIndicatorColor="@android:color/white" app:tabIndicatorHeight="2.0dip" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="start|center" android:id="@id/old_xtra_title" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/upgrade_xtra_feature" android:layout_weight="1.0" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:layout_gravity="end|center" android:id="@id/see_all_menu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upgrade_xtra_menu_name" android:maxLines="1" android:layout_marginEnd="10.0dip" />
+</merge>

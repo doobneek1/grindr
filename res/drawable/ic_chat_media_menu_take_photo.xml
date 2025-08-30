@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20.0dip" />
+            <solid android:color="@color/grindr_off_white" />
+            <size android:height="40.0dip" android:width="40.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/ic_menu_take_photo" />
+</layer-list>

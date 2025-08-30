@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/full_screen_image_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.grindrapp.android.ui.photos.ZoomableWatermarkView android:orientation="vertical" android:id="@id/profile_image_full_size" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_pending_profile_pic" android:layout="@layout/merge_pending_profile_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="bottom" android:id="@id/profile_bottom_gradient" android:background="@drawable/profile_bottom_gradient" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+</FrameLayout>

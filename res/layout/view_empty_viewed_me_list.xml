@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/empty_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/recycler_empty_state_image_size" android:layout_marginTop="64.0dip" android:layout_marginBottom="@dimen/empty_state_asset_margin" app:srcCompat="@drawable/ic_empty_cascade" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:textSize="@dimen/recycler_empty_state_text_size" android:textStyle="bold" android:textColor="@color/grindr_off_white" android:gravity="center" android:id="@id/fragment_viewed_me_empty_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/empty_state_text_margin" android:fontFamily="@font/ibm_plex_sans" />
+    <TextView android:textSize="@dimen/recycler_empty_state_text_size_small" android:textColor="@color/grindr_off_white" android:gravity="center" android:id="@id/fragment_viewed_me_empty_subtext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="10.0sp" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1" android:textColor="@color/grindr_gold_star_gay" android:gravity="center" android:id="@id/btn_cta_button" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="@dimen/empty_state_text_margin" android:text="@string/viewed_me_list_tap_to_refresh" />
+</LinearLayout>

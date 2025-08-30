@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/grindr_dark_gray_1" android:visibility="gone" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:layout_width="20.0dip" android:layout_height="16.0dip" android:contentDescription="@string/settings_do_not_disturb" app:srcCompat="@drawable/do_not_disturb_bell" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/grindr_pure_white" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_do_not_disturb_snackbar" />
+</merge>

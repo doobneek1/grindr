@@ -1,0 +1,108 @@
+.class public final Lcom/grindrapp/android/persistence/repository/ChatSearchRepo$Companion;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/grindrapp/android/persistence/repository/ChatSearchRepo;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Companion"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0002\u0008\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\u0008\u0002\u00a2\u0006\u0002\u0010\u0002J\u0010\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u0004H\u0002\u00a8\u0006\u0006"
+    }
+    d2 = {
+        "Lcom/grindrapp/android/persistence/repository/ChatSearchRepo$Companion;",
+        "",
+        "()V",
+        "createFtsQueryFromUserQuery",
+        "",
+        "userQuery",
+        "core_prodRelease"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/grindrapp/android/persistence/repository/ChatSearchRepo$Companion;-><init>()V
+
+    return-void
+.end method
+
+.method public static final synthetic access$createFtsQueryFromUserQuery(Lcom/grindrapp/android/persistence/repository/ChatSearchRepo$Companion;Ljava/lang/String;)Ljava/lang/String;
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/grindrapp/android/persistence/repository/ChatSearchRepo$Companion;->createFtsQueryFromUserQuery(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private final createFtsQueryFromUserQuery(Ljava/lang/String;)Ljava/lang/String;
+    .locals 9
+
+    invoke-static {p1}, Lcom/grindrapp/android/utils/i1;->c(Ljava/lang/String;)Ljava/util/List;
+
+    move-result-object v0
+
+    const-string v1, "* "
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    const/16 v7, 0x3e
+
+    const/4 v8, 0x0
+
+    invoke-static/range {v0 .. v8}, Lkotlin/collections/CollectionsKt;->joinToString$default(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p1
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p1, "*"
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+.end method

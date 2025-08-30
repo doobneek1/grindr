@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/tagsearch_icon_recent" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/spacing_medium" app:srcCompat="@drawable/ic_history_records" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Medium" android:gravity="center_vertical" android:id="@id/tagsearch_list_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/tagsearch_button_close" android:layout_toEndOf="@id/tagsearch_icon_recent" />
+    <ImageButton android:id="@id/tagsearch_button_close" android:background="@color/grindr_transparent" android:visibility="gone" android:layout_width="@dimen/spacing_xxlarge" android:layout_height="@dimen/spacing_xxxlarge" android:layout_centerVertical="true" android:paddingStart="@dimen/spacing_xlarge" android:layout_alignParentEnd="true" app:srcCompat="@drawable/svg_ic_close" />
+    <View android:background="@color/border_primary_dark_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="boost_bundle_credits">
+        <item quantity="other">تعزيز</item>
+        <item quantity="zero">تعزيز</item>
+        <item quantity="one">تعزيز</item>
+        <item quantity="two">تعزيزان</item>
+        <item quantity="few">تعزيزات</item>
+        <item quantity="many">تعزيزًا</item>
+    </plurals>
+    <plurals name="boost_bundle_credits_postfix">
+        <item quantity="other">%s/للواحد</item>
+        <item quantity="zero">%s/للواحد</item>
+        <item quantity="one">%s</item>
+        <item quantity="two">%s/للواحد</item>
+        <item quantity="few">%s/للواحد</item>
+        <item quantity="many">%s/للواحد</item>
+    </plurals>
+    <plurals name="chat">
+        <item quantity="other">دردشة</item>
+        <item quantity="zero">دردشة</item>
+        <item quantity="one">دردشة</item>
+        <item quantity="two">دردشتان</item>
+        <item quantity="few">دردشات</item>
+        <item quantity="many">دردشة</item>
+    </plurals>
+    <plurals name="chat_record_time_left">
+        <item quantity="other">بقي %d ثانية</item>
+        <item quantity="zero">بقي %d ثانية</item>
+        <item quantity="one">بقيت ثانية واحدة</item>
+        <item quantity="two">بقيت ثانيتان</item>
+        <item quantity="few">بقي %d ثوانٍ</item>
+        <item quantity="many">بقي %d ثانية</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="zero">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="one">تقديم سريع للفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">تقديم سريع للفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">تقديم سريع للفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="zero">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="one">ترجيع الفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">ترجيع الفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">ترجيع الفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">ترجيع الفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="expiring_remaining_count">
+        <item quantity="other">بقي %d صورة ستنتهي صلاحيتها</item>
+        <item quantity="zero">بقي %d صورة ستنتهي صلاحيتها</item>
+        <item quantity="one">بقي صورة واحدة ستنتهي صلاحيتها</item>
+        <item quantity="two">بقي صورتان ستنتهي صلاحيتهما</item>
+        <item quantity="few"></item>
+        <item quantity="many">بقي %d صور ستنتهي صلاحيتها</item>
+    </plurals>
+    <plurals name="favoritesDaysAgo">
+        <item quantity="other">قبل %d يوم</item>
+        <item quantity="zero">قبل %d يوم</item>
+        <item quantity="one">قبل يوم %d</item>
+        <item quantity="two">قبل يومين %d</item>
+        <item quantity="few">قبل %d أيام</item>
+        <item quantity="many">قبل %d يوماً</item>
+    </plurals>
+    <plurals name="favoritesHoursAgo">
+        <item quantity="other">قبل %d س</item>
+        <item quantity="zero">قبل %d س</item>
+        <item quantity="one">قبل %d س</item>
+        <item quantity="two">قبل %d س</item>
+        <item quantity="few">قبل %d س</item>
+        <item quantity="many">قبل %d س</item>
+    </plurals>
+    <plurals name="groupchat_invite_members">
+        <item quantity="other">لقد دعوت %d أشخاص</item>
+        <item quantity="zero">لقد دعوت %d أشخاص</item>
+        <item quantity="one">لقد دعوت شخصًا</item>
+        <item quantity="two">لقد دعوت %d أشخاص</item>
+        <item quantity="few">لقد دعوت %d أشخاص</item>
+        <item quantity="many">لقد دعوت %d أشخاص</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">شهر</item>
+        <item quantity="zero">شهر</item>
+        <item quantity="one">شهر واحد</item>
+        <item quantity="two">شهران</item>
+        <item quantity="few">أشهر</item>
+        <item quantity="many">شهرًا</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+    <plurals name="note">
+        <item quantity="other">%d ملاحظة</item>
+        <item quantity="zero">%d ملاحظة</item>
+        <item quantity="one">%d ملاحظة</item>
+        <item quantity="two">%d ملاحظتان</item>
+        <item quantity="few">%d ملاحظات</item>
+        <item quantity="many">%d ملاحظة</item>
+    </plurals>
+    <plurals name="photoApproved">
+        <item quantity="other">تمت الموافقة على صور ملفك الشخصي</item>
+        <item quantity="zero">تمت الموافقة على صور ملفك الشخصي</item>
+        <item quantity="one">تمت الموافقة على صورة ملفك الشخصي</item>
+        <item quantity="two">تمت الموافقة على صور ملفك الشخصي</item>
+        <item quantity="few">تمت الموافقة على صور ملفك الشخصي</item>
+        <item quantity="many">تمت الموافقة على صور ملفك الشخصي</item>
+    </plurals>
+    <plurals name="photoModerated">
+        <item quantity="other">صور ملفك الشخصي قيد المعاينة</item>
+        <item quantity="zero">صور ملفك الشخصي قيد المعاينة</item>
+        <item quantity="one">صورة ملفك الشخصي قيد المعاينة</item>
+        <item quantity="two">صور ملفك الشخصي قيد المعاينة</item>
+        <item quantity="few">صور ملفك الشخصي قيد المعاينة</item>
+        <item quantity="many">صور ملفك الشخصي قيد المعاينة</item>
+    </plurals>
+    <plurals name="photoRejected">
+        <item quantity="other">تم رفض صور ملفك الشخصي</item>
+        <item quantity="zero">تم رفض صور ملفك الشخصي</item>
+        <item quantity="one">تم رفض صورة ملفك الشخصي</item>
+        <item quantity="two">تم رفض صور ملفك الشخصي</item>
+        <item quantity="few">تم رفض صور ملفك الشخصي</item>
+        <item quantity="many">تم رفض صور ملفك الشخصي</item>
+    </plurals>
+    <plurals name="pride_countdown_in_days">
+        <item quantity="other">خلال %d يوم</item>
+        <item quantity="zero">الآن</item>
+        <item quantity="one">خلال يوم واحد</item>
+        <item quantity="two">خلال يومين</item>
+        <item quantity="few">خلال %d أيام</item>
+        <item quantity="many">خلال %d يومًا</item>
+    </plurals>
+    <plurals name="pride_countdown_in_hours">
+        <item quantity="other">خلال %d ساعة</item>
+        <item quantity="zero">الآن</item>
+        <item quantity="one">خلال ساعة واحدة</item>
+        <item quantity="two">خلال ساعتين</item>
+        <item quantity="few">خلال %d ساعات</item>
+        <item quantity="many">خلال %d ساعة</item>
+    </plurals>
+    <plurals name="pride_countdown_in_minutes">
+        <item quantity="other">خلال %d دقيقة</item>
+        <item quantity="zero">الآن</item>
+        <item quantity="one">خلال دقيقة واحدة</item>
+        <item quantity="two">خلال دقيقتين</item>
+        <item quantity="few">خلال %d دقائق</item>
+        <item quantity="many">خلال %d دقيقة</item>
+    </plurals>
+    <plurals name="private_video_remaining_count">
+        <item quantity="other">بقي %d فيديو</item>
+        <item quantity="zero">بقي %d فيديو</item>
+        <item quantity="one">بقي %d فيديو</item>
+        <item quantity="two">بقي %d فيديو</item>
+        <item quantity="few">بقي %d فيديو</item>
+        <item quantity="many">بقي %d فيديو</item>
+    </plurals>
+    <plurals name="profileChattedHoursAgo">
+        <item quantity="other">دردشت قبل %d ساعة</item>
+        <item quantity="zero">دردشت قبل %d ساعة</item>
+        <item quantity="one">دردشت قبل ساعة واحدة</item>
+        <item quantity="two">دردشت قبل ساعتين</item>
+        <item quantity="few">دردشت قبل %d ساعات</item>
+        <item quantity="many">دردشت قبل %d ساعة</item>
+    </plurals>
+    <plurals name="profileChattedMinutesAgo">
+        <item quantity="other">دردشت قبل %d دقيقة</item>
+        <item quantity="zero">دردشت قبل %d دقيقة</item>
+        <item quantity="one">دردشت قبل دقيقة واحدة</item>
+        <item quantity="two">دردشت قبل دقيقتين</item>
+        <item quantity="few">دردشت قبل %d دقائق</item>
+        <item quantity="many">دردشت قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="profileFeetAbbreviated">
+        <item quantity="other">%d قدم</item>
+        <item quantity="zero">%d قدم</item>
+        <item quantity="one">%d قدم</item>
+        <item quantity="two">%d قدم</item>
+        <item quantity="few">%d قدم</item>
+        <item quantity="many">%d قدم</item>
+    </plurals>
+    <plurals name="profileFeetAway">
+        <item quantity="other">على بعد %d قدم</item>
+        <item quantity="zero">على بعد %d قدم</item>
+        <item quantity="one">على بعد %d قدم</item>
+        <item quantity="two">على بعد %d قدم</item>
+        <item quantity="few">على بعد %d أقدام</item>
+        <item quantity="many">على بعد %d قدماً</item>
+    </plurals>
+    <plurals name="profileKilometersAbbreviated">
+        <item quantity="other">%d كم</item>
+        <item quantity="zero">%d كم</item>
+        <item quantity="one">%d كم</item>
+        <item quantity="two">%d كم</item>
+        <item quantity="few">%d كم</item>
+        <item quantity="many">%d كم</item>
+    </plurals>
+    <plurals name="profileKilometersAway">
+        <item quantity="other">على بعد %d كم</item>
+        <item quantity="zero">على بعد %d كم</item>
+        <item quantity="one">على بعد %d كم</item>
+        <item quantity="two">على بعد %d كم</item>
+        <item quantity="few">على بعد %d كم</item>
+        <item quantity="many">على بعد %d كم</item>
+    </plurals>
+    <plurals name="profileMetersAbbreviated">
+        <item quantity="other">%d م</item>
+        <item quantity="zero">%d م</item>
+        <item quantity="one">%d م</item>
+        <item quantity="two">%d م</item>
+        <item quantity="few">%d م</item>
+        <item quantity="many">%d م</item>
+    </plurals>
+    <plurals name="profileMetersAway">
+        <item quantity="other">على بعد %d متر</item>
+        <item quantity="zero">على بعد %d متر</item>
+        <item quantity="one">على بعد متر %d</item>
+        <item quantity="two">على بعد مترين %d</item>
+        <item quantity="few">على بعد %d أمتار</item>
+        <item quantity="many">على بعد %d متراً</item>
+    </plurals>
+    <plurals name="profileMetersAwayAbbreviated">
+        <item quantity="other">على بعد %d م</item>
+        <item quantity="zero">على بعد %d م</item>
+        <item quantity="one">على بعد %d م</item>
+        <item quantity="two">على بعد %d م</item>
+        <item quantity="few">على بعد %d م</item>
+        <item quantity="many">على بعد %d م</item>
+    </plurals>
+    <plurals name="profileMilesAbbreviated">
+        <item quantity="other">%d ميل</item>
+        <item quantity="zero">%d ميل</item>
+        <item quantity="one">%d ميل</item>
+        <item quantity="two">%d ميل</item>
+        <item quantity="few">%d أميال</item>
+        <item quantity="many">%d ميل</item>
+    </plurals>
+    <plurals name="profileMilesAway">
+        <item quantity="other">على بعد %d ميل</item>
+        <item quantity="zero">على بعد %d ميل</item>
+        <item quantity="one">على بعد ميل %d</item>
+        <item quantity="two">على بعد ميلين %d</item>
+        <item quantity="few">على بعد %d أميال</item>
+        <item quantity="many">على بعد %d ميلاً</item>
+    </plurals>
+    <plurals name="profileMilesAwayAbbreviated">
+        <item quantity="other">على بعد %d ميل</item>
+        <item quantity="zero">على بعد %d ميل</item>
+        <item quantity="one">على بعد ميل %d</item>
+        <item quantity="two">على بعد ميلين %d</item>
+        <item quantity="few">على بعد %d أميال</item>
+        <item quantity="many">على بعد %d ميلاً</item>
+    </plurals>
+    <plurals name="profileOnlineDaysAgo">
+        <item quantity="other">دخل قبل %d يوم</item>
+        <item quantity="zero">دخل قبل %d يوم</item>
+        <item quantity="one">دخل قبل يوم %d</item>
+        <item quantity="two">دخل قبل يومين %d</item>
+        <item quantity="few">دخل قبل %d أيام</item>
+        <item quantity="many">دخل قبل %d يوماً</item>
+    </plurals>
+    <plurals name="profileOnlineHoursAgo">
+        <item quantity="other">دخل قبل %d ساعة</item>
+        <item quantity="zero">دخل قبل %d ساعة</item>
+        <item quantity="one">دخل قبل ساعة %d</item>
+        <item quantity="two">دخل قبل ساعتين %d</item>
+        <item quantity="few">دخل قبل %d ساعات</item>
+        <item quantity="many">دخل قبل %d ساعة</item>
+    </plurals>
+    <plurals name="profileTappedDaysAgo">
+        <item quantity="other">أرسل لك Tap قبل %d يوم</item>
+        <item quantity="zero">أرسل لك Tap قبل %d يوم</item>
+        <item quantity="one">أرسل لك Tap قبل يوم %d</item>
+        <item quantity="two">أرسل لك Tap قبل يومين %d</item>
+        <item quantity="few">أرسل لك Tap قبل %d أيام</item>
+        <item quantity="many">أرسل لك Tap قبل %d يوماً</item>
+    </plurals>
+    <plurals name="profileTappedHoursAgo">
+        <item quantity="other">أرسل لك Tap قبل %d دقيقة</item>
+        <item quantity="zero">أرسل لك Tap قبل %d دقيقة</item>
+        <item quantity="one">أرسل لك Tap قبل دقيقة %d</item>
+        <item quantity="two">أرسل لك Tap قبل دقيقتين %d</item>
+        <item quantity="few">أرسل لك Tap قبل %d دقائق</item>
+        <item quantity="many">أرسل لك Tap قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="profileTappedMinutesAgo">
+        <item quantity="other">أرسل لك Tap قبل %d دقيقة</item>
+        <item quantity="zero">أرسل لك Tap قبل %d دقيقة</item>
+        <item quantity="one">أرسل لك Tap قبل دقيقة %d</item>
+        <item quantity="two">أرسل لك Tap قبل دقيقتين %d</item>
+        <item quantity="few">أرسل لك Tap قبل %d دقائق</item>
+        <item quantity="many">أرسل لك Tap قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="profileViewedMeHoursAgo">
+        <item quantity="other">شاهدك منذ %d ساعة</item>
+        <item quantity="zero">شاهدك منذ %d ساعة</item>
+        <item quantity="one">شاهدك منذ %d ساعة</item>
+        <item quantity="two">شاهدك منذ %d ساعة</item>
+        <item quantity="few">شاهدك منذ %d ساعة</item>
+        <item quantity="many">شاهدك منذ %d ساعة</item>
+    </plurals>
+    <plurals name="profileViewedMeMinutesAgo">
+        <item quantity="other">شاهدك منذ %d دقيقة</item>
+        <item quantity="zero">شاهدك منذ %d دقيقة</item>
+        <item quantity="one">شاهدك منذ %d دقيقة</item>
+        <item quantity="two">شاهدك منذ %d دقيقة</item>
+        <item quantity="few">شاهدك منذ %d دقيقة</item>
+        <item quantity="many">شاهدك منذ %d دقيقة</item>
+    </plurals>
+    <plurals name="search_inbox">
+        <item quantity="other">%d محادثة</item>
+        <item quantity="zero">%d محادثة</item>
+        <item quantity="one">محادثة واحدة</item>
+        <item quantity="two">محادثتان</item>
+        <item quantity="few">%d محادثات</item>
+        <item quantity="many">%d محادثة</item>
+    </plurals>
+    <plurals name="sendExpiringPhotos">
+        <item quantity="other">إرسال صور لها صلاحية (%d)</item>
+        <item quantity="zero">إرسال صور لها صلاحية (%d)</item>
+        <item quantity="one">إرسال صور لها صلاحية (%d)</item>
+        <item quantity="two">إرسال صور لها صلاحية (%d)</item>
+        <item quantity="few">إرسال صور لها صلاحية (%d)</item>
+        <item quantity="many">إرسال صور لها صلاحية (%d)</item>
+    </plurals>
+    <plurals name="sendNonExpiringPhotos">
+        <item quantity="other">إرسال (%d)</item>
+        <item quantity="zero">إرسال (%d)</item>
+        <item quantity="one">إرسال (%d)</item>
+        <item quantity="two">إرسال (%d)</item>
+        <item quantity="few">إرسال (%d)</item>
+        <item quantity="many">إرسال (%d)</item>
+    </plurals>
+    <plurals name="tap">
+        <item quantity="other">ضغطة</item>
+        <item quantity="zero">ضغطة</item>
+        <item quantity="one">ضغطة</item>
+        <item quantity="two">ضغطتان</item>
+        <item quantity="few">ضغطات</item>
+        <item quantity="many">ضغطة</item>
+    </plurals>
+    <plurals name="video_call_less_than_n_min">
+        <item quantity="other">أقل من %d د</item>
+        <item quantity="zero">أقل من %d د</item>
+        <item quantity="one">أقل من %d د</item>
+        <item quantity="two">أقل من %d د</item>
+        <item quantity="few">أقل من %d د</item>
+        <item quantity="many">أقل من %d د</item>
+    </plurals>
+    <plurals name="view">
+        <item quantity="other">مشاهدة</item>
+        <item quantity="zero">مشاهدة</item>
+        <item quantity="one">مشاهدة</item>
+        <item quantity="two">مشاهدتان</item>
+        <item quantity="few">مشاهدات</item>
+        <item quantity="many">مشاهدة</item>
+    </plurals>
+    <plurals name="viewed_me_count_less_than_thousand">
+        <item quantity="other">%s شاهدك</item>
+        <item quantity="zero">%s شاهدك</item>
+        <item quantity="one">%s شاهدك</item>
+        <item quantity="two">%s شاهدك</item>
+        <item quantity="few">%s شاهدك</item>
+        <item quantity="many">%s شاهدك</item>
+    </plurals>
+    <plurals name="viewer">
+        <item quantity="other">%d مشاهد</item>
+        <item quantity="zero">%d مشاهد</item>
+        <item quantity="one">مشاهد واحد (%d)</item>
+        <item quantity="two">مشاهدان (%d)</item>
+        <item quantity="few">%d مشاهدين</item>
+        <item quantity="many">%d مشاهدًا</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">أسبوع</item>
+        <item quantity="zero">أسبوع</item>
+        <item quantity="one">أسبوع واحد</item>
+        <item quantity="two">أسبوعان</item>
+        <item quantity="few">أسابيع</item>
+        <item quantity="many">أسبوعًا</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">سنة</item>
+        <item quantity="zero">سنة</item>
+        <item quantity="one">سنة</item>
+        <item quantity="two">سنتان</item>
+        <item quantity="few">سنوات</item>
+        <item quantity="many">سنة</item>
+    </plurals>
+</resources>

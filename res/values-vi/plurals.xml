@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="boost_bundle_credits">
+        <item quantity="other">Tăng cường</item>
+    </plurals>
+    <plurals name="boost_bundle_credits_postfix">
+        <item quantity="other">%s/ea</item>
+    </plurals>
+    <plurals name="chat">
+        <item quantity="other">cuộc trò chuyện</item>
+    </plurals>
+    <plurals name="chat_record_time_left">
+        <item quantity="other">Còn %d giây</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Tua nhanh %d giây</item>
+        <item quantity="one">Tua nhanh %d giây</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Tua lại %d giây</item>
+        <item quantity="one">Tua lại %d giây</item>
+    </plurals>
+    <plurals name="expiring_remaining_count">
+        <item quantity="other">Còn %d Ảnh Đang Hết Hạn</item>
+    </plurals>
+    <plurals name="favoritesDaysAgo">
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+    <plurals name="favoritesHoursAgo">
+        <item quantity="other">%d giờ trước</item>
+    </plurals>
+    <plurals name="groupchat_invite_members">
+        <item quantity="other">Bạn đã mời %d người</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">tháng</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d thông báo mới</item>
+        <item quantity="one">%d thông báo mới</item>
+    </plurals>
+    <plurals name="note">
+        <item quantity="other">%d ghi chú</item>
+    </plurals>
+    <plurals name="photoApproved">
+        <item quantity="other">Ảnh đại diện của bạn đã được chấp nhận</item>
+    </plurals>
+    <plurals name="photoModerated">
+        <item quantity="other">Các ảnh đại diện mới của bạn đang được điều tiết</item>
+    </plurals>
+    <plurals name="photoRejected">
+        <item quantity="other">Ảnh đại diện của bạn đã bị từ chối</item>
+    </plurals>
+    <plurals name="pride_countdown_in_days">
+        <item quantity="other">Sau %d ngày</item>
+    </plurals>
+    <plurals name="pride_countdown_in_hours">
+        <item quantity="other">Sau %d giờ</item>
+    </plurals>
+    <plurals name="pride_countdown_in_minutes">
+        <item quantity="other">Sau %d phút</item>
+    </plurals>
+    <plurals name="private_video_remaining_count">
+        <item quantity="other">%d Video riêng tư còn lại</item>
+    </plurals>
+    <plurals name="profileChattedHoursAgo">
+        <item quantity="other">Đã trò chuyện %d giờ trước</item>
+    </plurals>
+    <plurals name="profileChattedMinutesAgo">
+        <item quantity="other">Đã trò chuyện %d phút trước</item>
+    </plurals>
+    <plurals name="profileFeetAbbreviated">
+        <item quantity="other">%d ft</item>
+    </plurals>
+    <plurals name="profileFeetAway">
+        <item quantity="other">Cách %d feet</item>
+    </plurals>
+    <plurals name="profileKilometersAbbreviated">
+        <item quantity="other">%d km</item>
+    </plurals>
+    <plurals name="profileKilometersAway">
+        <item quantity="other">Cách %d km</item>
+    </plurals>
+    <plurals name="profileMetersAbbreviated">
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="profileMetersAway">
+        <item quantity="other">Cách %d mét</item>
+    </plurals>
+    <plurals name="profileMetersAwayAbbreviated">
+        <item quantity="other">Cách %d m</item>
+    </plurals>
+    <plurals name="profileMilesAbbreviated">
+        <item quantity="other">%d dặm</item>
+    </plurals>
+    <plurals name="profileMilesAway">
+        <item quantity="other">Cách %d dặm</item>
+    </plurals>
+    <plurals name="profileMilesAwayAbbreviated">
+        <item quantity="other">Cách %d dặm</item>
+    </plurals>
+    <plurals name="profileOnlineDaysAgo">
+        <item quantity="other">Trực tuyến %d ngày trước</item>
+    </plurals>
+    <plurals name="profileOnlineHoursAgo">
+        <item quantity="other">Trực tuyến %d giờ trước</item>
+    </plurals>
+    <plurals name="profileTappedDaysAgo">
+        <item quantity="other">Đã nhấn vào bạn %d ngày trước</item>
+    </plurals>
+    <plurals name="profileTappedHoursAgo">
+        <item quantity="other">Đã nhấn vào bạn %d giờ trước</item>
+    </plurals>
+    <plurals name="profileTappedMinutesAgo">
+        <item quantity="other">Đã nhấn vào bạn %d phút trước</item>
+    </plurals>
+    <plurals name="profileViewedMeHoursAgo">
+        <item quantity="other">Đã xem bạn %d giờ trước</item>
+    </plurals>
+    <plurals name="profileViewedMeMinutesAgo">
+        <item quantity="other">Đã xem bạn %d phút trước</item>
+    </plurals>
+    <plurals name="search_inbox">
+        <item quantity="other">%d cuộc trò chuyện</item>
+    </plurals>
+    <plurals name="sendExpiringPhotos">
+        <item quantity="other">GỬI ẢNH ĐANG HẾT HẠN (%d)</item>
+    </plurals>
+    <plurals name="sendNonExpiringPhotos">
+        <item quantity="other">GỬI</item>
+    </plurals>
+    <plurals name="tap">
+        <item quantity="other">lần chạm</item>
+    </plurals>
+    <plurals name="video_call_less_than_n_min">
+        <item quantity="other">Dưới %d phút</item>
+    </plurals>
+    <plurals name="view">
+        <item quantity="other">lượt xem</item>
+    </plurals>
+    <plurals name="viewed_me_count_less_than_thousand">
+        <item quantity="other">%s đã xem bạn</item>
+    </plurals>
+    <plurals name="viewer">
+        <item quantity="other">%d người xem</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">tuần</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">năm</item>
+    </plurals>
+</resources>

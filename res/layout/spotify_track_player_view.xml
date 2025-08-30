@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="@dimen/spotify_track_player_size" android:layout_height="@dimen/spotify_track_player_size">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/track_album_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:placeholderImage="@drawable/spotify_song_album_default" fresco:placeholderImageScaleType="fitCenter" />
+        <com.grindrapp.android.view.TrackPlayerControlView android:layout_gravity="center" android:id="@id/track_player_control_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:ellipsize="end" android:gravity="center" android:id="@id/track_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" />
+</merge>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.grindrapp.android.view.GarageGothicTextView android:gravity="bottom" android:id="@id/edu_title_view" android:layout_height="190.0dip" android:text="@string/profile_onboarding_new_user_tapping_areas" android:lineSpacingExtra="-9.0sp" android:layout_marginStart="24.0dip" android:layout_marginEnd="32.0dip" style="@style/Text68spOffwhiteBoldAllcaps" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/edu_detail_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_below="@id/edu_title_view">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="96.0dip" android:text="@string/profile_onboarding_tapping_areas_previous_photo" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="48.0dip" app:lottie_autoPlay="true" app:lottie_fileName="lottie_onboard_page1_point.zip" app:lottie_loop="true" app:srcCompat="@drawable/onboard_page1_point" />
+        </LinearLayout>
+        <View android:background="@drawable/multi_photo_dash_v2" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="4.0">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="96.0dip" android:text="@string/profile_onboarding_tapping_areas_expand_photo" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="48.0dip" app:lottie_autoPlay="true" app:lottie_fileName="lottie_onboard_page1_point.zip" app:lottie_loop="true" app:srcCompat="@drawable/onboard_page1_point" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="-28.0dip" android:layout_marginStart="3.0dip" app:lottie_autoPlay="true" app:lottie_fileName="lottie_onboard_page1_hand.zip" app:lottie_imageAssetsFolder="images" app:lottie_loop="true" />
+        </LinearLayout>
+        <View android:background="@drawable/multi_photo_dash_v2" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="96.0dip" android:text="@string/profile_onboarding_tapping_areas_next_photo" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="48.0dip" app:lottie_autoPlay="true" app:lottie_fileName="lottie_onboard_page1_point.zip" app:lottie_loop="true" app:srcCompat="@drawable/onboard_page1_point" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

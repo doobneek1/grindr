@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/empty_icon" android:layout_width="140.0dip" android:layout_height="140.0dip" android:layout_marginBottom="@dimen/recycler_empty_state_asset_bottom_margin" app:srcCompat="@drawable/ic_empty_cascade" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Medium" android:textColor="@color/text_primary_dark_bg" android:gravity="center" android:id="@id/fragment_cascade_empty_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/recycler_empty_state_text_bottom_margin" android:text="@string/cascade_filters_no_match_title" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:textColor="@color/text_secondary_dark_bg" android:gravity="center" android:id="@id/fragment_cascade_empty_subtext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cascade_empty_desc" />
+    <TextView android:textColor="@color/grindr_gold_star_gay" android:gravity="center" android:id="@id/fragment_cascade_tap_to_refresh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/viewed_me_list_tap_to_refresh" style="@style/IbmPlexTextAppearanceBody1" />
+</LinearLayout>

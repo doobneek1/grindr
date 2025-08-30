@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_layout" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/recycler_empty_state_image_size" android:layout_marginBottom="@dimen/recycler_empty_state_asset_bottom_margin" app:srcCompat="@drawable/ic_empty_cascade" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:textColor="@color/grindr_off_white" android:gravity="center" android:id="@id/fragment_cascade_empty_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/recycler_empty_state_text_bottom_margin" android:text="@string/cascade_filters_no_match_title" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_off_white" android:gravity="center" android:id="@id/fragment_cascade_empty_subtext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cascade_filters_no_match_subtitle" />
+</LinearLayout>

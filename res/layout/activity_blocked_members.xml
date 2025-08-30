@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:id="@id/activity_app_bar_layout" android:background="@color/grindr_dark_gray_3" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:orientation="vertical" android:id="@id/activity_toolbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blocked_members" />
+        </androidx.appcompat.widget.Toolbar>
+        <View android:id="@id/toolbar_shadow" android:background="@drawable/toolbar_layout_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_shadow_height" app:elevation="4.0dip" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.grindrapp.android.base.view.CascadeSwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/blocked_members_no_notify" android:layout_below="@id/activity_app_bar_layout">
+        <androidx.recyclerview.widget.GrindrPagedRecyclerView android:id="@id/blocked_members_list" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="LinearLayoutManager" style="@style/InboxRecyclerView" />
+    </com.grindrapp.android.base.view.CascadeSwipeRefreshLayout>
+    <TextView android:textColor="@color/grindr_gold_star_gay" android:gravity="center" android:id="@id/blocked_members_no_notify" android:padding="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/chat_group_blocked_no_notify" android:layout_alignParentBottom="true" />
+</RelativeLayout>

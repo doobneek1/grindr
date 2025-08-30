@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/GrindrToolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/albums_my_albums" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/album_close_btn" android:layout_width="?actionBarSize" android:layout_height="fill_parent" android:scaleType="center" app:srcCompat="@drawable/svg_ic_close" app:tint="@color/grindr_pure_white" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/album_list_refresh_view" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <androidx.recyclerview.widget.GrindrPagedRecyclerView android:orientation="vertical" android:id="@id/my_albums_recycler_view" android:paddingBottom="124.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="3" style="@style/InboxRecyclerView.transparent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <com.grindrapp.android.ui.storeV2.UpsellBottomBarView android:id="@id/upsell_bottom_bar" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:text="@string/albums_multiple_albums_snack_bar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

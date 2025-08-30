@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/grindr_dark_gray_1" />
+            <corners android:radius="@dimen/photo_corner_radius" />
+        </shape>
+    </item>
+    <item android:left="75.0dip" android:top="75.0dip" android:right="75.0dip" android:bottom="75.0dip">
+        <bitmap android:gravity="center" android:src="@drawable/edit_photo_file_not_found" />
+    </item>
+</layer-list>

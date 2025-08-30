@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/account_verify_error_container" android:paddingTop="@dimen/spacing_xsmall" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_xlarge" android:paddingEnd="@dimen/spacing_xlarge"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:scaleType="centerInside" app:srcCompat="@drawable/svg_ic_warn_alert" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/grindr_ketchup_stain" android:id="@id/account_verify_error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" />
+</LinearLayout>

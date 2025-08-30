@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SwitchCompat android:textColor="@color/grindr_pure_white" android:id="@id/debug_enable_leakcanary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Use LeakCanary" style="@style/Debug"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

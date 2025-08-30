@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/activity_content" android:background="@color/grindr_dark_gray_2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/activity_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_insetEdge="top" style="@style/GrindrToolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/multi_photos" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceAction1" android:textColor="@color/grindr_gold_star_gay" android:layout_gravity="end" android:id="@id/edit_photos_toolbar_save" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/multi_photos_save" android:textAllCaps="true" />
+    </androidx.appcompat.widget.Toolbar>
+    <View android:id="@id/toolbar_shadow" android:background="@drawable/toolbar_layout_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_shadow_height" android:layout_marginTop="?actionBarSize" app:elevation="4.0dip" />
+    <LinearLayout android:id="@id/edit_photos_current_photos" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" style="@style/EditPhotosSelectedPhotosContainer">
+        <ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" style="@style/EditPhotosPrimaryPhotosContainer">
+            <com.grindrapp.android.view.EditPhotosPrimaryProfilePhoto android:orientation="vertical" android:id="@id/uploaded_primary_profile_photo" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+        <ScrollView android:id="@id/edit_photos_list_scroll_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:id="@id/edit_photos_list_scroll_view_content" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EditPhotosSecondaryPhotosContainer">
+                <com.grindrapp.android.view.EditPhotosSecondaryProfilePhoto android:id="@id/edit_photos_list_photo_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_xsmall" />
+                <com.grindrapp.android.view.EditPhotosSecondaryProfilePhoto android:id="@id/edit_photos_list_photo_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_xsmall" />
+                <com.grindrapp.android.view.EditPhotosSecondaryProfilePhoto android:id="@id/edit_photos_list_photo_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_xsmall" />
+                <com.grindrapp.android.view.EditPhotosSecondaryProfilePhoto android:id="@id/edit_photos_list_photo_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_xsmall" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.grindrapp.android.view.EditPhotosBottomSheet android:id="@id/edit_photos_bottom_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/progress_bar_container" android:background="@color/grindr_pure_black_alpha_50" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GoldenRodProgressBar" />
+    </FrameLayout>
+    <RelativeLayout android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/photo_rejection_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

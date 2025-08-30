@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/location_denied_layout" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/location_services_disabled_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" app:srcCompat="@drawable/ic_location_not_found_icon" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/location_services_disabled_title" android:layout_marginBottom="@dimen/spacing_medium" android:text="@string/location_services_disabled_title" style="@style/LocationServicesDisabledTitle" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/location_services_disabled_subtitle" android:text="@string/location_services_disabled_subtitle" style="@style/LocationServicesDisabledSubtitle" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/request_permission_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location_services_disabled_button_text" android:paddingStart="@dimen/spacing_large" android:paddingEnd="@dimen/spacing_large" style="@style/GoldenRodButton" />
+</LinearLayout>

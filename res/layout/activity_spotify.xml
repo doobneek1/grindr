@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/grindr_dark_gray_2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spotify_toolbar_title" />
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout android:orientation="horizontal" android:id="@id/search_bar" android:background="@drawable/spotify_search_bar_grey_background" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="17.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:srcCompat="@drawable/svg_ic_search" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_middle_gray" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/spotify_search_bar" android:textDirection="locale" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.GrindrPagedRecyclerView android:id="@id/recently_play_list" android:background="@color/grindr_dark_gray_2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <include android:id="@id/save_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_edit_profile_vertical_margin" android:layout_marginBottom="@dimen/grindr_standard_button_bottom_margin" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/grindr_standard_button_horizontal_margin" android:layout_marginEnd="@dimen/grindr_standard_button_horizontal_margin" layout="@layout/save_button" />
+    <FrameLayout android:id="@id/progress_bar_container" android:background="@color/grindr_dark_gray_2" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GoldenRodProgressBar" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

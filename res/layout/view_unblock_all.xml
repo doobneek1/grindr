@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/spacing_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RecyclerViewEmptyStateContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:padding="@dimen/spacing_xsmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_xsmall" android:text="@string/unblock_individual_most_recent" />
+    <Space android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceAction1" android:textColor="@color/link_primary_dark_bg" android:id="@id/unblock_all" android:padding="@dimen/spacing_xsmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_xsmall" android:text="@string/unblock_individual_unblock_all" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff353536" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/call" android:text="@string/call" style="@style/PhonePopupTextView" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/add_to_notes" android:visibility="gone" android:text="@string/phone_number_options_add_to_note_title" style="@style/PhonePopupTextView" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/edit" android:visibility="gone" android:text="@string/edit" style="@style/PhonePopupTextView" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/remove" android:visibility="gone" android:text="@string/remove" style="@style/PhonePopupTextView" />
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="boost_bundle_credits">
+        <item quantity="other">ప్రోత్సహించడాలు</item>
+        <item quantity="one">ప్రోత్సహించు</item>
+    </plurals>
+    <plurals name="boost_bundle_credits_postfix">
+        <item quantity="other">%s/ea</item>
+        <item quantity="one">%s</item>
+    </plurals>
+    <plurals name="chat">
+        <item quantity="other">చాట్స్</item>
+        <item quantity="one">చాట్</item>
+    </plurals>
+    <plurals name="chat_record_time_left">
+        <item quantity="other">%d క్షణాలు మిగిలి ఉన్నాయి</item>
+        <item quantity="one">%d క్షణం మిగిలి ఉంది</item>
+    </plurals>
+    <plurals name="expiring_remaining_count">
+        <item quantity="other">%d గడువు తీరే ఫోటోలు మిగిలాయి</item>
+        <item quantity="one">%d గడువు తీరే ఫోటో మిగిలింది</item>
+    </plurals>
+    <plurals name="favoritesDaysAgo">
+        <item quantity="other">%d రోజుల క్రితం</item>
+        <item quantity="one">%d రోజు క్రితం</item>
+    </plurals>
+    <plurals name="favoritesHoursAgo">
+        <item quantity="other">%d గంటల క్రితం</item>
+        <item quantity="one">%d గంట క్రితం</item>
+    </plurals>
+    <plurals name="groupchat_invite_members">
+        <item quantity="other">మీరు %d వ్యక్తులను ఆహ్వానించారు</item>
+        <item quantity="one">మీరు ఆహ్వానించారు ఎవరోఒకరిని</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">నెలలు</item>
+        <item quantity="one">నెల</item>
+    </plurals>
+    <plurals name="note">
+        <item quantity="other">%d గమనికలు</item>
+        <item quantity="one">%d గమనిక</item>
+    </plurals>
+    <plurals name="photoApproved">
+        <item quantity="other">మీ ప్రొఫైల్ ఫోటోలు ఆమోదించబడినవి</item>
+        <item quantity="one">మీ ప్రొఫైల్ ఫోటో ఆమోదించబడినది</item>
+    </plurals>
+    <plurals name="photoModerated">
+        <item quantity="other">మీ కొత్త ప్రొఫైల్ చిత్రాలు మోడరేషన్లో ఉన్నవి</item>
+        <item quantity="one">మీ కొత్త ప్రొఫైల్ చిత్రం మోడరేషన్‌లో ఉన్నది</item>
+    </plurals>
+    <plurals name="photoRejected">
+        <item quantity="other">మీ ప్రొఫైల్ ఫోటోలు తిరస్కరించబడినవి</item>
+        <item quantity="one">మీ ప్రొఫైల్ ఫోటో తిరస్కరించబడినది</item>
+    </plurals>
+    <plurals name="pride_countdown_in_days">
+        <item quantity="other">%d రోజులలో</item>
+        <item quantity="one">%d రోజులో</item>
+    </plurals>
+    <plurals name="pride_countdown_in_hours">
+        <item quantity="other">%d గంటలలో</item>
+        <item quantity="one">%d గంటలో</item>
+    </plurals>
+    <plurals name="pride_countdown_in_minutes">
+        <item quantity="other">%d నిమిషములలో</item>
+        <item quantity="one">%d నిమిషములో</item>
+    </plurals>
+    <plurals name="private_video_remaining_count">
+        <item quantity="other">% d ప్రైవేట్ వీడియోలు మిగిలి ఉన్నాయి</item>
+        <item quantity="one">% d ప్రైవేట్ వీడియో మిగిలి ఉంది</item>
+    </plurals>
+    <plurals name="profileChattedHoursAgo">
+        <item quantity="other">%d గంటల క్రితం చాట్ చేశారు</item>
+        <item quantity="one">%d గంట క్రితం చాట్ చేశారు</item>
+    </plurals>
+    <plurals name="profileChattedMinutesAgo">
+        <item quantity="other">%d నిమిషాల క్రితం చాట్ చేశారు</item>
+        <item quantity="one">%d నిమిషం క్రితం చాట్ చేశారు</item>
+    </plurals>
+    <plurals name="profileFeetAbbreviated">
+        <item quantity="other">%d అడుగు</item>
+        <item quantity="one">%d అడుగు</item>
+    </plurals>
+    <plurals name="profileFeetAway">
+        <item quantity="other">%d అడుగుల దూరంలో</item>
+        <item quantity="one">%d అడుగు దూరంలో</item>
+    </plurals>
+    <plurals name="profileKilometersAbbreviated">
+        <item quantity="other">%d కిమీ</item>
+        <item quantity="one">%d కిమీ</item>
+    </plurals>
+    <plurals name="profileKilometersAway">
+        <item quantity="other">%d కిమీల దూరంలో</item>
+        <item quantity="one">%d కిమీ దూరంలో</item>
+    </plurals>
+    <plurals name="profileMetersAbbreviated">
+        <item quantity="other">%d మీ</item>
+        <item quantity="one">%d మీ</item>
+    </plurals>
+    <plurals name="profileMetersAway">
+        <item quantity="other">%d మీటర్ల దూరంలో</item>
+        <item quantity="one">%d మీటరు దూరంలో</item>
+    </plurals>
+    <plurals name="profileMetersAwayAbbreviated">
+        <item quantity="other">%d మీటర్ల దూరంలో</item>
+        <item quantity="one">%d మీటరు దూరంలో</item>
+    </plurals>
+    <plurals name="profileMilesAbbreviated">
+        <item quantity="other">%d మై</item>
+        <item quantity="one">%d మై</item>
+    </plurals>
+    <plurals name="profileMilesAway">
+        <item quantity="other">%d మైళ్ళ దూరంలో</item>
+        <item quantity="one">%d మైలు దూరంలో</item>
+    </plurals>
+    <plurals name="profileMilesAwayAbbreviated">
+        <item quantity="other">%d మైళ్ళ దూరంలో</item>
+        <item quantity="one">%d మైలు దూరంలో</item>
+    </plurals>
+    <plurals name="profileOnlineDaysAgo">
+        <item quantity="other">ఆన్‌లైన్ %d రోజుల క్రితం</item>
+        <item quantity="one">ఆన్‌లైన్ %d రోజు క్రితం</item>
+    </plurals>
+    <plurals name="profileOnlineHoursAgo">
+        <item quantity="other">ఆన్‌లైన్ %d గంటల క్రితం</item>
+        <item quantity="one">ఆన్‌లైన్ %d గంట క్రితం</item>
+    </plurals>
+    <plurals name="profileTappedDaysAgo">
+        <item quantity="other">మిమ్మల్ని తట్టారు %d రోజుల క్రితం</item>
+        <item quantity="one">మిమ్మల్ని తట్టారు %d రోజు క్రితం</item>
+    </plurals>
+    <plurals name="profileTappedHoursAgo">
+        <item quantity="other">మిమ్మల్ని తట్టారు %d గంటల క్రితం</item>
+        <item quantity="one">మిమ్మల్ని తట్టారు %d గంట క్రితం</item>
+    </plurals>
+    <plurals name="profileTappedMinutesAgo">
+        <item quantity="other">మిమ్మల్ని తట్టారు %d నిమిషాల క్రితం</item>
+        <item quantity="one">మిమ్మల్ని తట్టారు %d నిమిషం క్రితం</item>
+    </plurals>
+    <plurals name="profileViewedMeHoursAgo">
+        <item quantity="other">%d గంటల క్రితం మిమ్మల్ని చూశారు</item>
+        <item quantity="one">%d గంట క్రితం మిమ్మల్ని చూశారు</item>
+    </plurals>
+    <plurals name="profileViewedMeMinutesAgo">
+        <item quantity="other">%d నిమిషాల క్రితం మిమ్మల్ని చూశారు</item>
+        <item quantity="one">%d నిమిషం క్రితం మిమ్మల్ని చూశారు</item>
+    </plurals>
+    <plurals name="search_inbox">
+        <item quantity="other">%d చాట్స్</item>
+        <item quantity="one">%d చాట్</item>
+    </plurals>
+    <plurals name="sendExpiringPhotos">
+        <item quantity="other">(%d) గడువు తీరేది పంపు</item>
+        <item quantity="one">(%d) గడువు తీరేది పంపు</item>
+    </plurals>
+    <plurals name="sendNonExpiringPhotos">
+        <item quantity="other">(%d) పంపు</item>
+        <item quantity="one">(%d) పంపు</item>
+    </plurals>
+    <plurals name="tap">
+        <item quantity="other">తట్టడాలు</item>
+        <item quantity="one">తట్టండి</item>
+    </plurals>
+    <plurals name="video_call_less_than_n_min">
+        <item quantity="other">%d నిమిషాల కంటే తక్కువ</item>
+        <item quantity="one">%d నిమిషం కంటే తక్కువ</item>
+    </plurals>
+    <plurals name="view">
+        <item quantity="other">వీక్షణలు</item>
+        <item quantity="one">వీక్షణ</item>
+    </plurals>
+    <plurals name="viewed_me_count_less_than_thousand">
+        <item quantity="other">%s మిమ్మల్ని చూశారు</item>
+        <item quantity="one">%s మిమ్మల్ని చూశారు</item>
+    </plurals>
+    <plurals name="viewer">
+        <item quantity="other">%d వీక్షకులు</item>
+        <item quantity="one">%d వీక్షకుడు</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">వారాలు</item>
+        <item quantity="one">వారం</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">సంవత్సరాలు</item>
+        <item quantity="one">సంవత్సరం</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.grindrapp.android.view.ChatSentMessageContainer android:background="@color/grindr_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/message_container" style="@style/messageContainerV2.sent">
+        <com.grindrapp.android.view.ChatMessageTextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Medium" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_unsupported_message_type" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ChatMessageTextView.Sender" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.grindrapp.android.view.ChatSentMessageContainer>

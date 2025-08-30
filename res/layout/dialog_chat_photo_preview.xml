@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/dialog_outer" android:background="@color/grindr_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/chat_photo_preview" android:layout_width="fill_parent" android:layout_height="560.0dip" android:scaleType="centerInside" android:layout_marginStart="@dimen/spacing_medium" android:layout_marginEnd="@dimen/spacing_medium" app:actualImageScaleType="centerCrop" app:roundedCornerRadius="10.0dip" />
+    <com.google.android.material.button.MaterialButton android:id="@id/delete_button" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_margin="@dimen/spacing_medium" android:text="@string/chat_delete_photo" style="@style/DestructiveButton" />
+</LinearLayout>

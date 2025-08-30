@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:textColor="@color/grindr_gray_1" android:id="@id/view_edit_profile_drop_down_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Spinner android:id="@id/view_edit_profile_drop_down_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="150.0dip" android:layout_marginStart="-8.0dip" android:overlapAnchor="false" />
+    <View android:background="@color/grindr_middle_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="-8.0dip" />
+</merge>

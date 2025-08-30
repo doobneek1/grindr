@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/grindr_pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH2" android:id="@id/captcha_title" android:paddingTop="@dimen/captcha_padding_top_bottom" android:paddingBottom="@dimen/captcha_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/captcha_title" android:paddingStart="@dimen/captcha_padding" android:paddingEnd="@dimen/captcha_padding" style="@style/CaptchaTitle" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_pure_black" android:gravity="center" android:paddingTop="@dimen/captcha_padding" android:paddingBottom="@dimen/captcha_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/captcha_subtitle" android:lines="3" android:paddingStart="@dimen/captcha_padding" android:paddingEnd="@dimen/captcha_padding" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/debug_content" android:padding="@dimen/captcha_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/success_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Success" style="@style/GoldenRodBottomButton" />
+            <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/error_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Error" style="@style/GoldenRodBottomButton" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ViewStub android:id="@id/webview_captcha_view_stub" android:layout="@layout/captcha_webview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/refresh_layout" android:background="@color/grindr_pure_white" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" app:srcCompat="@drawable/retry_button" app:tint="@color/grindr_gray_2" />
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:textColor="@color/grindr_dark_gray_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/something_went_wrong" />
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_middle_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/tap_to_retry" />
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GoldenRodProgressBar" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

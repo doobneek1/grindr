@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/sms_country_item_height" android:paddingStart="@dimen/sms_country_standard_horizontal_margin" android:paddingEnd="@dimen/sms_country_standard_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:gravity="center_vertical" android:id="@id/sms_country_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:gravity="center_vertical" android:id="@id/sms_country_dial_code" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="12.0dip" />
+</LinearLayout>

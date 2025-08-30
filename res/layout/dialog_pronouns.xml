@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pronouns_dialog" android:background="@android:color/white" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/grindr_gray_1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" />
+    <ScrollView android:id="@id/pronouns_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_pronouns_explanation" style="@style/IdentityDialogDescription" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/pronouns_explanation_link_dialog_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_pronouns_explanation_link" style="@style/IdentityDialogLink" />
+            <View android:background="@color/grindr_gray_1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/identity_general_margin" android:layout_marginBottom="@dimen/identity_general_margin" />
+            <RadioGroup android:id="@id/pronouns_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/identity_general_margin">
+                <com.grindrapp.android.view.IdentityRadioButton android:textStyle="italic" android:id="@id/pronouns_no_response" android:text="@string/no_response_no_italic" style="@style/PronounsRadioButtons" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/pronouns_he_him_his" android:text="@string/profile_pronouns_he_him_his" style="@style/PronounsRadioButtons" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/pronouns_she_her_hers" android:text="@string/profile_pronouns_she_her_hers" style="@style/PronounsRadioButtons" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/pronouns_they_them_theirs" android:text="@string/profile_pronouns_they_them_theirs" style="@style/PronounsRadioButtons" />
+                <com.grindrapp.android.view.CustomIdentityRadioButton android:id="@id/pronouns_custom" app:editText="@id/pronouns_custom_edittext" style="@style/CustomIdentityRadioButton" />
+                <com.grindrapp.android.view.CustomIdentityEditText android:id="@id/pronouns_custom_edittext" app:hintText="@string/profile_pronouns_custom" app:radioButton="@id/pronouns_custom" style="@style/CustomIdentityEditText" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="@color/grindr_gray_1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

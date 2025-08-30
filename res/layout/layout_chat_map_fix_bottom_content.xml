@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton android:id="@id/send_location_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_medium" style="@style/PrimaryButton" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:gravity="center" android:id="@id/hint_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" android:layout_marginBottom="@dimen/spacing_large" android:text="@string/location_can_be_unsent" />
+</LinearLayout>

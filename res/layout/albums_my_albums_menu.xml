@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/BottomSheetMenu"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/edit_album" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/albums_edit_album" app:drawableStartCompat="@drawable/ic_albums_menu_edit" style="@style/BottomSheetMenuItem" />
+    <TextView android:id="@id/view_album" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/albums_view_album" app:drawableStartCompat="@drawable/ic_albums_menu_edit" style="@style/BottomSheetMenuItem" />
+    <TextView android:id="@id/share_album" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/albums_my_album_sharing" app:drawableStartCompat="@drawable/ic_albums_menu_share" style="@style/BottomSheetMenuItem" />
+    <TextView android:id="@id/delete_album" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/albums_my_album_delete" app:drawableStartCompat="@drawable/ic_album_menu_delete_image" style="@style/BottomSheetMenuItem" />
+</LinearLayout>

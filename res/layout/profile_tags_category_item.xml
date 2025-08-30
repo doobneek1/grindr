@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:id="@id/searchable_tag_category_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="8.0dip" app:drawableTint="@color/text_primary_dark_bg" />
+    <com.grindrapp.android.view.FlowLayout android:id="@id/profile_tag_category_flow_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:chipSpacingHorizontal="8.0dip" app:lineSpacing="8.0dip" />
+    <com.google.android.material.button.MaterialButton android:textAppearance="@style/IbmPlexTextAppearanceAction1" android:textColor="@color/grindr_gold_star_gay" android:layout_gravity="center_horizontal" android:id="@id/profile_tag_category_see_more_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" app:icon="@drawable/ic_see_less" app:iconTint="@color/grindr_gold_star_gay" app:rippleColor="@color/material_button_text_button_ripple_color" style="@style/Widget.MaterialComponents.Button.TextButton" />
+</LinearLayout>

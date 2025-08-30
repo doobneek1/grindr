@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.grindrapp.android.view.ChatSentMessageContainer android:background="@color/grindr_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/message_container" android:layout_marginStart="48.0dip" style="@style/messageContainerV2.sent">
+        <com.grindrapp.android.view.ChatMessageTextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Medium" android:textColor="@color/grindr_middle_gray" android:id="@id/message" android:background="@drawable/chat_message_sent_unsend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_sent_retraction_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ChatMessageTextView.Sender" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:linksClickable="true" android:id="@id/location_safety_guide_text_view" android:paddingTop="8.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/message" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.grindrapp.android.view.ChatSentMessageContainer>

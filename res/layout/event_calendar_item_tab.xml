@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pride_calendar_event" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="48.0dip" app:layout_constraintDimensionRatio="W,1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:textColor="@color/grindr_off_white" android:gravity="center" android:id="@id/event_calendar_tab_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="WED" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:textColor="@color/grindr_off_white" android:gravity="center" android:id="@id/event_calendar_tab_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="17" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

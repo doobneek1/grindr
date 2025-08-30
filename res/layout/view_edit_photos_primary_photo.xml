@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/primary_photo_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_medium">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/edit_photos_primary_photo" android:layout_width="fill_parent" android:layout_height="@dimen/edit_photos_primary_photo_height" app:actualImageScaleType="centerCrop" />
+        <ImageView android:id="@id/profile_photo_pending_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/EditPhotosPendingOverlay" />
+        <ImageView android:layout_gravity="center" android:id="@id/edit_photos_add" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" app:srcCompat="@drawable/ic_add" />
+        <ImageView android:layout_gravity="center" android:id="@id/edit_photos_pending" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/pending_clock" app:tint="@color/text_primary_dark_bg" />
+        <include layout="@layout/merge_transparent_ripple_nonclickable" />
+        <ImageButton android:layout_gravity="end|top" android:id="@id/edit_photos_unset" android:background="@color/grindr_dark_gray_3" android:padding="@dimen/spacing_xxsmall" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/svg_ic_close" app:tint="@color/grindr_pure_white" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/edit_photos_thumbnail" android:layout_width="@dimen/edit_photos_primary_thumbnail_size" android:layout_height="@dimen/edit_photos_primary_thumbnail_size" app:roundedCornerRadius="2.0dip" style="@style/BaseEditProfilePhoto" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBadge" android:textColor="@color/text_secondary_dark_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_xsmall" android:text="@string/edit_profile_preview_title" />
+    </LinearLayout>
+</merge>

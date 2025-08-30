@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="8.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip">
+        <shape android:shape="oval">
+            <size android:height="24.0dip" android:width="24.0dip" />
+            <solid android:color="@color/grindr_gold_star_gay" />
+            <stroke android:width="12.0dip" android:color="@color/grindr_gold_star_gay_alpha_50" />
+        </shape>
+    </item>
+</layer-list>

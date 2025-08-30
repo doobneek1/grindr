@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/grindr_pure_white" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+    <item android:start="4.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/grindr_gold_star_gay" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+    <item android:start="4.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/grindr_pure_white_alpha_50" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+</layer-list>

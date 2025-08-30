@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="lottie_onboard_page2_tap.zip" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="true" app:lottie_fileName="lottie_onboard_page2_tap.zip" app:lottie_imageAssetsFolder="images" app:lottie_loop="true" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="cancel_purchase_price_unlimited.json" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="true" app:lottie_fileName="cancel_purchase_price_unlimited.json" app:lottie_imageAssetsFolder="images" app:lottie_loop="true" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="cancel_purchase_price_xtra.json" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="true" app:lottie_fileName="cancel_purchase_price_xtra.json" app:lottie_imageAssetsFolder="images" app:lottie_loop="true" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</FrameLayout>

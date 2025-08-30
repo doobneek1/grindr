@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:background="@color/grindr_transparent" android:fitsSystemWindows="true" android:layout_width="0.0dip" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/fragment_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/approximate_distance_setting_title" />
+        </androidx.appcompat.widget.Toolbar>
+        <View android:id="@id/toolbar_shadow" android:background="@drawable/toolbar_layout_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_shadow_height" android:elevation="4.0dip" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView android:background="@color/grindr_dark_gray_3" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="?actionBarSize" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <LinearLayout android:orientation="vertical" android:background="@color/grindr_dark_gray_2" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:textColor="@color/text_secondary_dark_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/approximate_distance_setting_distance_title" android:textAllCaps="true" />
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBadge" android:gravity="center" android:id="@id/distanceNewBadgeTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="18.0dip" android:text="@string/message_new" android:includeFontPadding="false" android:layout_marginStart="@dimen/spacing_xsmall" style="@style/NewObjectBadge" />
+                    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/distanceInfoImageView" android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/svg_ic_info_circle" />
+                </LinearLayout>
+                <include android:id="@id/approximateDistanceItemContainer" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="19.0dip" layout="@layout/item_distance_setting" />
+                <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="48.0dip" />
+                <include android:id="@id/hideDistanceItemContainer" android:layout_width="fill_parent" android:layout_height="70.0dip" layout="@layout/item_distance_setting" />
+            </LinearLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="40.0dip" />
+            <LinearLayout android:orientation="vertical" android:background="@color/grindr_dark_gray_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <LinearLayout android:orientation="horizontal" android:paddingTop="19.0dip" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:textColor="@color/text_secondary_dark_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/approximate_distance_setting_visibility_title" android:layout_weight="1.0" android:textAllCaps="true" />
+                    <ImageView android:id="@id/visibilityInfoImageView" android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/svg_ic_info_circle" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/settings_show_in_viewed_me_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium_large" android:layout_marginBottom="@dimen/spacing_medium_large" android:layout_marginStart="@dimen/spacing_medium" android:layout_marginEnd="@dimen/spacing_medium">
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="start|center" android:id="@id/settings_show_in_viewed_me_list" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_show_me_in_viewed_me_list" android:layout_weight="1.0" android:contentDescription="@string/settings_show_me_in_viewed_me_list" />
+                    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@id/settings_show_in_viewed_me_list_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View style="@style/ThinHR" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/settings_remote_search_opt_in_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium_large" android:layout_marginBottom="@dimen/spacing_medium_large" android:layout_marginStart="@dimen/spacing_medium" android:layout_marginEnd="@dimen/spacing_medium">
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="start|center" android:id="@id/settings_remote_search_opt_in" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_remote_search_opt_in" android:layout_weight="1.0" android:contentDescription="@string/settings_remote_search_opt_in" />
+                    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@id/settings_remote_search_opt_in_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

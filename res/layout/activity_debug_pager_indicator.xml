@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.grindrapp.android.base.view.PagerIndicatorView android:layout_gravity="center" android:id="@id/indicator" android:layout_width="200.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" />
+        <com.grindrapp.android.base.view.PagerIndicatorView android:layout_gravity="center" android:id="@id/indicator_small" android:layout_width="120.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH3" android:layout_gravity="center" android:id="@id/text_page" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="1/5" />
+        <com.grindrapp.android.view.ProfilePhotosIndicator android:layout_gravity="center" android:id="@id/profile_photo_indicator" android:layout_width="200.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" />
+        <com.grindrapp.android.view.ProfilePhotosIndicator android:layout_gravity="center" android:id="@id/profile_photo_indicator_small" android:layout_width="110.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH3" android:layout_gravity="center" android:id="@id/text_page_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="1/5" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/button_prev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Previous" />
+            <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/button_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Next" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:id="@id/button_move_to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enter custom page index:" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+            <com.grindrapp.android.base.view.IbmPlexEditText android:textColor="@color/grindr_pure_white" android:id="@id/input_custom_index" android:layout_width="60.0dip" android:layout_height="wrap_content" android:hint="Index" android:inputType="numberSigned" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

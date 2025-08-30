@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grindr_standard_vertical_small_margin" android:layout_marginBottom="@dimen/grindr_standard_vertical_small_margin" android:layout_marginStart="@dimen/grindr_standard_horizontal_margin" android:layout_marginEnd="@dimen/grindr_standard_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/bg_golden_rod_circle" android:layout_width="20.0dip" android:layout_height="20.0dip">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:textColor="@color/grindr_dark_gray_3" android:gravity="center" android:id="@id/num_text_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-1.5699768dip" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:id="@id/title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/grindr_small_horizontal_margin" android:layout_marginEnd="@dimen/grindr_small_horizontal_margin" />
+</LinearLayout>

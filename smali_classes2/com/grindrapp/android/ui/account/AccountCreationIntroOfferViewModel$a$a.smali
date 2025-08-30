@@ -1,0 +1,184 @@
+.class public final synthetic Lcom/grindrapp/android/ui/account/AccountCreationIntroOfferViewModel$a$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlinx/coroutines/flow/FlowCollector;
+.implements Lkotlin/jvm/internal/FunctionAdapter;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/grindrapp/android/ui/account/AccountCreationIntroOfferViewModel$a;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1001
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final synthetic b:Lkotlinx/coroutines/flow/MutableSharedFlow;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlinx/coroutines/flow/MutableSharedFlow<",
+            "Lcom/grindrapp/android/base/event/SimplePurchaseUpdate;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lkotlinx/coroutines/flow/MutableSharedFlow;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlinx/coroutines/flow/MutableSharedFlow<",
+            "Lcom/grindrapp/android/base/event/SimplePurchaseUpdate;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Lcom/grindrapp/android/ui/account/AccountCreationIntroOfferViewModel$a$a;->b:Lkotlinx/coroutines/flow/MutableSharedFlow;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/grindrapp/android/base/event/SimplePurchaseUpdate;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/grindrapp/android/base/event/SimplePurchaseUpdate;",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "Lkotlin/Unit;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lcom/grindrapp/android/ui/account/AccountCreationIntroOfferViewModel$a$a;->b:Lkotlinx/coroutines/flow/MutableSharedFlow;
+
+    invoke-interface {v0, p1, p2}, Lkotlinx/coroutines/flow/MutableSharedFlow;->emit(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    invoke-static {}, Lkotlin/coroutines/intrinsics/IntrinsicsKt;->getCOROUTINE_SUSPENDED()Ljava/lang/Object;
+
+    move-result-object p2
+
+    if-ne p1, p2, :cond_0
+
+    return-object p1
+
+    :cond_0
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p1
+.end method
+
+.method public bridge synthetic emit(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lcom/grindrapp/android/base/event/SimplePurchaseUpdate;
+
+    invoke-virtual {p0, p1, p2}, Lcom/grindrapp/android/ui/account/AccountCreationIntroOfferViewModel$a$a;->a(Lcom/grindrapp/android/base/event/SimplePurchaseUpdate;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 2
+
+    instance-of v0, p1, Lkotlinx/coroutines/flow/FlowCollector;
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    instance-of v0, p1, Lkotlin/jvm/internal/FunctionAdapter;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p0}, Lcom/grindrapp/android/ui/account/AccountCreationIntroOfferViewModel$a$a;->getFunctionDelegate()Lkotlin/Function;
+
+    move-result-object v0
+
+    check-cast p1, Lkotlin/jvm/internal/FunctionAdapter;
+
+    invoke-interface {p1}, Lkotlin/jvm/internal/FunctionAdapter;->getFunctionDelegate()Lkotlin/Function;
+
+    move-result-object p1
+
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    :cond_0
+    return v1
+.end method
+
+.method public final getFunctionDelegate()Lkotlin/Function;
+    .locals 8
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/Function<",
+            "*>;"
+        }
+    .end annotation
+
+    new-instance v7, Lkotlin/jvm/internal/FunctionReferenceImpl;
+
+    iget-object v2, p0, Lcom/grindrapp/android/ui/account/AccountCreationIntroOfferViewModel$a$a;->b:Lkotlinx/coroutines/flow/MutableSharedFlow;
+
+    const-class v3, Lkotlinx/coroutines/flow/MutableSharedFlow;
+
+    const/4 v1, 0x2
+
+    const-string v4, "emit"
+
+    const-string v5, "emit(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+
+    const/4 v6, 0x0
+
+    move-object v0, v7
+
+    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    return-object v7
+.end method
+
+.method public final hashCode()I
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/grindrapp/android/ui/account/AccountCreationIntroOfferViewModel$a$a;->getFunctionDelegate()Lkotlin/Function;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    return v0
+.end method

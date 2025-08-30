@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBadge" android:textColor="@color/grindr_middle_gray" android:gravity="center" android:id="@id/chat_tips_date_header" android:paddingTop="12.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="false" android:textAlignment="center" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tip_container" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="12.0dip" android:paddingStart="28.0dip" android:paddingEnd="28.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:id="@id/tip_mail_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" app:srcCompat="@drawable/chat_menu_group_invite" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBadge" android:gravity="center_horizontal" android:id="@id/tip_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

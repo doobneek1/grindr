@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="@dimen/edit_photos_bottom_sheet_item_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/add_photos_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" app:srcCompat="@drawable/edit_photo_upload_placeholder" />
+    <ImageView android:layout_gravity="center" android:layout_width="32.0dip" android:layout_height="32.0dip" app:srcCompat="@drawable/ic_add" />
+    <include layout="@layout/merge_transparent_ripple" />
+</FrameLayout>

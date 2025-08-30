@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/gaymojiRecyclerView" android:paddingBottom="@dimen/chat_sticker_tab_height" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/chat_gaymoji_retry_container" layout="@layout/chat_gaymoji_retry_container" />
+    <FrameLayout android:id="@id/progress_bar_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="34.0dip" android:layout_height="34.0dip" style="@style/GoldenRodProgressBar" />
+    </FrameLayout>
+</merge>

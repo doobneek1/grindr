@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="boost_bundle_credits">
+        <item quantity="other">बूस्ट्स</item>
+        <item quantity="one">बूस्ट</item>
+    </plurals>
+    <plurals name="boost_bundle_credits_postfix">
+        <item quantity="other">%s/प्रत्येक</item>
+        <item quantity="one">%s</item>
+    </plurals>
+    <plurals name="chat">
+        <item quantity="other">चैट</item>
+        <item quantity="one">चैट</item>
+    </plurals>
+    <plurals name="chat_record_time_left">
+        <item quantity="other">%d सेकंड्स बाकी</item>
+        <item quantity="one">%d सेकंड्स बाकी</item>
+    </plurals>
+    <plurals name="expiring_remaining_count">
+        <item quantity="other">(%d) समाप्‍तप्राय फोटो बाकी हैंं</item>
+        <item quantity="one">(%d) समाप्‍तप्राय फोटो बाकी है</item>
+    </plurals>
+    <plurals name="favoritesDaysAgo">
+        <item quantity="other">%d दिन पहले</item>
+        <item quantity="one">%d दिन पहले</item>
+    </plurals>
+    <plurals name="favoritesHoursAgo">
+        <item quantity="other">%d घं. दूर</item>
+        <item quantity="one">%d घं. दूर</item>
+    </plurals>
+    <plurals name="groupchat_invite_members">
+        <item quantity="other">%d व्‍यक्ति आपने आमंत्रित किए हैं</item>
+        <item quantity="one">आपने किसी को बुलाया</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">माह</item>
+        <item quantity="one">माह</item>
+    </plurals>
+    <plurals name="note">
+        <item quantity="other">%d नोट्स</item>
+        <item quantity="one">%d नोट</item>
+    </plurals>
+    <plurals name="photoApproved">
+        <item quantity="other">आपके प्रोफाइल फोटो मंजूर हो गए हैं</item>
+        <item quantity="one">आपका प्रोफाइल फोटो मंजूर हो गया है</item>
+    </plurals>
+    <plurals name="photoModerated">
+        <item quantity="other">आपकी नई प्रोफाइल छवियां विचाराधीन हैं</item>
+        <item quantity="one">आपकी नई प्रोफाइल छवि विचाराधीन है</item>
+    </plurals>
+    <plurals name="photoRejected">
+        <item quantity="other">आपके प्रोफाइल फोटो नामंजूर हो गए हैं</item>
+        <item quantity="one">आपका प्रोफाइल फोटो नामंजूर हो गया है</item>
+    </plurals>
+    <plurals name="pride_countdown_in_days">
+        <item quantity="other">%d दिन में</item>
+        <item quantity="one">%d दिन में</item>
+    </plurals>
+    <plurals name="pride_countdown_in_hours">
+        <item quantity="other">%d घंटे में</item>
+        <item quantity="one">%d घंटे में</item>
+    </plurals>
+    <plurals name="pride_countdown_in_minutes">
+        <item quantity="other">%d मिनिट में</item>
+        <item quantity="one">%d मिनिट में</item>
+    </plurals>
+    <plurals name="private_video_remaining_count">
+        <item quantity="other">%d निजी वीडियो शेष</item>
+        <item quantity="one">%d निजी वीडियो शेष</item>
+    </plurals>
+    <plurals name="profileChattedHoursAgo">
+        <item quantity="other">%d घंटेे पहले चैट की</item>
+        <item quantity="one">%d घंटा पहले चैट की</item>
+    </plurals>
+    <plurals name="profileChattedMinutesAgo">
+        <item quantity="other">%d मिनिट्स पहले चैट की</item>
+        <item quantity="one">%d मिनिट पहले चैट की</item>
+    </plurals>
+    <plurals name="profileFeetAbbreviated">
+        <item quantity="other">%d फीट</item>
+        <item quantity="one">%d फीट</item>
+    </plurals>
+    <plurals name="profileFeetAway">
+        <item quantity="other">%d फीट दूर</item>
+        <item quantity="one">%d फुट दूर</item>
+    </plurals>
+    <plurals name="profileKilometersAbbreviated">
+        <item quantity="other">%d किमी</item>
+        <item quantity="one">%d किमी</item>
+    </plurals>
+    <plurals name="profileKilometersAway">
+        <item quantity="other">%d किमी दूर</item>
+        <item quantity="one">%d किमी दूर</item>
+    </plurals>
+    <plurals name="profileMetersAbbreviated">
+        <item quantity="other">%d मी.</item>
+        <item quantity="one">%d मी.</item>
+    </plurals>
+    <plurals name="profileMetersAway">
+        <item quantity="other">%d मीटर दूर</item>
+        <item quantity="one">%d मीटर दूर</item>
+    </plurals>
+    <plurals name="profileMetersAwayAbbreviated">
+        <item quantity="other">%d मी. दूर</item>
+        <item quantity="one">%d मी. दूर</item>
+    </plurals>
+    <plurals name="profileMilesAbbreviated">
+        <item quantity="other">%d मील</item>
+        <item quantity="one">%d मील</item>
+    </plurals>
+    <plurals name="profileMilesAway">
+        <item quantity="other">%d मील दूर</item>
+        <item quantity="one">%d मील दूर</item>
+    </plurals>
+    <plurals name="profileMilesAwayAbbreviated">
+        <item quantity="other">%d मील दूर</item>
+        <item quantity="one">%d मील दूर</item>
+    </plurals>
+    <plurals name="profileOnlineDaysAgo">
+        <item quantity="other">%d दिन पहले ऑनलाइन</item>
+        <item quantity="one">%d दिन पहले ऑनलाइन</item>
+    </plurals>
+    <plurals name="profileOnlineHoursAgo">
+        <item quantity="other">%d घंटे पहले ऑनलाइन</item>
+        <item quantity="one">%d घंटा पहले ऑनलाइन</item>
+    </plurals>
+    <plurals name="profileTappedDaysAgo">
+        <item quantity="other">%d दिन पहले आपको टैप किया</item>
+        <item quantity="one">%d दिन पहले आपको टैप किया</item>
+    </plurals>
+    <plurals name="profileTappedHoursAgo">
+        <item quantity="other">%d घंटे पहले आपको टैप किया</item>
+        <item quantity="one">%d घंटा पहले आपको टैप किया</item>
+    </plurals>
+    <plurals name="profileTappedMinutesAgo">
+        <item quantity="other">%d मिनट पहले आपको टैप किया</item>
+        <item quantity="one">%d मिनट पहले आपको टैप किया</item>
+    </plurals>
+    <plurals name="profileViewedMeHoursAgo">
+        <item quantity="other">आपको %d घंटे पहले देखा गया</item>
+        <item quantity="one">आपको %d घंटे पहले देखा गया</item>
+    </plurals>
+    <plurals name="profileViewedMeMinutesAgo">
+        <item quantity="other">आपको %d मिनिट पहले देखा गया</item>
+        <item quantity="one">आपको %d मिनिट पहले देखा गया</item>
+    </plurals>
+    <plurals name="search_inbox">
+        <item quantity="other">%d चैट</item>
+        <item quantity="one">%d चैट</item>
+    </plurals>
+    <plurals name="sendExpiringPhotos">
+        <item quantity="other">(%d) समाप्‍तप्राय भेजें</item>
+        <item quantity="one">(%d) समाप्‍तप्राय भेजें</item>
+    </plurals>
+    <plurals name="sendNonExpiringPhotos">
+        <item quantity="other">(%d) भेजें</item>
+        <item quantity="one">(%d) भेजें</item>
+    </plurals>
+    <plurals name="tap">
+        <item quantity="other">टैप</item>
+        <item quantity="one">टैप</item>
+    </plurals>
+    <plurals name="video_call_less_than_n_min">
+        <item quantity="other">%d मिनिटों से कम</item>
+        <item quantity="one">%d मिनिट से कम</item>
+    </plurals>
+    <plurals name="view">
+        <item quantity="other">देखा गया</item>
+        <item quantity="one">देखा गया</item>
+    </plurals>
+    <plurals name="viewed_me_count_less_than_thousand">
+        <item quantity="other">%s ने आपको देखा</item>
+        <item quantity="one">%s ने आपको देखा</item>
+    </plurals>
+    <plurals name="viewer">
+        <item quantity="other">%d दर्शक</item>
+        <item quantity="one">%d दर्शक</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">सप्‍ताह</item>
+        <item quantity="one">सप्‍ताह</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">साल</item>
+        <item quantity="one">साल</item>
+    </plurals>
+</resources>

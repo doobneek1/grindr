@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/goldenrod_button_textcolor" android:pathData="M15,1.5L9,1.5L9,3h6L15,1.5zM3,6L3,4.5h18L21,6h-1.5v15c0,0.828 -0.672,1.5 -1.5,1.5L6,22.5c-0.828,0 -1.5,-0.672 -1.5,-1.5L4.5,6L3,6zM9,9h1.5v9L9,18L9,9zM15,9h-1.5v9L15,18L15,9z" android:fillType="evenOdd" />
+</vector>

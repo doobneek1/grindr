@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/grindr_dark_gray_3" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.GrindrPagedRecyclerView android:id="@id/recycler_view" android:tag="@string/toolbar_title_fresh" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="LinearLayoutManager" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <include android:id="@id/search_result_loading_layout" layout="@layout/view_loading" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/search_result_empty_layout" android:paddingTop="36.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/tag_search_result_empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_results" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:textColor="@color/text_secondary_dark_bg" android:id="@id/tag_search_result_empty_sub_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium" android:text="@string/profile_tag_no_result_sub1" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceAction1" android:textColor="@color/link_primary_dark_bg" android:id="@id/tag_search_result_empty_sub_2" android:padding="@dimen/spacing_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" android:text="@string/profile_tag_no_result_sub2" />
+    </LinearLayout>
+    <include android:id="@id/button_back_to_top" layout="@layout/include_back_to_top" />
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/GrindrHome" android:id="@id/tag_searching_app_bar" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.grindrapp.android.view.GrindrCollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:collapsedTitleGravity="start|center" app:collapsedTitleTextAppearance="@style/SearchTagResultTitleCollapsed" app:contentScrim="@color/grindr_dark_gray_3" app:expandedTitleGravity="start|center" app:expandedTitleMargin="0.0dip" app:expandedTitleMarginStart="@dimen/nearby_title_margin_start_has_avatar" app:expandedTitleMarginTop="@dimen/nearby_title_margin_top" app:expandedTitleTextAppearance="@style/SearchTagResultTitleExpanded" app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways|snap" app:scrimAnimationDuration="300" app:toolbarId="@id/toolbar_in_collapsing">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_scrollFlags="scroll|enterAlways">
+                <ImageButton android:id="@id/tag_searching_back_button" android:background="@color/grindr_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_arrow_backward" />
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/tag_searching_toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10.0dip" />
+                <RelativeLayout android:layout_gravity="end" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/tag_searching_filter_icon" android:background="?selectableItemBackgroundBorderless" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:scaleType="center" android:contentDescription="@string/filters_title" android:layout_alignParentEnd="true" app:srcCompat="@drawable/svg_ic_filters_off" />
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <com.grindrapp.android.view.UnClickableToolbar android:id="@id/toolbar_in_collapsing" android:layout_width="fill_parent" android:layout_height="@dimen/collapsing_toolbar_height" app:layout_scrollFlags="scroll|enterAlways" />
+        </com.grindrapp.android.view.GrindrCollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <View android:id="@id/toolbar_shadow" android:background="@drawable/toolbar_layout_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_shadow_height" app:elevation="4.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.grindrapp.android.ui.storeV2.UpsellBottomBarView android:layout_gravity="bottom" android:id="@id/upsell_bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-69.0dip" app:text="@string/more_profiles_upsell_unlock_more_profiles" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

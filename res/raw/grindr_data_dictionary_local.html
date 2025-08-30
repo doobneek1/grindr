@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Grindr_Data_Dictionary_Local</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+  body {
+    padding: 2cm;
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">Data Dictionary</h1>
+
+<p>Thank you for submitting your request to us. At Grindr, your privacy is important to us and we strive to support your ability to access and understand the data we collect about you. </p>
+
+<p>The information you will receive through our Download My Data tool is largely already available to you through the app and may vary, depending on the way you have used Grindr. In general, this information includes content and photos you have provided us, whether directly or through your social media accounts, as well as messages you have sent and other data you would expect to see from a social media service, like Grindr.</p>
+
+<p>Below is a data dictionary that we are providing for your convenience, so you can understand the data returned to you, regardless of your technical knowledge and background. The data dictionary is a list of data file types contained within your data download and a description of the information included in those files. If a field is blank in your file, it means that we do not have that data for you and nulls are expected for some fields. The data shown below is stored by your mobile device, not by Grindr&#39;s servers. Also, the type of data you’ll receive can depend on a few factors. For example, if you recently uninstalled the app or deactivated your account, some data won’t be included as it’s no longer stored on your device. Timestamps are in Coordinated Universal Time (UTC) unless otherwise indicated.</p>
+
+<hr>
+
+<p>For additional information on how we use and share data, please refer to our <a href="https://www.grindr.com/privacy-policy/" target="_blank">Privacy Policy</a>, or copy and paste this link: https://www.grindr.com/privacy-policy/.</p>
+
+<hr>
+
+<h2 id="toc_1">Conversations</h2>
+
+<table>
+<thead>
+<tr>
+<th>Data Category</th>
+<th>Data Element</th>
+<th>Definition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>conversations (chat)</td>
+<td>title</td>
+<td>The display name(s) of the account holder that you sent chat message(s) on Grindr.</td>
+</tr>
+<tr>
+<td>conversations (chat)</td>
+<td>message</td>
+<td>The chat messages you sent to other users on Grindr. The messages can include other media beyond text, such as images, audio files, gaymojis, location, taps, and links.</td>
+</tr>
+<tr>
+<td>conversations (chat)</td>
+<td>type</td>
+<td>The type of chat you sent to other users on Grindr (e.g. text, images, audio files, giphys, gaymojis, location, taps, and links).</td>
+</tr>
+<tr>
+<td>conversations (chat)</td>
+<td>content</td>
+<td>The contents of chat you sent to other users on Grindr.</td>
+</tr>
+<tr>
+<td>conversations (chat)</td>
+<td>mediaUrl</td>
+<td>The URL of the media that you sent in chat to other users on Grindr.</td>
+</tr>
+<tr>
+<td>conversations (chat)</td>
+<td>at</td>
+<td>The date and time of the chat that you sent to other users on Grindr.</td>
+</tr>
+<tr>
+<td>conversations (chat)</td>
+<td>lat</td>
+<td>The latitude that you sent in chat when you shared your live location with other Grindr users.</td>
+</tr>
+<tr>
+<td>conversations (chat)</td>
+<td>lon</td>
+<td>The longitude that you sent in chat when you shared your live location with other Grindr users.</td>
+</tr>
+<tr>
+<td>conversations (group chat)</td>
+<td>title</td>
+<td>The name of the group chats in which you sent chat message(s) on Grindr.</td>
+</tr>
+<tr>
+<td>conversations (group chat)</td>
+<td>chatType</td>
+<td>The chat type (e.g. &quot;group&quot;) in which you sent chat messages on Grindr.</td>
+</tr>
+<tr>
+<td>conversations (group chat)</td>
+<td>timestamp</td>
+<td>The timestamps in which you sent chat messages in a group chat on Grindr.</td>
+</tr>
+<tr>
+<td>conversations (group chat)</td>
+<td>message</td>
+<td>The chat messages you sent in a group chat on Grindr. The messages can include other media beyond text, such as images, audio files, gaymojis, location, taps, and links.</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="toc_2">Media</h2>
+
+<table>
+<thead>
+<tr>
+<th>Data Category</th>
+<th>Data Element</th>
+<th>Definition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>chat_photos</td>
+<td>mediaUrls</td>
+<td>The URLs of the photos ("media") that you have uploaded to Grindr and that you may have sent via chat.</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="toc_2">Profile Notes</h2>
+
+<table>
+<thead>
+<tr>
+<th>Data Category</th>
+<th>Data Element</th>
+<th>Definition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>profile_notes</td>
+<td>name</td>
+<td>The display name(s) where you have a profile note. A profile note is your personal note that you added to a profile in your &quot;Favorites&quot; list.</td>
+</tr>
+<tr>
+<td>profile_notes</td>
+<td>note</td>
+<td>The text of a profile note that you wrote.</td>
+</tr>
+<tr>
+<td>profile_notes</td>
+<td>phoneNumber</td>
+<td>The phone number associated with a Grindr user where you supplied the number yourself as a profile note. This data element is only relevant to Android devices.</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="toc_3">User Info</h2>
+
+<table>
+<thead>
+<tr>
+<th>Data Category</th>
+<th>Data Element</th>
+<th>Definition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>account</td>
+<td>isBackupTermsAccepted</td>
+<td>Whether your account accepted the terms to enable cloud backup of chats.</td>
+</tr>
+<tr>
+<td>account</td>
+<td>at</td>
+<td>The date and time of the user accepted the terms to enable cloud backup of chats.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>screen</td>
+<td>A screen (i.e. one of the tabs that you can see within the Grindr application) that you view the grid in and that you can apply filters to. The grid is the discovery screen in the Grindr application that displays users. The screen can be Nearby (users nearby), Explore (users in a selected location), or Fresh (users nearby who recently updated their profile).</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>acceptsNSFWPics</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users that disclosed that they would accept NSFW (&quot;Not Suitable For Work&quot;) pictures, as disclosed in their Grindr public profile.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>ageMax</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users of a maximum age, as disclosed in their Grindr public profile.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>ageMin</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users of a miminum age, as disclosed in their Grindr public profile.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>bodyTypes</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users that identify with a certain body type (e.g. &quot;Toned&quot;, &quot;Slim&quot;, &quot;Large&quot;), as disclosed in their Grindr public profile.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>faceOnly</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users that have uploaded pictures that contain a face to their Grindr public profile.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>haveNotChattedToday</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users that you haven&#39;t interacted with within the last 24 hours.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>heightMax</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users of a maximum height, as disclosed in their Grindr public profile. Units will be displayed according to your account settings.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>heightMin</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users of a minimum height, as disclosed in their Grindr public profile. Units will be displayed according to your account settings.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>lookingFor</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users that are seeking for certain type of connection (e.g. &quot;Right Now&quot;, &quot;Dates&quot;, &quot;Relationship&quot;), as disclosed in their Grindr public profile.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>meetAt</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users that are seeking to meet up a specific location (e.g. &quot;My Place&quot;, &quot;Bar&quot;, &quot;Coffee Shop&quot;), as disclosed in their Grindr public profile.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>onlineNow</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users that are active and online on Grindr right now.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>photoOnly</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users that have uploaded pictures to their Grindr public profile.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>positions</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users that identify with a certain sexual position (e.g. &quot;Bottom&quot;, &quot;Versatile&quot;, &quot;Vers Top&quot;), as disclosed in their Grindr public profile.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>relationshipStatuses</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users that identify with a relationship status (e.g. &quot;Open Relationship&quot;, &quot;Single&quot;, &quot;Engaged&quot;), as disclosed in their Grindr public profile.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>tribes</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users that identify as part of a tribe (e.g. &quot;Trans&quot;, &quot;Bear&quot;, &quot;Poz&quot;), as disclosed in their Grindr public profile.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>weightMax</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users of a maximum weight, as disclosed in their Grindr public profile. Units will be displayed according to your account settings.</td>
+</tr>
+<tr>
+<td>filters</td>
+<td>weightMin</td>
+<td>A filter setting for the grid. This filter allows you to filter for other Grindr users of a minimum weight, as disclosed in their Grindr public profile. Units will be displayed according to your account settings.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>discreetAppIcon</td>
+<td>The setting you selected that changes the App Icon in the homescreen of your mobile device.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>doNotDisturb</td>
+<td>The setting you selected that allows you to manage several options for enabling quiet hours (i.e. turn off notifications from the Grindr app). This data element is only relevant to Android devices.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>quietHoursEnabled</td>
+<td>The setting you selected that allows you to enable quiet hours in which Grindr doesn&#39;t alert you with notifications. This data element is only relevant to Android devices.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>quietHoursEnd</td>
+<td>The setting you selected that allows you to enable when to end quiet hours. This data element is only relevant to Android devices.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>quietHoursStart</td>
+<td>The setting you selected that allows you to enable when to start quiet hours. This data element is only relevant to Android devices.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>quiteHoursRepeat</td>
+<td>The setting you selected that allows you to enable when to repeat when quiet hours are enabled. This data element is only relevant to Android devices.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>snooze</td>
+<td>The setting you selected that allows you to snooze when quiet hours are enabled. This data element is only relevant to Android devices.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>inAppNotification</td>
+<td>The setting you selected that allows you to enable in-app notifications. This data element is only relevant to Android devices.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>incognito</td>
+<td>The setting you selected that allows you to be in Incognito mode (your profile will be hidden in other user&#39;s grids).</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>keepPhoneAwake</td>
+<td>The setting you selected that allows you to keep your phone awake.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>markRecentlyChatted</td>
+<td>The setting you selected that marks users that you have recently chatted with.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>notificationReceivedTaps</td>
+<td>The setting you selected that allows you to receive notifications when another Grindr user &quot;taps&quot; you. This data element is only relevant to Apple devices.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>notificationSound</td>
+<td>The setting you selected that allows you to receive notifications with a sound.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>notificationVibrations</td>
+<td>The setting you selected that allows you to receive notifications with your mobile device vibrating. This data element is only relevant to Apple devices.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>pin</td>
+<td>The PIN (e.g. numeric code or FaceID on Apple devices) associated with your account.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>showDistance</td>
+<td>The setting you selected that allows other Grindr users to see a relative distance between you and that user.</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>showMeInExploreSearches</td>
+<td>The setting you selected that allows other Grindr users to see you in the grid when they use the &quot;Explore&quot; screen (or tab).</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>unitSystem</td>
+<td>The setting you chose that displays the unit systems selected when you use the Grindr app.</td>
+</tr>
+<tr>
+<td>search</td>
+<td>tagSearchHistory</td>
+<td>The tag search history that displays your 8 most recent tag searches.</td>
+</tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/grindr_dark_gray_2" />
+    <corners android:topLeftRadius="@dimen/grindr_bottom_sheet_radius_16" android:topRightRadius="@dimen/grindr_bottom_sheet_radius_16" />
+</shape>

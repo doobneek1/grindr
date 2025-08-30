@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.grindrapp.android.view.PullDownLayout android:id="@id/pull_down_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/album_cruise_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/view_progress_bar" />
+    </FrameLayout>
+</com.grindrapp.android.view.PullDownLayout>

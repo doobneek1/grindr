@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/edit_profile_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/BaseEditProfilePhoto" />
+    <ImageView android:id="@id/edit_profile_photo_pending_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/EditPhotosPendingOverlay" />
+    <ImageView android:layout_gravity="center" android:id="@id/edit_profile_photo_clock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/pending_clock" app:tint="@color/text_primary_dark_bg" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/edit_profile_photo_rejected_overlay" android:background="@drawable/rounded_red_filled" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:gravity="center" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/multiphoto_photo_not_approved_small" android:fontFamily="@font/ibm_plex_sans_bold" />
+        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/edit_profile_photo_rejected_reason" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

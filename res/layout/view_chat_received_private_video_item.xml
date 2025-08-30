@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.grindrapp.android.view.ChatReceivedMessageContainer android:background="@color/grindr_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/message_container" android:background="@drawable/rounded_border_white" android:backgroundTint="@color/fill_highlight_secondary" style="@style/messageContainerV2.received">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/message" android:paddingLeft="@dimen/spacing_large" android:paddingTop="10.0dip" android:paddingRight="@dimen/spacing_large" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTintMode="multiply" android:paddingHorizontal="@dimen/spacing_large" android:paddingVertical="10.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/private_video_icon" android:layout_width="@dimen/spacing_large" android:layout_height="@dimen/spacing_large" app:srcCompat="@drawable/svg_ic_private_video_camera" app:tint="@color/fill_highlight_secondary" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/private_video_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_small" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.grindrapp.android.view.ChatReceivedMessageContainer>

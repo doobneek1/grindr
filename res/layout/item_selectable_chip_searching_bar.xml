@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/inputContainer" android:background="@drawable/bg_searching_bar" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0">
+        <EditText android:theme="@style/SearchBarEditText" android:textAppearance="@style/IbmPlexTextAppearanceBody1" android:textSize="16.0sp" android:textColorHint="@color/grindr_middle_gray" android:gravity="center_vertical" android:id="@id/editText" android:background="@null" android:clickable="false" android:layout_width="fill_parent" android:layout_height="48.0dip" android:hint="@string/gender_selection_search_bar_hint" android:lines="1" android:drawablePadding="18.0dip" android:drawableEnd="@drawable/svg_ic_search" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceAction1" android:textColor="@color/grindr_gold_star_gay" android:id="@id/doneTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" android:layout_marginStart="16.0dip" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/activity_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pin" />
+    </androidx.appcompat.widget.Toolbar>
+    <View android:id="@id/toolbar_shadow" android:background="@drawable/toolbar_layout_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_shadow_height" android:layout_below="@id/activity_toolbar" app:elevation="4.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/pin" android:background="@color/fill_secondary_dark_bg" android:padding="@dimen/spacing_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/activity_toolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_enable_pin" android:layout_weight="1.0" android:contentDescription="@string/settings_enable_pin" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/settings_enable_pin_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/settings_change_pin" android:background="@color/fill_secondary_dark_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pin">
+        <View style="@style/ThinHR" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:padding="@dimen/spacing_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_change_pin" android:contentDescription="@string/settings_change_pin" />
+    </LinearLayout>
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:textColor="@color/text_secondary_dark_bg" android:id="@id/pin_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_medium" android:layout_marginTop="@dimen/spacing_xsmall" android:layout_marginRight="@dimen/spacing_medium" android:layout_marginBottom="@dimen/spacing_xsmall" android:text="@string/settings_pin_description" android:layout_below="@id/settings_change_pin" android:contentDescription="@string/settings_pin_description" android:layout_marginHorizontal="@dimen/spacing_medium" android:layout_marginVertical="@dimen/spacing_xsmall" />
+</RelativeLayout>

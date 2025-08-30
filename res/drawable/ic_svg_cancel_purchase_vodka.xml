@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="35.0dip" android:width="35.0dip" android:viewportWidth="35.0" android:viewportHeight="35.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/grindr_gold_star_gay" android:pathData="M28.0661,19.1214C28.0661,19.1214 24.8477,16.4501 20.8777,13.1549C16.9076,9.8597 13.6893,7.1884 13.6893,7.1884C16.9845,3.2184 22.8741,2.6713 26.8442,5.9665C30.8142,9.2617 31.3613,15.1514 28.0661,19.1214Z" />
+    <path android:fillColor="@color/grindr_pure_black" android:pathData="M26.5259,17.8437L28.0664,19.1224C31.3616,15.1523 30.8145,9.2627 26.8445,5.9675C22.8745,2.6723 16.9848,3.2193 13.6896,7.1894L15.2355,8.4726C18.1294,5.5579 22.5912,5.107 25.5351,7.5505C28.4791,9.994 28.8576,14.4626 26.5259,17.8437Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/grindr_pure_black" android:pathData="M3.0322,18.9434H21.2829L19.5085,31.1672C19.2914,32.6627 18.0094,33.772 16.4982,33.772L7.6201,33.772C6.0907,33.772 4.7991,32.6364 4.6033,31.1195L3.0322,18.9434Z" />
+    <path android:fillColor="@color/grindr_transparent" android:pathData="M1.3933,12.4675C1.3688,12.3205 1.4822,12.1866 1.6314,12.1866H22.3227C22.4718,12.1866 22.5852,12.3204 22.5607,12.4675L19.3498,31.733C19.1453,32.96 18.0837,33.8592 16.8398,33.8592H7.1142C5.8703,33.8592 4.8087,32.96 4.6042,31.733L1.3933,12.4675Z" android:strokeColor="@color/grindr_pure_black" android:strokeWidth="2.28133" />
+    <path android:fillColor="@color/grindr_gold_star_gay" android:pathData="M21.457,13.3077L22.1237,11H24.457L23.2904,15L21.457,13.3077Z" />
+    <path android:fillColor="@color/grindr_pure_white" android:pathData="M8.7369,24.6465L8.7369,24.6465A1.1407,1.1407 0,0 1,9.8775 25.7872L9.8775,25.7872A1.1407,1.1407 0,0 1,8.7369 26.9278L8.7369,26.9278A1.1407,1.1407 0,0 1,7.5962 25.7872L7.5962,25.7872A1.1407,1.1407 0,0 1,8.7369 24.6465z" />
+    <path android:fillColor="@color/grindr_pure_white" android:pathData="M14.439,28.0684L14.439,28.0684A1.1407,1.1407 0,0 1,15.5796 29.2091L15.5796,29.2091A1.1407,1.1407 0,0 1,14.439 30.3497L14.439,30.3497A1.1407,1.1407 0,0 1,13.2983 29.2091L13.2983,29.2091A1.1407,1.1407 0,0 1,14.439 28.0684z" />
+    <path android:fillColor="@color/grindr_pure_white" android:pathData="M16.565,22.3047L16.565,22.3047A0.6006,0.6006 0,0 1,17.1655 22.9053L17.1655,22.9053A0.6006,0.6006 0,0 1,16.565 23.5058L16.565,23.5058A0.6006,0.6006 0,0 1,15.9644 22.9053L15.9644,22.9053A0.6006,0.6006 0,0 1,16.565 22.3047z" />
+</vector>

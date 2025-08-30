@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/albums_previous_uploads" style="@style/ChatBottomDrawerTitle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/profile_photos_recycler_view" android:paddingBottom="60.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title" />
+    <include android:id="@id/view_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/view_loading" />
+</RelativeLayout>

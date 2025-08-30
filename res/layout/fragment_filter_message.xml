@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/content_filter_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/messages_filters" style="@style/DrawerFilterCategoryLabels" />
+            </FrameLayout>
+            <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="@dimen/filter_divider_height" />
+            <com.grindrapp.android.view.EditMyTypeFieldView android:id="@id/filter_unread" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/inbox_filter_unread" style="@style/DrawerFilterEditType" />
+            <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="@dimen/filter_divider_height" style="@style/DrawerFilterForm" />
+            <com.grindrapp.android.view.EditMyTypeFieldView android:id="@id/filter_favorites" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/inbox_filter_favorites" style="@style/DrawerFilterEditType" />
+            <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="@dimen/filter_divider_height" style="@style/DrawerFilterForm" />
+            <com.grindrapp.android.view.EditMyTypeFieldView android:id="@id/filter_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/inbox_filter_group" style="@style/DrawerFilterEditType" />
+            <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="@dimen/filter_divider_height" style="@style/DrawerFilterForm" />
+            <com.grindrapp.android.view.EditMyTypeFieldView android:id="@id/fragment_filter_message_filter_online_now" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/filter_overlay_online_now" style="@style/DrawerFilterEditType" />
+            <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="@dimen/filter_divider_height" style="@style/DrawerFilterForm" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

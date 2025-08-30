@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="@dimen/edit_photos_bottom_sheet_item_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/uploaded_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+    <ImageView android:id="@id/uploaded_image_pending_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/EditPhotosPendingOverlay" />
+    <ImageView android:layout_gravity="center" android:id="@id/uploaded_image_pending_image" android:layout_width="@dimen/edit_photos_bottom_sheet_pending_clock_size" android:layout_height="@dimen/edit_photos_bottom_sheet_pending_clock_size" app:srcCompat="@drawable/pending_clock" />
+    <TextView android:gravity="center" android:id="@id/uploaded_image_rejected_overlay" android:background="@drawable/rounded_red_filled" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/multiphoto_photo_not_approved" android:fontFamily="@font/ibm_plex_sans_bold" />
+    <include layout="@layout/merge_transparent_ripple" />
+    <TextView android:layout_gravity="end|top" android:id="@id/edit_photos_bottom_sheet_popup_menu" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_marginTop="3.0dip" android:layout_marginEnd="3.0dip" />
+    <ImageButton android:layout_gravity="end|top" android:id="@id/edit_photos_bottom_sheet_more" android:background="@color/zs_color_transparent" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginEnd="4.0dip" app:srcCompat="@drawable/svg_menu_more" />
+</FrameLayout>

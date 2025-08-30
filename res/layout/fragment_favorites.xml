@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/favorites_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/GrindrHome" android:id="@id/appBarLayout" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.grindrapp.android.view.GrindrCollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:collapsedTitleGravity="start|center" app:collapsedTitleTextAppearance="@style/NearbyCascadeToolBarCollapsedText" app:contentScrim="?colorPrimary" app:expandedTitleGravity="start|center" app:expandedTitleMargin="0.0dip" app:expandedTitleMarginStart="@dimen/explore_title_margin" app:expandedTitleMarginTop="@dimen/nearby_title_margin_top" app:expandedTitleTextAppearance="@style/NearbyCascadeToolBarExpandedText" app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways|snap" app:scrimAnimationDuration="300" app:title="@string/toolbar_title_favorites" app:toolbarId="@id/toolbar_in_collapsing">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_scrollFlags="scroll|enterAlways">
+                <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/toolbar_note_search" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="?actionBarSize" android:scaleType="center" android:contentDescription="@string/search_notes" android:layout_marginEnd="5.0dip" app:srcCompat="@drawable/ic_note_search" />
+                    <ImageView android:id="@id/toolbar_filter" android:background="?selectableItemBackgroundBorderless" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:scaleType="center" android:contentDescription="@string/filters_title" app:srcCompat="@drawable/svg_ic_filters_off" />
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <com.grindrapp.android.view.UnClickableToolbar android:id="@id/toolbar_in_collapsing" android:layout_width="fill_parent" android:layout_height="@dimen/collapsing_toolbar_height" app:layout_scrollFlags="scroll|enterAlways" />
+        </com.grindrapp.android.view.GrindrCollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ViewStub android:id="@id/stub_favorites_empty_layout" android:layout="@layout/view_empty_favorites" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.grindrapp.android.base.view.CascadeSwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.GrindrPagedRecyclerView android:id="@id/fragment_favorite_recycler_view" android:tag="@string/toolbar_title_favorites" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.grindrapp.android.base.view.CascadeSwipeRefreshLayout>
+    <ViewStub android:id="@id/stub_denied_location_services_layout" android:layout="@layout/layout_denied_location_services" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/search_frame" android:background="@color/grindr_pure_black_alpha_50" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:layout_gravity="center" android:id="@id/no_results" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_results" />
+    <View android:id="@id/toolbar_shadow" android:background="@drawable/toolbar_layout_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_shadow_height" app:elevation="4.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

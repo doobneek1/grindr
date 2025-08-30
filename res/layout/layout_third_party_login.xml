@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.button.MaterialButton android:id="@id/facebook_login_button" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="@dimen/spacing_medium" android:text="@string/create_account_facebook" android:layout_marginStart="@dimen/spacing_medium" android:layout_marginEnd="@dimen/spacing_medium" app:icon="@drawable/ic_logo_fb_circle" app:iconTint="@color/grindr_transparent" app:iconTintMode="add" style="@style/SecondaryButton" />
+        <com.google.android.material.button.MaterialButton android:id="@id/google_login_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="@dimen/spacing_large" android:text="@string/create_account_google" android:layout_marginStart="@dimen/spacing_medium" android:layout_marginEnd="@dimen/spacing_medium" app:icon="@drawable/ic_google" app:iconTint="@color/grindr_transparent" app:iconTintMode="add" style="@style/SecondaryButton" />
+    </LinearLayout>
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:layout_gravity="center_horizontal" android:id="@id/third_party_login_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_xsmall" android:layout_marginBottom="@dimen/spacing_medium" android:text="@string/third_login_privacy_hint" />
+</merge>

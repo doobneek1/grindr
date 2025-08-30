@@ -1,0 +1,374 @@
+[
+  {
+    "genderId": 0,
+    "gender": "invalid",
+    "displayGroup": 0,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 4,
+    "gender": "Cis Man",
+    "displayGroup": 1,
+    "excludeOnSelection": "2,6,7"
+  },
+  {
+    "genderId": 1,
+    "gender": "Man",
+    "displayGroup": 1,
+    "excludeOnSelection": "2,6,7"
+  },
+  {
+    "genderId": 5,
+    "gender": "Trans Man",
+    "displayGroup": 1,
+    "excludeOnSelection": "2,6,7"
+  },
+  {
+    "genderId": 6,
+    "gender": "Cis Woman",
+    "displayGroup": 1,
+    "excludeOnSelection": "1,4,5"
+  },
+  {
+    "genderId": 9,
+    "gender": "Genderqueer",
+    "displayGroup": 1,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 3,
+    "gender": "Non-binary",
+    "displayGroup": 1,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 8,
+    "gender": "Non-Conforming",
+    "displayGroup": 1,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 7,
+    "gender": "Trans Woman",
+    "displayGroup": 1,
+    "excludeOnSelection": "1,4,5"
+  },
+  {
+    "genderId": 2,
+    "gender": "Woman",
+    "displayGroup": 1,
+    "excludeOnSelection": "1,4,5"
+  },
+  {
+    "genderId": 10,
+    "gender": "Agender",
+    "displayGroup": 2,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 11,
+    "gender": "Androgynous",
+    "displayGroup": 2,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 12,
+    "gender": "Bigender",
+    "displayGroup": 2,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 15,
+    "gender": "Crossdresser",
+    "displayGroup": 2,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 20,
+    "gender": "Enby",
+    "displayGroup": 2,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 13,
+    "gender": "Genderfluid",
+    "displayGroup": 2,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 17,
+    "gender": "Pangender",
+    "displayGroup": 2,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 16,
+    "gender": "Queer",
+    "displayGroup": 2,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 14,
+    "gender": "Questioning",
+    "displayGroup": 2,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 18,
+    "gender": "Transfeminine",
+    "displayGroup": 2,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 19,
+    "gender": "Transmasculine",
+    "displayGroup": 2,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 41,
+    "gender": "Agi",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 43,
+    "gender": "Aravani",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 38,
+    "gender": "Bading/Beki",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 37,
+    "gender": "Bakla",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 42,
+    "gender": "Bantut",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 40,
+    "gender": "Bayot",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 53,
+    "gender": "Berbeza",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 39,
+    "gender": "Binabae",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 57,
+    "gender": "Buê đuê",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 30,
+    "gender": "Demiman",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 29,
+    "gender": "Demiwoman",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 58,
+    "gender": "Enchaquirado",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 51,
+    "gender": "Feminiello",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 22,
+    "gender": "Hijra",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 24,
+    "gender": "Jogappa",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 44,
+    "gender": "Jogtha",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 33,
+    "gender": "Kathoey",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 23,
+    "gender": "Kinner",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 25,
+    "gender": "Kothi",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 26,
+    "gender": "Mangalmukhi",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 59,
+    "gender": "Muxe",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 45,
+    "gender": "Nupa manba",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 46,
+    "gender": "Nupi manbi",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 61,
+    "gender": "Omeguit",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 36,
+    "gender": "Phet Thi Sam",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 34,
+    "gender": "Saaw Praphet Soong",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 55,
+    "gender": "Third Gender",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 48,
+    "gender": "Thirunambi",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 47,
+    "gender": "Thirunangai",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 60,
+    "gender": "Tida Wena",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 35,
+    "gender": "Tom",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 31,
+    "gender": "Transgenderqueer",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 54,
+    "gender": "Translaki",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 52,
+    "gender": "Transnita",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 32,
+    "gender": "Travesti",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 21,
+    "gender": "Two-Spirit",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 50,
+    "gender": "Waria",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 28,
+    "gender": "Weiniang",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 56,
+    "gender": "X Gender",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 49,
+    "gender": "Yao",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  },
+  {
+    "genderId": 27,
+    "gender": "Yì fu zhe",
+    "displayGroup": 3,
+    "excludeOnSelection": null
+  }
+]

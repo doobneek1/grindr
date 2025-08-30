@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/request_data_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="8.0dip" style="@style/GrindrToolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/request_data_setting_title" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.fragment.app.FragmentContainerView android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

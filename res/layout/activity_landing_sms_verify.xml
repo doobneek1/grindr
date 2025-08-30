@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/activity_content" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/activity_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbarV2">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboard_verify_code" />
+    </androidx.appcompat.widget.Toolbar>
+    <com.grindrapp.android.base.view.AutoScrollDownView android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/onboard_error_message" android:layout_below="@id/activity_toolbar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.grindrapp.android.base.view.GrindrPinViewV2 android:textStyle="bold" android:layout_gravity="center" android:id="@id/verify_code" android:layout_width="272.0dip" android:layout_height="64.0dip" android:layout_marginTop="24.0dip" android:inputType="number" android:layout_marginStart="@dimen/grindr_standard_horizontal_margin" android:layout_marginEnd="@dimen/grindr_standard_horizontal_margin" app:pinLength="6" app:pinMargin="4.0dip" app:pinPadding="8.0dip" app:pinTextColor="@color/grindr_pure_white" app:pinTextSize="28.0sp" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:id="@id/full_phone_number" android:layout_marginTop="16.0dip" style="@style/OnboardMessage.Normal" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/onboard_textcolor" android:layout_gravity="center_horizontal" android:id="@id/sms_resent_button" android:layout_width="wrap_content" style="@style/OnboardMessage.Normal" />
+        </LinearLayout>
+    </com.grindrapp.android.base.view.AutoScrollDownView>
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:id="@id/onboard_error_message" android:visibility="gone" android:layout_above="@id/onboard_btn_verify_continue" style="@style/OnboardMessage.Error" />
+    <com.google.android.material.button.MaterialButton android:textAppearance="@style/IbmPlexTextAppearanceH6" android:id="@id/onboard_btn_verify_continue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_xsmall" android:layout_marginBottom="@dimen/spacing_xsmall" android:text="@string/settings_pin_popup_continue" android:layout_alignParentBottom="true" style="@style/OnboardButton" />
+    <include layout="@layout/view_progress_bar" />
+</RelativeLayout>

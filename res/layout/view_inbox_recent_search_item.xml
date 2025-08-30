@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/text_primary_dark_bg" android:ellipsize="end" android:id="@id/recent_search_term" android:background="?selectableItemBackground" android:paddingTop="@dimen/inbox_recent_search_item_padding" android:paddingBottom="@dimen/inbox_recent_search_item_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="18.0dip" android:layout_weight="1.0" android:textAlignment="viewStart" app:drawableStartCompat="@drawable/ic_recent" app:drawableTint="@color/link_secondary_dark_bg" />
+    <ImageButton android:id="@id/recent_search_delete_button" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/delete_recent_search" app:srcCompat="@drawable/svg_ic_close" />
+</LinearLayout>

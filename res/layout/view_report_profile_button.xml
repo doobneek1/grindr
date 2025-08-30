@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.grindrapp.android.base.view.IbmPlexButton android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/grindr_pure_black" android:layout_gravity="center" android:id="@id/fragment_report_profile_what_happened" android:background="@color/grindr_gold_star_gay" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:foreground="@drawable/transparent_ripple" android:text="@string/report_profile_reason_details_what_happened" style="?android:borderlessButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

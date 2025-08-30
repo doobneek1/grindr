@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/grindr_middle_gray" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_middle_gray" android:id="@id/divider_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cascade_you_are_unlimited" android:drawablePadding="8.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:drawableStartCompat="@drawable/ic_infinity" />
+    <View android:background="@color/grindr_middle_gray" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+</LinearLayout>

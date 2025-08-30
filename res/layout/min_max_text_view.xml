@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:textColor="@color/grindr_gray_1" android:id="@id/view_edit_profile_edit_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColorHint="@color/grindr_dark_gray_1" android:gravity="start|top" android:id="@id/view_edit_profile_edit_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:drawablePadding="10.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="-4.0dip" />
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/grindr_gray_1" android:layout_gravity="start" android:id="@id/view_edit_profile_edit_min_limit" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/grindr_gray_1" android:layout_gravity="end" android:id="@id/view_edit_profile_edit_char_limit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="textEnd" />
+    </FrameLayout>
+</merge>

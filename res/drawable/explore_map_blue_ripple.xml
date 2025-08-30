@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/explore_map_blue_dot_out_width" android:width="@dimen/explore_map_blue_dot_out_width" />
+            <gradient android:startColor="@color/grindr_chatty_mcchatface_alpha_50" android:endColor="@color/grindr_chatty_mcchatface_alpha_75" android:angle="0.0" android:type="radial" android:gradientRadius="100.0" />
+        </shape>
+    </item>
+</layer-list>

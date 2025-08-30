@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.drawee.view.SimpleDraweeView android:id="@id/image_item_giphy" android:layout_width="fill_parent" android:layout_height="90.0dip" fresco:actualImageScaleType="centerCrop" fresco:failureImage="@drawable/photo_failed" fresco:placeholderImage="@color/grindr_dark_gray_2" fresco:pressedStateOverlayImage="@drawable/tab_ripple" fresco:roundWithOverlayColor="@color/grindr_dark_gray_3" fresco:roundedCornerRadius="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" />

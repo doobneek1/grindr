@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/xtra_store_ls" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.grindrapp.android.store.view.UpsellUnlimitedBackgroundView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" app:background="@drawable/store_background_xtra" app:clipArc="true" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_container" android:background="@color/grindr_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/xtra_store_banner_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" app:layout_constraintBottom_toTopOf="@id/content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/content" android:paddingBottom="@dimen/upsell_paycard_peek_height_sl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:paddingStart="36.0dip" android:paddingEnd="36.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_more_600_profile" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_600_more_profiles" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_no_more_ads" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_no_more_ads" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_advanced_filters" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_14_advanced_filters" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_global_chat" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_chat_in_explore" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_group_1318" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_read_receipts" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_quotes_16" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_saved_favorite_phrases" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_group_1281" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_mark_recently_chatted" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <com.google.android.material.button.MaterialButton android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/btn_unlock_all" android:layout_width="179.0dip" android:layout_height="56.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/store_btn_unlock_all" style="@style/GrindrOutlinedGoldenButton" />
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_group_1276" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_gray_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_viewed_me" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_countdown_16" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_gray_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_expiring_photos" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_incognito_16" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_gray_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_incognito" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_group_1277" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_gray_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_unsend_messages" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_group_1279" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_gray_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_chat_translate" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_menu_more_32" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_gray_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_typing_status" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

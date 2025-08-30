@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/content_filter_favorite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/favorites_filters" style="@style/DrawerFilterCategoryLabels" />
+            </FrameLayout>
+            <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="@dimen/filter_divider_height" />
+            <com.grindrapp.android.view.EditMyTypeFieldView android:id="@id/filter_online_now" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/filter_overlay_online_now" style="@style/DrawerFilterEditType" />
+            <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="@dimen/filter_divider_height" style="@style/DrawerFilterForm" />
+            <com.grindrapp.android.view.EditMyTypeFieldView android:id="@id/filter_has_a_note" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/filter_overlay_has_a_note" style="@style/DrawerFilterEditType" />
+            <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="@dimen/filter_divider_height" style="@style/DrawerFilterForm" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

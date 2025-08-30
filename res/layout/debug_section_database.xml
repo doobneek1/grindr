@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_read_db_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Read DB Header" style="@style/DebugButton" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_db_vacuum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sqlite DB Vacuum" android:textAllCaps="false" style="@style/DebugButton" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_restore_db_vacuum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Restore from vacuumed DB" android:textAllCaps="false" style="@style/DebugButton" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_restore_sqlite_db_vacuum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Restore from sqlite vacuumed DB" android:textAllCaps="false" style="@style/DebugButton" />
+    <androidx.appcompat.widget.SwitchCompat android:id="@id/enable_sql_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enable SQL Log" style="@style/Debug" />
+</LinearLayout>

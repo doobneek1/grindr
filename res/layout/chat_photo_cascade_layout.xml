@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/chat_photo_cascade" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/send_photos_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:textColor="@color/grindr_dark_gray_3" android:gravity="center" android:layout_gravity="bottom" android:id="@id/expiring_photo_limit_reached" android:background="@color/grindr_golden_brown" android:padding="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/expiring_photo_limit_reached" />
+        <androidx.constraintlayout.widget.ConstraintLayout style="@style/ChatPhotoExpiringContainer">
+            <com.google.android.material.button.MaterialButton android:textAppearance="@style/IbmPlexTextAppearanceH6" android:gravity="end|center" android:id="@id/send_photos_button" android:layout_width="wrap_content" android:elevation="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ChatPhotoButton" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/expiring_photo_toggle" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:contentDescription="@string/expiring_photo_tooltip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ChatPhotoExpiringToggleButton">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/expiring_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" app:srcCompat="@drawable/ic_expiring_on" app:tint="@color/grindr_dark_gray_3" />
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:textColor="@color/grindr_dark_gray_3" android:id="@id/expiring_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/expiring_photo_disabled" android:layout_marginStart="8.0dip" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chat_location_title" style="@style/ChatBottomDrawerTitle" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceAction1" android:textColor="@color/grindr_middle_gray" android:id="@id/info_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/chat_location_safety_guide" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+    <View android:id="@id/divider" android:background="@drawable/divider_chat_bottom" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/info_text_view" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/retry_container" android:layout_width="fill_parent" android:layout_height="350.0dip" android:layout_below="@id/divider" style="@style/SendLocationRetryContainer">
+        <ImageView android:id="@id/retry_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" app:srcCompat="@drawable/retry_button" app:tint="@color/grindr_gray_2" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/retry_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_send_location_retry_title" style="@style/SendLocationRetryTitle" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:id="@id/retry_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tap_to_retry" style="@style/SendLocationRetryDesc" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/map_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="350.0dip" android:layout_below="@id/divider" />
+    <FrameLayout android:id="@id/spinner_container" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="350.0dip" android:layout_below="@id/divider" android:layout_alignTop="@id/map_fragment_container" android:layout_alignBottom="@id/map_fragment_container">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</RelativeLayout>

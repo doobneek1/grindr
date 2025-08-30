@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/activity_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/activity_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_middle_gray" android:id="@id/toolbar_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share" android:layout_marginEnd="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium" android:layout_marginBottom="@dimen/spacing_xsmall" android:text="@string/share_intent_inbox_title" android:textAllCaps="true" android:layout_marginStart="@dimen/spacing_xsmall" />
+        <androidx.recyclerview.widget.GrindrPagedRecyclerView android:id="@id/inbox_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

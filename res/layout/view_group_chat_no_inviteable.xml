@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/recycler_empty_state_asset_bottom_margin" app:srcCompat="@drawable/ic_empty_chat_group" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:textColor="@color/grindr_off_white" android:gravity="center" android:id="@id/tv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_medium" android:text="@string/create_chat_group_empty_state_title" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_off_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_chat_group_empty_state_subtitle" android:lineSpacingExtra="@dimen/chat_group_no_inviteable_text_line_spacing_extra" />
+</LinearLayout>

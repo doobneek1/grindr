@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:textColor="@color/edit_profile_textcolor" android:id="@id/view_edit_profile_drop_down_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBadge" android:id="@id/new_feature_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dropdown_new" android:layout_marginStart="9.0dip" style="@style/NewObjectBadge" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Spinner android:id="@id/view_edit_profile_drop_down_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="150.0dip" android:layout_marginStart="-8.0dip" android:overlapAnchor="false" />
+        <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="-8.0dip" />
+    </LinearLayout>
+</merge>

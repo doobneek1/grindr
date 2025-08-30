@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="assets">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/assets/lottie_onboard_page3_chat.zip!/" />
+      <root url="jar://$PROJECT_DIR$/assets/lottie_onboard_page1_hand.zip!/" />
+      <root url="jar://$PROJECT_DIR$/assets/lottie_blinking_black_eye.zip!/" />
+      <root url="jar://$PROJECT_DIR$/assets/lottie_onboard_page2_tap.zip!/" />
+      <root url="jar://$PROJECT_DIR$/assets/lottie_blinking_white_eye.zip!/" />
+      <root url="jar://$PROJECT_DIR$/assets/lottie_onboard_page1_point.zip!/" />
+      <root url="jar://$PROJECT_DIR$/assets/lottie_ic_boost_pulse.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

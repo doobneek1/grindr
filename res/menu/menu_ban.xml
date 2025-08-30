@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/community_guidelines" android:title="@string/settings_profile_guidelines" app:showAsAction="never" />
+    <item android:id="@id/terms_of_service" android:title="@string/settings_terms_of_service" app:showAsAction="never" />
+</menu>

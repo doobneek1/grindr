@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.GrindrPagedRecyclerView android:id="@id/taps_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/spacing_medium" style="@style/InboxRecyclerView.transparent" />
+    <include android:id="@id/empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/view_empty_taps" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

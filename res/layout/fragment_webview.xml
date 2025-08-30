@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/fragment_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.grindrapp.android.ui.web.GrindrWebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/webview_spinner" android:background="@color/grindr_transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/refresh_layout" android:background="@color/grindr_pure_white" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/webview_refresh_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" app:srcCompat="@drawable/retry_button" app:tint="@color/grindr_dark_gray_1" />
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:textColor="@color/grindr_dark_gray_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/something_went_wrong" />
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_middle_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/tap_to_retry" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="boost_bundle_credits">
+        <item quantity="other">Boost</item>
+    </plurals>
+    <plurals name="boost_bundle_credits_postfix">
+        <item quantity="other">%s/ea</item>
+    </plurals>
+    <plurals name="chat">
+        <item quantity="other">obrolan</item>
+    </plurals>
+    <plurals name="chat_record_time_left">
+        <item quantity="other">%d detik tersisa</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Maju cepat %d detik</item>
+        <item quantity="one">Maju cepat %d detik</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Mundur %d detik</item>
+        <item quantity="one">Mundur %d detik</item>
+    </plurals>
+    <plurals name="expiring_remaining_count">
+        <item quantity="other">%d Foto Kedaluwarsa tersisa</item>
+    </plurals>
+    <plurals name="favoritesDaysAgo">
+        <item quantity="other">%d hari yang lalu</item>
+    </plurals>
+    <plurals name="favoritesHoursAgo">
+        <item quantity="other">%d jam yang lalu</item>
+    </plurals>
+    <plurals name="groupchat_invite_members">
+        <item quantity="other">Anda mengundang %d orang</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">bulan</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notifikasi baru</item>
+        <item quantity="one">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="note">
+        <item quantity="other">%d catatan</item>
+    </plurals>
+    <plurals name="photoApproved">
+        <item quantity="other">Foto profil Anda telah disetujui</item>
+    </plurals>
+    <plurals name="photoModerated">
+        <item quantity="other">Gambar profil baru Anda sedang dimoderasi</item>
+    </plurals>
+    <plurals name="photoRejected">
+        <item quantity="other">Foto profil Anda telah ditolak</item>
+    </plurals>
+    <plurals name="pride_countdown_in_days">
+        <item quantity="other">Dalam %d hari</item>
+    </plurals>
+    <plurals name="pride_countdown_in_hours">
+        <item quantity="other">Dalam %d jam</item>
+    </plurals>
+    <plurals name="pride_countdown_in_minutes">
+        <item quantity="other">Dalam %d menit</item>
+    </plurals>
+    <plurals name="private_video_remaining_count">
+        <item quantity="other">%d Video Pribadi tersisa</item>
+    </plurals>
+    <plurals name="profileChattedHoursAgo">
+        <item quantity="other">Mengobrol %d jam yang lalu</item>
+    </plurals>
+    <plurals name="profileChattedMinutesAgo">
+        <item quantity="other">Mengobrol %d menit yang lalu</item>
+    </plurals>
+    <plurals name="profileFeetAbbreviated">
+        <item quantity="other">%d kaki</item>
+    </plurals>
+    <plurals name="profileFeetAway">
+        <item quantity="other">%d kaki jaraknya</item>
+    </plurals>
+    <plurals name="profileKilometersAbbreviated">
+        <item quantity="other">%d km</item>
+    </plurals>
+    <plurals name="profileKilometersAway">
+        <item quantity="other">%d km jaraknya</item>
+    </plurals>
+    <plurals name="profileMetersAbbreviated">
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="profileMetersAway">
+        <item quantity="other">%d meter jaraknya</item>
+    </plurals>
+    <plurals name="profileMetersAwayAbbreviated">
+        <item quantity="other">%d m jaraknya</item>
+    </plurals>
+    <plurals name="profileMilesAbbreviated">
+        <item quantity="other">%d mil</item>
+    </plurals>
+    <plurals name="profileMilesAway">
+        <item quantity="other">%d mil jaraknya</item>
+    </plurals>
+    <plurals name="profileMilesAwayAbbreviated">
+        <item quantity="other">%d mil jaraknya</item>
+    </plurals>
+    <plurals name="profileOnlineDaysAgo">
+        <item quantity="other">Online %d hari yang lalu</item>
+    </plurals>
+    <plurals name="profileOnlineHoursAgo">
+        <item quantity="other">Online %d jam yang lalu</item>
+    </plurals>
+    <plurals name="profileTappedDaysAgo">
+        <item quantity="other">Men-tap Anda %d hari yang lalu</item>
+    </plurals>
+    <plurals name="profileTappedHoursAgo">
+        <item quantity="other">Men-tap Anda %d jam yang lalu</item>
+    </plurals>
+    <plurals name="profileTappedMinutesAgo">
+        <item quantity="other">Men-tap Anda %d menit yang lalu</item>
+    </plurals>
+    <plurals name="profileViewedMeHoursAgo">
+        <item quantity="other">Melihat Anda %d jam yang lalu</item>
+    </plurals>
+    <plurals name="profileViewedMeMinutesAgo">
+        <item quantity="other">Melihat Anda %d menit yang lalu</item>
+    </plurals>
+    <plurals name="search_inbox">
+        <item quantity="other">%d obrolan</item>
+    </plurals>
+    <plurals name="sendExpiringPhotos">
+        <item quantity="other">SEND KEDALUWARSA (%d)</item>
+    </plurals>
+    <plurals name="sendNonExpiringPhotos">
+        <item quantity="other">KIRIM (%d)</item>
+    </plurals>
+    <plurals name="tap">
+        <item quantity="other">ketukan</item>
+    </plurals>
+    <plurals name="video_call_less_than_n_min">
+        <item quantity="other">Kurang dari %d mnt</item>
+    </plurals>
+    <plurals name="view">
+        <item quantity="other">tayangan</item>
+    </plurals>
+    <plurals name="viewed_me_count_less_than_thousand">
+        <item quantity="other">%s melihat Anda</item>
+    </plurals>
+    <plurals name="viewer">
+        <item quantity="other">%d pemirsa</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">minggu</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">tahun</item>
+    </plurals>
+</resources>

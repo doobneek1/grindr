@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/retry_container" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GaymojiRetryContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/retry_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" app:srcCompat="@drawable/retry_button" app:tint="@color/grindr_pure_white" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_gray_2" android:id="@id/retry_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/tap_to_retry" />
+</LinearLayout>

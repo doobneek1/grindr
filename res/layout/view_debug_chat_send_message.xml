@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/grindr_middle_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Message Content:" />
+        <EditText android:textColor="@color/grindr_dark_gray_2" android:id="@id/debug_chat_input_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textMultiLine" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/grindr_middle_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Target Convo's position（Default：1）:" />
+        <EditText android:textColor="@color/grindr_dark_gray_2" android:id="@id/debug_chat_conversation_index" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/grindr_middle_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Time delay（Default：200ms）:" />
+        <EditText android:textColor="@color/grindr_dark_gray_2" android:id="@id/debug_chat_send_speed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/grindr_middle_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Max message Count（Default：10）:" />
+        <EditText android:textColor="@color/grindr_dark_gray_2" android:id="@id/debug_chat_max_send" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+    </LinearLayout>
+    <Button android:layout_gravity="center_horizontal" android:id="@id/debug_chat_start_send" android:background="@android:color/holo_orange_light" android:layout_width="154.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Start" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/debug_chat_start_confusion_send" android:background="@android:color/holo_orange_light" android:layout_width="154.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Start confusion" />
+</LinearLayout>

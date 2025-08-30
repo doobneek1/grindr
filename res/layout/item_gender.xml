@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.grindrapp.android.view.widget.CheckableChip android:textAppearance="@style/IbmPlexTextAppearanceAction1" android:id="@id/chip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_margin="5.0dip" android:maxLines="1" app:checkedBackgroundResId="@drawable/bg_golden_rod_round_43" app:checkedTextColor="@color/grindr_pure_black" app:toggleable="false" app:uncheckedBackgroundResId="@drawable/bg_round_40_stroke_dark_gray_1" app:uncheckedTextColor="@color/grindr_pure_white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

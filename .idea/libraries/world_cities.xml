@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="world_cities">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/res/raw/world_cities.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

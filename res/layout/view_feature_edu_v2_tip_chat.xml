@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/onboard_content" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="200.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="92.0dip" android:layout_toStartOf="@id/highlight_img" android:layout_alignParentEnd="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/edu_image_hi">
+            <com.grindrapp.android.view.GarageGothicTextView android:textSize="52.0sp" android:layout_gravity="end" android:layout_height="wrap_content" android:text="@string/profile_onboarding_new_user_say_hi" android:lineSpacingExtra="-9.0sp" style="@style/Text68spOffwhiteBoldAllcaps" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH2" android:layout_gravity="end" android:id="@id/edu_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" android:text="@string/profile_onboarding_new_user_say_hi_subtitle" />
+        </LinearLayout>
+        <ImageView android:id="@id/edu_image_hi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_onboard_blue_bubble" />
+    </RelativeLayout>
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/highlight_img" android:visibility="invisible" android:layout_width="142.0dip" android:layout_height="142.0dip" android:layout_marginBottom="-28.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="-28.0dip" android:layout_alignParentEnd="true" app:lottie_autoPlay="true" app:lottie_fileName="lottie_onboard_page3_chat.zip" app:lottie_imageAssetsFolder="images" app:lottie_loop="true" />
+</RelativeLayout>

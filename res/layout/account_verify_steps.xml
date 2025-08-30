@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/account_verify_step_1" android:background="@drawable/account_verify_step_strip" android:layout_width="0.0dip" android:layout_height="4.0dip" android:layout_weight="1.0" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+    <View android:id="@id/account_verify_step_2" android:background="@drawable/account_verify_step_strip" android:layout_width="0.0dip" android:layout_height="4.0dip" android:layout_weight="1.0" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+    <View android:id="@id/account_verify_step_3" android:background="@drawable/account_verify_step_strip" android:layout_width="0.0dip" android:layout_height="4.0dip" android:layout_weight="1.0" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:gravity="center" android:id="@id/intro_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="75.0dip" android:text="@string/explore_cascade_intro_title" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:gravity="center" android:id="@id/intro_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="75.0dip" android:text="@string/explore_cascade_intro_subtitle" />
+</LinearLayout>

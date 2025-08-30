@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/audio_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/audio_controller" android:background="@drawable/selector_normal_msg_controller" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        <ProgressBar android:id="@id/loading_bar" android:background="@drawable/bg_audio_loading" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:max="100" android:progress="25" android:indeterminate="false" android:progressDrawable="@drawable/audio_loading_indeterminate" style="?android:progressBarStyleHorizontal" />
+    </FrameLayout>
+    <SeekBar android:layout_gravity="center_vertical" android:id="@id/audio_progress" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:max="100" android:progress="20" android:progressDrawable="@drawable/audio_msg_seek_bar" android:thumb="@drawable/ic_seekbar_thumb_normal" android:layout_weight="1.0" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:textColor="@color/text_primary_light_bg" android:layout_gravity="center_vertical" android:id="@id/audio_length" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

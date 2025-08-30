@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/viewed_me_list_upsell_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginStart="18.0dip" app:srcCompat="@drawable/viewed_me_icon" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_off_white" android:id="@id/viewed_me_list_upsell_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/viewed_me_upsell_see_more_viewers" android:layout_weight="1.0" android:textAlignment="viewStart" android:layout_marginStart="16.0dip" />
+    <com.google.android.material.button.MaterialButton android:textAppearance="@style/IbmPlexTextAppearanceH6" android:textColor="@color/grindr_dark_gray_4" android:id="@id/viewed_me_list_upsell_button" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="wrap_content" android:layout_height="52.0dip" android:minWidth="140.0dip" android:text="@string/upsell_xtra_looking_for_view_me_action" android:inputType="textCapWords" android:layout_marginEnd="16.0dip" android:paddingVertical="0.0dip" style="@style/GoldenRodGrindrRippleRoundCircleButton" />
+</LinearLayout>

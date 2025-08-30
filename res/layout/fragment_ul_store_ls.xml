@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ul_store_ls" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.grindrapp.android.store.view.UpsellUnlimitedBackgroundView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" app:background="@drawable/store_background_unlimited" app:clipArc="true" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_container" android:background="@color/grindr_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/content" android:background="@color/grindr_transparent" android:paddingBottom="@dimen/upsell_sku_content_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.grindrapp.android.view.NestedScrollableHost android:id="@id/pager_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.viewpager2.widget.ViewPager2 android:id="@id/pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+            </com.grindrapp.android.view.NestedScrollableHost>
+            <com.grindrapp.android.store.ui.StoreTabLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/pager_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:divider="@drawable/cancel_purchase_indicator_spacer" android:showDividers="middle" />
+            <ImageView android:layout_gravity="center" android:id="@id/unlimited_icon_gif" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="29.5dip" android:layout_marginBottom="8.0dip" android:src="@drawable/unlimited_sign_logo" android:scaleX="1.0" android:scaleY="1.0" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/grindr_gray_1" android:layout_gravity="center_horizontal" android:id="@id/unlimited_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/store_list_header_without_limit" android:lineSpacingExtra="9.0sp" android:textAllCaps="true" android:fontFamily="@font/ibm_plex_sans_bold" android:letterSpacing="0.25" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@color/grindr_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="36.0dip" android:paddingEnd="36.0dip">
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_unlimited_profile" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_unlimited_profile" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_no_more_ads" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_no_more_ads" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_group_1276" app:tint="@color/grindr_gold_star_gay" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_viewed_me" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_advanced_filters" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_14_advanced_filters" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_global_chat" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_chat_in_explore" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_countdown_16" app:tint="@color/grindr_gold_star_gay" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_expiring_photos" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_incognito_16" app:tint="@color/grindr_gold_star_gay" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_incognito" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_group_1277" app:tint="@color/grindr_gold_star_gay" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_unsend_messages" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_group_1318" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_read_receipts" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_quotes_16" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_saved_favorite_phrases" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_group_1281" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_mark_recently_chatted" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_group_1279" app:tint="@color/grindr_gold_star_gay" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_chat_translate" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/svg_ic_menu_more_32" app:tint="@color/grindr_gold_star_gay" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_list_item_typing_status" android:fontFamily="@font/ibm_plex_sans_bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/grindr_gray_1" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_marginBottom="36.0dip" android:text="@string/store_list_footer_no_more_boundaries" android:lineSpacingExtra="9.0sp" android:textAllCaps="true" android:fontFamily="@font/ibm_plex_sans" android:letterSpacing="0.25" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

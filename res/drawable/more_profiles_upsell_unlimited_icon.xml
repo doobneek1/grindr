@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="44.0dip" android:width="286.0dip" android:viewportWidth="286.0" android:viewportHeight="44.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/grindr_pure_white" android:pathData="M11.484,44C4.067,44 -0.763,41.025 0.099,33.979C0.099,33.352 3.894,0 3.894,0H9.242C9.242,0 5.447,32.256 5.447,33.509C4.929,37.737 7.517,39.616 12.002,39.616C16.314,39.616 19.247,37.58 19.592,33.666C19.764,32.413 23.559,0 23.559,0H28.906C28.906,0 24.939,33.666 24.939,34.135C24.249,40.712 18.902,44 11.484,44Z" />
+    <path android:fillColor="@color/grindr_pure_white" android:pathData="M55.471,43.53L45.811,10.178L42.016,43.53H37.014L42.016,0H48.226L57.713,33.039L61.508,0H66.511L61.508,43.53H55.471Z" />
+    <path android:fillColor="@color/grindr_pure_white" android:pathData="M74.963,43.53L79.965,0H85.485L81.001,38.989H96.87L96.353,43.53H74.963V43.53Z" />
+    <path android:fillColor="@color/grindr_pure_white" android:pathData="M107.047,43.53L112.05,0H117.57L112.567,43.53H107.047Z" />
+    <path android:fillColor="@color/grindr_pure_white" android:pathData="M153.277,43.53L156.899,12.683L144.652,43.53H139.477L134.475,12.84L130.852,43.687H125.85L131.025,0H137.579L142.927,36.014L156.899,0H163.282L158.279,43.53H153.277Z" />
+    <path android:fillColor="@color/grindr_pure_white" android:pathData="M171.734,43.53L176.736,0H182.256L177.254,43.53H171.734Z" />
+    <path android:fillColor="@color/grindr_pure_white" android:pathData="M207.441,4.541L202.956,43.53H197.436L201.921,4.541H191.916L192.433,0H217.963L217.446,4.541H207.441V4.541Z" />
+    <path android:fillColor="@color/grindr_pure_white" android:pathData="M223.311,43.53L228.313,0H250.22L249.703,4.541H233.143L231.418,19.26H247.115L246.598,23.801H230.9L229.175,38.833H245.908L245.39,43.374H223.311V43.53Z" />
+    <path android:fillColor="@color/grindr_pure_white" android:pathData="M270.057,43.53H256.947L261.95,0H274.715C280.062,0 283.684,1.879 284.892,4.854C286.272,8.142 286.272,11.431 285.064,20.982C283.857,32.1 282.994,35.858 280.752,38.833C278.51,41.651 275.405,43.53 270.057,43.53ZM279.544,20.982C280.407,13.466 280.924,10.648 279.717,7.673C278.854,5.48 276.44,4.541 273.507,4.541H266.78L262.812,38.989H269.885C272.645,38.989 275.232,38.05 276.612,36.327C277.82,34.448 278.51,30.69 279.544,20.982Z" />
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/grindr_pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH3" android:textColor="@color/grindr_pure_black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/video_call_want_more_time_title" android:layout_marginStart="28.0dip" android:layout_marginEnd="28.0dip" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_dark_gray_1" android:id="@id/contentTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="28.0dip" android:layout_marginEnd="28.0dip" />
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginTop="17.0dip">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_middle_gray" android:gravity="center" android:id="@id/cancelTextView" android:background="@drawable/transparent_dark_ripple" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_call_free_ask_xtra_cancel" android:textAllCaps="true" android:layout_marginEnd="20.0dip" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_gold_star_gay" android:gravity="center" android:id="@id/okTextView" android:background="@drawable/transparent_dark_ripple" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_call_want_more_time_ok" android:textAllCaps="true" android:layout_marginEnd="18.0dip" />
+    </LinearLayout>
+</LinearLayout>

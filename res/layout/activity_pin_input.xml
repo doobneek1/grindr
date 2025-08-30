@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff202020" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/numpad" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:gravity="center" android:id="@id/pin_label" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_small">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/display_1" android:layout_width="@dimen/pin_input_width" android:layout_height="@dimen/pin_input_height" style="@style/PinDisplayItem" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/display_2" android:layout_width="@dimen/pin_input_width" android:layout_height="@dimen/pin_input_height" style="@style/PinDisplayItem" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/display_3" android:layout_width="@dimen/pin_input_width" android:layout_height="@dimen/pin_input_height" style="@style/PinDisplayItem" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/display_4" android:layout_width="@dimen/pin_input_width" android:layout_height="@dimen/pin_input_height" style="@style/PinDisplayItem" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/numpad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/num_1" android:text="1" style="@style/PinNumpadItem" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/num_2" android:text="2" style="@style/PinNumpadItem" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/num_3" android:text="3" style="@style/PinNumpadItem" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/num_4" android:text="4" style="@style/PinNumpadItem" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/num_5" android:text="5" style="@style/PinNumpadItem" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/num_6" android:text="6" style="@style/PinNumpadItem" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/num_7" android:text="7" style="@style/PinNumpadItem" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/num_8" android:text="8" style="@style/PinNumpadItem" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/num_9" android:text="9" style="@style/PinNumpadItem" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:visibility="invisible" android:layout_width="0.0dip" android:text="@string/cancel_caps" android:layout_weight="1.0" style="@style/PinNumpadItem" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH1" android:id="@id/num_0" android:layout_width="0.0dip" android:text="0" android:layout_weight="1.0" style="@style/PinNumpadItem" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" style="@style/PinNumpadItem" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

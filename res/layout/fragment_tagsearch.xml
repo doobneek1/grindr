@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/rounded_8dp_gray_2" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+        <EditText android:textAppearance="@style/IbmPlexTextAppearanceBody1" android:textColor="@color/text_primary_dark_bg" android:textColorHint="@color/text_secondary_dark_bg" android:id="@id/tagsearch_text_input" android:background="@color/grindr_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/profile_tag_search_tags" android:maxLines="1" android:singleLine="true" android:layout_centerInParent="true" android:layout_toStartOf="@id/tagsearch_bar_clear" android:layout_toEndOf="@id/tagsearch_bar_back" />
+        <ImageButton android:id="@id/tagsearch_bar_back" android:background="@color/grindr_transparent" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_arrow_backward" app:tint="@color/grindr_pure_white" />
+        <ImageButton android:id="@id/tagsearch_bar_clear" android:background="@color/grindr_transparent" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/svg_ic_close" app:tint="@color/grindr_pure_white" />
+    </RelativeLayout>
+    <include android:id="@id/tagsearch_loading" android:visibility="gone" layout="@layout/view_loading" />
+    <include android:layout_gravity="center" android:id="@id/suggest_tag_block" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/profile_tags_suggest_item" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/tagsearch_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="60.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="bottom" android:id="@id/tagsearch_snackbar_anchor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="64.0dip" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

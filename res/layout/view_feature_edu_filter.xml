@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/title_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.grindrapp.android.view.GarageGothicTextView android:id="@id/title_text" android:layout_marginTop="70.0dip" android:text="@string/feature_edu_find_your_type" android:lineSpacingExtra="-9.0sp" android:layout_marginStart="@dimen/spacing_medium" style="@style/Text68spOffwhiteBoldAllcaps" />
+        <ImageView android:id="@id/highlight_img" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="3.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/svg_ic_filter_highlight" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/edu_detail" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title_container">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/edu_filter_desc_text" android:text="@string/feature_edu_filter_profile_desc" android:layout_marginStart="@dimen/spacing_medium" android:layout_marginEnd="17.0dip" style="@style/Text16spOffwhiteBold" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/edu_filter_desc_text2" android:layout_marginTop="@dimen/spacing_medium" android:text="@string/feature_edu_open_filters" android:layout_below="@id/edu_filter_desc_text" android:layout_marginStart="@dimen/spacing_medium" android:layout_marginEnd="17.0dip" style="@style/Text16spOffwhiteBold" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/got_it" android:visibility="invisible" android:layout_width="133.0dip" android:layout_height="50.0dip" android:layout_marginTop="24.0dip" android:text="@string/feature_edu_got_it" android:layout_below="@id/edu_filter_desc_text2" android:layout_centerVertical="true" android:layout_marginStart="@dimen/spacing_medium" style="@style/GoldenRodButton" />
+    </RelativeLayout>
+</RelativeLayout>

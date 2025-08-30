@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/transparent_ripple" android:paddingTop="@dimen/explore_result_padding_top" android:paddingBottom="@dimen/explore_result_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/explore_top_result_title" style="@style/ExploreResultsTitle" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.grindrapp.android.view.GrindrMapView android:id="@id/explore_top_item_map" android:background="@color/grindr_off_white" app:cameraZoom="15.0" app:liteMode="true" app:mapMask="@drawable/explore_map_thumb_mask" app:mapType="normal" style="@style/ExploreResultMap" />
+        <include android:id="@id/normal_item_container" layout="@layout/view_explore_result_item" />
+    </LinearLayout>
+</LinearLayout>

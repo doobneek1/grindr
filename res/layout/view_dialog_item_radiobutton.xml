@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.grindrapp.android.base.view.IbmPlexRadioButton android:textSize="16.0sp" android:textColor="@color/grindr_dark_gray_1" android:gravity="center_vertical" android:id="@id/radiobutton_view" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:button="@null" android:drawablePadding="12.0dip" android:fontFamily="@font/ibm_plex_sans" android:layout_marginStart="16.0dip" app:drawableStartCompat="?android:listChoiceIndicatorSingle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

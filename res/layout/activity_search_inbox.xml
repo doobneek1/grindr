@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/search_bar_container" android:layout_width="fill_parent" android:layout_height="48.0dip" app:contentInsetStartWithNavigation="0.0dip" app:navigationIcon="@drawable/abc_ic_ab_back_material_gray" style="@style/ExploreMapSearchBar">
+        <androidx.appcompat.widget.SearchView android:id="@id/search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:theme="@style/ExploreMapSearchView" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="ifContentScrolls" app:layoutManager="LinearLayoutManager" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:textColor="@color/grindr_middle_gray" android:gravity="center" android:layout_gravity="center" android:id="@id/no_results_found_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:lineSpacingExtra="6.0sp" android:textAllCaps="true" />
+    <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:indeterminate="true" style="@style/GoldenRodProgressBar" />
+</LinearLayout>

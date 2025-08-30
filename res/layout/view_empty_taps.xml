@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_layout" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/recycler_empty_state_image_size" android:layout_marginBottom="@dimen/spacing_large" app:srcCompat="@drawable/ic_empty_taps" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:gravity="center" android:id="@id/fragment_taps_empty_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_medium" android:text="@string/inbox_taps_empty_state_title" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:textColor="@color/text_secondary_dark_bg" android:gravity="center" android:id="@id/fragment_taps_empty_subtext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/inbox_taps_empty_state_subtitle" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/link_primary_dark_bg" android:layout_gravity="center" android:id="@id/fragment_taps_empty_tap_info_button" android:padding="@dimen/inbox_taps_empty_state_tap_info_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium" android:text="@string/inbox_taps_empty_state_tap_info" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/profile_card" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/profile_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:layout_gravity="bottom" android:background="@drawable/cascade_profile_bottom_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/profile_bottom_gradient_height" />
+    <View android:id="@id/carousel_chatted_overlay" android:background="@drawable/cascade_chatted_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="start|bottom" android:orientation="horizontal" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="4.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/profile_online_now_icon" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_online_dot" />
+        <ImageView android:id="@id/profile_favorite" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginStart="2.0dip" app:srcCompat="@drawable/cascade_profile_fav_star" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_pure_white" android:ellipsize="end" android:id="@id/profile_display_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="3.0dip" />
+    </LinearLayout>
+    <View android:background="@drawable/transparent_ripple" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:gravity="center" android:layout_gravity="end|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginEnd="4.0dip">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBadge" android:textColor="@color/grindr_dark_gray_3" android:id="@id/cascade_unread" android:background="@drawable/inbox_unread" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="18.0dip" />
+    </RelativeLayout>
+    <View android:id="@id/cascade_unread_frame" android:background="@drawable/cascade_active_chat_message_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/rounded_corner_overlay_1" android:background="@drawable/cascade_rounded_corners" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

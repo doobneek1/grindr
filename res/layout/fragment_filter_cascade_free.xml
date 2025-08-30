@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/grindr_dark_gray_3" android:fadingEdgeLength="@dimen/toolbar_height" android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/content_filter_cascade_free" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="25.0dip">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_my_type_basic_filters" style="@style/DrawerFilterCategoryLabels" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/report_flow_divider" android:headerDividersEnabled="false" android:showDividers="middle" android:dividerPadding="14.0dip">
+                <com.grindrapp.android.view.EditMyTypeRangeFieldView android:id="@id/filter_age" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_age" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeStringFieldView android:id="@id/filter_looking_for" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_extended_looking_for" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeStringFieldView android:id="@id/filter_tribes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_extended_tribes" style="@style/DrawerFilterEditType" />
+            </LinearLayout>
+            <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="@dimen/filter_divider_height" android:layout_marginBottom="32.0dip" style="@style/DrawerFilterForm" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/edit_my_type_advanced_filters" style="@style/DrawerFilterCategoryLabels" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/advance_filters_free_explanation" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" style="@style/DrawerFilterForm">
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:textColor="@color/text_primary_dark_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/advance_filters_free_explanation" android:layout_weight="1.0" />
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBadge" android:layout_gravity="center_vertical" android:id="@id/advance_filters_free_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dropdown_new" android:layout_marginStart="16.0dip" style="@style/NewObjectBadge" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/report_flow_divider" android:headerDividersEnabled="false" android:showDividers="middle" android:dividerPadding="14.0dip">
+                <com.grindrapp.android.view.EditMyTypeFieldView android:id="@id/filter_online_now" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/filter_overlay_online_now" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeFieldView android:id="@id/filter_photos_only" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_my_type_photos_only" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeFieldView android:id="@id/filter_face_only" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_my_type_face_only" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeFieldView android:id="@id/filter_albums_only" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_my_type_albums_only" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeFieldView android:id="@id/filter_havent_chatted_yet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/filter_havent_chatted_today" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeRangeFieldView android:id="@id/filter_weight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_extended_weight" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeRangeFieldView android:id="@id/filter_height" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_extended_height" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeStringFieldView android:id="@id/filter_body_types" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_my_type_my_body_types" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeStringFieldView android:id="@id/filter_sexual_position" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_my_type_sexual_position" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeStringFieldView android:id="@id/filter_relationship_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_extended_relationship_status_short" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeStringFieldView android:id="@id/filter_meet_at" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_profile_meet_at" style="@style/DrawerFilterEditType" />
+                <com.grindrapp.android.view.EditMyTypeStringFieldView android:id="@id/filter_accept_nsfw_pics" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_profile_accepts_nsfw_pics" style="@style/DrawerFilterEditType" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

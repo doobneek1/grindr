@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/store_container_ls" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="Less Scrolling Store"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/store_v2_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_marginEnd="0.0dip" android:layout_alignParentEnd="true" />
+    <com.grindrapp.android.store.ui.StoreToolBarLayoutLessScrolling android:gravity="top" android:orientation="horizontal" android:id="@id/toolbar_layout" android:background="@color/grindr_transparent" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/paycards_coordinator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/paycards" android:layout_width="fill_parent" android:layout_height="fill_parent" app:behavior_hideable="false" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+            <include android:id="@id/included_paycard" layout="@layout/upsell_paycard_base_ls" />
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

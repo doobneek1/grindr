@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="16.0dip" />
+    <gradient android:startColor="@color/grindr_fomo" android:endColor="@color/grindr_dark_gray_3" android:angle="0.0" android:type="sweep" android:centerColor="@color/grindr_fomo" />
+    <size android:height="32.0dip" android:width="32.0dip" />
+</shape>

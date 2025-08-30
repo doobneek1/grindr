@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="32" android:compileSdkVersionCodename="12" package="com.grindrapp.android" platformBuildVersionCode="32" platformBuildVersionName="12">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <permission android:name="com.grindrapp.android" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.grindrapp.android"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-feature android:name="android.hardware.location.network"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="geo"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="http"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+        </intent>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.google.android.apps.maps"/>
+        <intent>
+            <action android:name="com.applovin.am.intent.action.APPHUB_SERVICE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.OPEN_DOCUMENT"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="com.digitalturbine.ignite.cl.IgniteRemoteService"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="http"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:fullBackupContent="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_grindr" android:label="@string/app_name" android:largeHeap="true" android:name="com.grindrapp.android.RealApplication" android:networkSecurityConfig="@xml/network_security_config" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/Theme.AppTheme" android:vmSafeMode="@bool/vm_safe_mode">
+        <provider android:authorities="com.grindrapp.android.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <activity android:label="@string/settings_show_me" android:name="com.grindrapp.android.ui.settings.ShowMeSettingsActivity" android:theme="@style/FormTheme"/>
+        <activity android:label="@string/settings" android:name="com.grindrapp.android.ui.settings.distance.SettingDistanceVisibilityActivity" android:theme="@style/FormTheme"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <meta-data android:name="com.facebook.sdk.AutoInitEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled" android:value="false"/>
+        <meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="false"/>
+        <meta-data android:name="firebase_performance_collection_enabled" android:value="false"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBaKOPTkY2DsuSvnPC3ZzA4yFIVV1WQTxM"/>
+        <meta-data android:name="com.google.firebase.ml.vision.DEPENDENCIES" android:value="face, ocr, barcode"/>
+        <receiver android:exported="true" android:name="com.appsflyer.MultipleInstallBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:name="com.grindrapp.android.ui.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/SplashTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:description="@string/app_name" android:enabled="true" android:exported="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.grindrapp.android.HomeActivityOriginal" android:targetActivity="com.grindrapp.android.ui.home.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:description="@string/app_name" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.grindrapp.android.HomeActivityUnlimited" android:targetActivity="com.grindrapp.android.ui.home.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:description="@string/settings_discreet_icon_camera" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_alt_camera" android:label="@string/settings_discreet_icon_camera" android:name="com.grindrapp.android.HomeActivityCamera" android:roundIcon="@mipmap/ic_launcher_alt_camera" android:targetActivity="com.grindrapp.android.ui.home.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:description="@string/settings_discreet_icon_music" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_alt_music" android:label="@string/settings_discreet_icon_music" android:name="com.grindrapp.android.HomeActivityMusic" android:roundIcon="@mipmap/ic_launcher_alt_music" android:targetActivity="com.grindrapp.android.ui.home.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:description="@string/settings_discreet_icon_notes" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_alt_notes" android:label="@string/settings_discreet_icon_notes" android:name="com.grindrapp.android.HomeActivityNotes" android:roundIcon="@mipmap/ic_launcher_alt_notes" android:targetActivity="com.grindrapp.android.ui.home.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:description="@string/settings_discreet_icon_todo" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_alt_todo" android:label="@string/settings_discreet_icon_todo" android:name="com.grindrapp.android.HomeActivityToDo" android:roundIcon="@mipmap/ic_launcher_alt_todo" android:targetActivity="com.grindrapp.android.ui.home.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:description="@string/settings_discreet_icon_calculator" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_alt_calculator" android:label="@string/settings_discreet_icon_calculator" android:name="com.grindrapp.android.HomeActivityCalculator" android:roundIcon="@mipmap/ic_launcher_alt_calculator" android:targetActivity="com.grindrapp.android.ui.home.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:name="com.grindrapp.android.ui.login.LoginActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.account.onboard.LandingActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.grindrapp.android.ui.account.onboard.LandingPhoneActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.account.onboard.LandingEmailActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.account.onboard.LandingForgotPwdActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.account.onboard.LandingSMSVerifyActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleTop" android:name="com.grindrapp.android.ui.login.CredentialsChangedActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.account.UpdateEmailActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.account.signup.CreateAccountEmailActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.grindrapp.android.ui.account.sms.SMSVerifyActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.account.onboard.SmsCountryPickerActivity" android:screenOrientation="portrait" android:theme="@style/GrindrBottomSheetActivity"/>
+        <activity android:name="com.grindrapp.android.ui.password.ForgotPasswordActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.password.ResetPasswordPhoneActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.account.verify.AccountVerifyActivity" android:screenOrientation="behind" android:theme="@style/AccountVerifyDialog" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.login.ThirdPartyLoginProfileActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.profileV2.BaseCruiseActivityV2" android:screenOrientation="portrait" android:theme="@style/ProfileTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.profileV2.ExploreCruiseActivityV2" android:screenOrientation="portrait" android:theme="@style/ProfileTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.profileV2.StandaloneCruiseActivityV2" android:screenOrientation="portrait" android:theme="@style/ProfileTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.profileV2.LocalCruiseActivity" android:screenOrientation="portrait" android:theme="@style/ProfileTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.photos.FullScreenExpiringImageActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar"/>
+        <activity android:name="com.grindrapp.android.ui.photos.FullScreenImageActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.grindrapp.android.ui.photos.ChatRoomPhotosActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.grindrapp.android.ui.photos.cropImage.CropImageActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar"/>
+        <activity android:name="com.grindrapp.android.ui.editprofile.EditProfileActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:name="com.grindrapp.android.ui.account.RegisterProfileActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.settings.SettingsActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.settings.SettingsDeleteProfileActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.settings.SettingsDeleteProfileReasonActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.settings.SettingsDeleteProfileOtherReasonActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.settings.SettingsDeactivateActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.settings.NotificationSettingsActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.settings.DoNotDisturbSettingsActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.report.ReportProfileActivity" android:theme="@style/FormTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.settings.PrivacySettingsActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.web.WebViewActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:configChanges="locale|layoutDirection" android:name="com.grindrapp.android.ui.subscription.SubscriptionManagementActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:enabled="false" android:name="com.grindrapp.android.ui.debugtool.DebugToolsActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:enabled="false" android:name="com.grindrapp.android.ui.debugtool.DebugFeatureFlagsActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:enabled="false" android:name="com.grindrapp.android.ui.debugtool.DebugFeatureConfigActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:enabled="false" android:name="com.grindrapp.android.ui.debugtool.DebugOneTrustStringActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:enabled="false" android:name="com.grindrapp.android.ui.debugtool.DebugSDKPermissionActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:enabled="false" android:name="com.grindrapp.android.ui.debugtool.DebugPagerIndicatorActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:enabled="false" android:name="com.grindrapp.android.ui.debugtool.DebugLottieListActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:enabled="false" android:name="com.grindrapp.android.ui.debugtool.DebugTapAnimActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:enabled="false" android:name="com.grindrapp.android.ui.debugtool.DebugButtonDesignActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar"/>
+        <activity android:exported="true" android:name="com.grindrapp.android.ui.home.IntentEntryActivity" android:theme="@style/EmptyTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="grindr"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.grindrapp.android.ui.account.changepwd.ChangePasswordActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.account.banned.BannedActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.grindrapp.android.ui.account.banned.DeprecationActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateHidden"/>
+        <activity android:launchMode="singleInstance" android:name="com.grindrapp.android.ui.account.cert.CertFailActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.legal.ui.LegalFailActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.subscription.UpgradeConfirmationActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.legal.TermsOfServiceActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.legal.PrivacyPolicyActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.pin.PinSettingsActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.pin.SetPinActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="com.grindrapp.android.ui.pin.PinLockActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <provider android:authorities="com.grindrapp.android.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <receiver android:exported="false" android:name="com.grindrapp.android.receiver.TimeChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.grindrapp.android.service.push.PushDeleteReceiver">
+            <intent-filter>
+                <action android:name="com.grindrapp.android.service.push.DELETE_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.grindrapp.android.receiver.BrazeReceiver">
+            <intent-filter>
+                <action android:name="com.braze.push.intent.NOTIFICATION_RECEIVED"/>
+                <action android:name="com.braze.push.intent.NOTIFICATION_OPENED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.grindrapp.android.service.push.PushMessageService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.grindrapp.android"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="com.grindrapp.android.ui.chat.QuickReplyReceiver"/>
+        <activity android:name="com.grindrapp.android.ui.photos.EditPhotosActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:name="com.grindrapp.android.ui.subscription.PurchaseDirectlyActivity" android:theme="@style/GrindrEmptyTheme"/>
+        <activity android:exported="true" android:label="@string/share_intent_chat" android:launchMode="singleTop" android:name="com.grindrapp.android.ui.chat.ShareToChatActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.grindrapp.android.ui.chat.ShareChatMessageActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.grindrapp.android.ui.chat.group.invite.ChatCreateGroupActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.chat.group.detail.GroupChatDetailsActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:launchMode="singleTop" android:name="com.grindrapp.android.ui.chat.ChatActivityV2" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.chat.group.block.BlockedMembersActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.chat.group.invite.InviteMembersActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.albums.AlbumLandingActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.albums.MyAlbumsActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.albums.EditAlbumActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.albums.AlbumCruiseActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.albums.MultiAlbumSelectionActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.block.IndividualUnblockActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.grindrapp.android.ui.backup.BackupActivity" android:screenOrientation="portrait" android:theme="@style/BackupTheme"/>
+        <activity android:name="com.grindrapp.android.ui.restore.RestoreActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fb1273378622718674"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="cct.com.grindrapp.android" android:scheme="fbconnect"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/support_activity_title" android:name="zendesk.support.guide.HelpCenterActivity" android:theme="@style/GrindrZendeskTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:label="@string/zs_view_article_loading_title" android:name="zendesk.support.guide.ViewArticleActivity" android:theme="@style/GrindrZendeskTheme"/>
+        <activity android:exported="false" android:name="zendesk.support.request.RequestActivity" android:theme="@style/GrindrZendeskTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:label="@string/request_list_activity_title" android:name="zendesk.support.requestlist.RequestListActivity" android:theme="@style/GrindrZendeskTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.grindrapp.android.ui.videocall.VideoCallActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar"/>
+        <activity android:name="com.grindrapp.android.ui.eventcalendar.EventCalendarActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.videocall.VideoCallDialogActivity" android:theme="@style/VideoTheme" android:windowSoftInputMode="stateHidden"/>
+        <service android:name="com.grindrapp.android.ui.videocall.VideoCallForegroundService"/>
+        <activity android:name="com.grindrapp.android.viewedme.ViewedMeActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.profileV2.ViewedMeCruiseActivityV2" android:screenOrientation="portrait" android:theme="@style/ProfileTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.spotify.sdk.android.authentication.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.grindrapp.android.ui.spotify.SpotifyActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <receiver android:exported="false" android:name="com.grindrapp.android.receiver.LockScreenReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+            </intent-filter>
+        </receiver>
+        <service android:foregroundServiceType="dataSync" android:name="com.grindrapp.android.service.backup.BackupService"/>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="com.grindrapp.android.ui.inbox.search.SearchInboxActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable_config_inbox"/>
+        </activity>
+        <activity android:name="com.grindrapp.android.ui.video.PrivateVideoCaptureActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar"/>
+        <activity android:name="com.grindrapp.android.ui.video.PrivateVideoPlayerActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar"/>
+        <activity android:name="com.grindrapp.android.ui.browse.BrowseExploreMapActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity android:name="com.grindrapp.android.ui.tagsearch.searchpage.TagSearchActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.grindrapp.android.ui.eventcalendar.EventCalendarBroadcastReceiver"/>
+        <activity android:name="com.grindrapp.android.ui.requestdata.RequestDataActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.grindrapp.android.ui.report.chat.ReportRecentlyChatActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme" android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity android:name="com.grindrapp.android.ui.albums.CreateAlbumActivity" android:screenOrientation="portrait" android:theme="@style/FormTheme"/>
+        <activity android:name="com.grindrapp.android.ui.account.birthday.BirthdayInputActivity" android:screenOrientation="portrait" android:theme="@style/GrindrHome" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.grindrapp.android.NotificationHandlerActivity" android:theme="@style/GrindrNoActionBar"/>
+        <activity android:name="com.grindrapp.android.ui.warning.BannedWarningActivity" android:theme="@style/GrindrNoActionBar"/>
+        <activity android:name="com.grindrapp.android.ui.editprofile.tags.EditProfileTagsActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar"/>
+        <activity android:name="com.grindrapp.android.ui.albums.AlbumsVideoPlayerActivity" android:screenOrientation="portrait" android:theme="@style/GrindrNoActionBar"/>
+        <receiver android:exported="false" android:name="zendesk.support.DeepLinkingBroadcastReceiver">
+            <intent-filter>
+                <action android:name="zendesk.support"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.grindrapp.android.zendesk.support.SupportSdkStartupProvider" android:enabled="true" android:exported="false" android:name="zendesk.support.SupportSdkStartupProvider"/>
+        <provider android:authorities="com.grindrapp.android.zendesk.support.GuideSdkStartupProvider" android:enabled="true" android:exported="false" android:name="zendesk.support.guide.GuideSdkStartupProvider"/>
+        <activity android:exported="false" android:name="zendesk.messaging.MessagingActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:exported="false" android:name="com.appboy.ui.AppboyWebViewActivity"/>
+        <activity android:exported="false" android:name="com.braze.ui.BrazeWebViewActivity"/>
+        <activity android:exported="false" android:name="com.appboy.ui.activities.AppboyFeedActivity"/>
+        <activity android:exported="false" android:name="com.appboy.ui.activities.AppboyContentCardsActivity"/>
+        <activity android:exported="false" android:name="com.braze.ui.activities.ContentCardsActivity"/>
+        <activity android:exported="false" android:launchMode="singleInstance" android:name="com.braze.push.NotificationTrampolineActivity" android:theme="@style/Braze.PushTrampoline.Transparent"/>
+        <receiver android:exported="false" android:name="com.braze.push.BrazePushReceiver"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="com.grindrapp.android.com.squareup.picasso" android:exported="false" android:name="com.squareup.picasso.PicassoProvider"/>
+        <service android:enabled="false" android:exported="false" android:name="androidx.camera.core.impl.MetadataHolderService">
+            <meta-data android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER" android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="com.vungle.warren.ui.VungleActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:exported="false" android:name="com.braze.receivers.BrazeActionReceiver"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="com.grindrapp.android.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.grindrapp.android.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="com.grindrapp.android.applovininitprovider" android:exported="false" android:initOrder="101" android:name="com.applovin.sdk.AppLovinInitProvider"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.applovin.adview.AppLovinFullscreenActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.sdk.AppLovinWebViewActivity"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerDetailActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerMultiAdActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerTestModeNetworkActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <service android:exported="false" android:name="com.applovin.impl.sdk.utils.AppKilledService" android:stopWithTask="false"/>
+        <service android:exported="false" android:name="com.applovin.impl.adview.activity.FullscreenAdService" android:stopWithTask="false"/>
+        <provider android:authorities="com.grindrapp.android.belvedere2.attachments" android:exported="false" android:grantUriPermissions="true" android:name="zendesk.belvedere.BelvedereFileProvider" android:readPermission="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/belvedere_attachment_storage_v2"/>
+        </provider>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <activity android:configChanges="keyboard|keyboardHidden|uiMode|screenSize" android:exported="true" android:hardwareAccelerated="true" android:label="@string/app_name" android:name="ly.img.android.pesdk.ui.activity.EditorActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|uiMode|screenSize" android:exported="true" android:hardwareAccelerated="true" android:label="@string/app_name" android:name="ly.img.android.pesdk.ui.activity.VideoEditorActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <provider android:authorities="com.grindrapp.android.IMGLYAutoInit" android:enabled="true" android:exported="false" android:name="ly.img.android.IMGLYAutoInit"/>
+        <activity android:exported="true" android:name="com.spotify.sdk.android.authentication.AuthCallbackActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="@string/com_spotify_sdk_redirect_host" android:scheme="@string/com_spotify_sdk_redirect_scheme"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="5.0.0"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity" android:screenOrientation="fullUser"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:name="com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity" android:screenOrientation="sensor" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="net.pubnative.lite.sdk.consent.UserConsentActivity"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:name="net.pubnative.lite.sdk.interstitial.activity.MraidInterstitialActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:name="net.pubnative.lite.sdk.interstitial.activity.VastInterstitialActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="net.pubnative.lite.sdk.rewarded.activity.MraidRewardedActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="net.pubnative.lite.sdk.rewarded.activity.VastRewardedActivity" android:screenOrientation="behind"/>
+        <receiver android:exported="true" android:name="net.pubnative.lite.sdk.receiver.VolumeChangedActionReceiver"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>

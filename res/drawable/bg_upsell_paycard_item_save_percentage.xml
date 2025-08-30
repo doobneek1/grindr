@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false" android:drawable="@drawable/bg_round_grey_full_20" />
+    <item android:state_focused="true" android:drawable="@drawable/bg_round_gold_full_20" />
+</selector>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/activity_content" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/activity_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize">
+            <LinearLayout android:orientation="vertical" android:background="@color/fill_secondary_dark_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/settings_divider" android:animateLayoutChanges="true" android:showDividers="middle">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_notification_general" android:contentDescription="@string/settings_notification_general" style="@style/SettingsHeader" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/settings_notification_mode" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingsLayout">
+                            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_sounds" android:layout_weight="1.0" android:contentDescription="@string/settings_sounds" />
+                            <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@id/settings_sound_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <View style="@style/ThinHR" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingsLayout">
+                            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_vibrations" android:layout_weight="1.0" android:contentDescription="@string/settings_vibrations" />
+                            <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@id/settings_vibrations_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/settings_manage_notification" android:background="@drawable/transparent_ripple" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Settings">
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_notification_management_title" android:contentDescription="@string/settings_notification_management_title" />
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:text="@string/settings_notification_management_description" android:contentDescription="@string/settings_notification_management_description" style="@style/SettingsValueInLayout" />
+                    </LinearLayout>
+                    <View style="@style/ThinHR" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/new_sounds_enable" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingsLayout">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_sounds" android:layout_weight="1.0" android:contentDescription="@string/settings_sounds" />
+                            <androidx.appcompat.widget.SwitchCompat android:id="@id/settings_sound_switch_new" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/settings_sounds_description" android:contentDescription="@string/settings_sounds_description" style="@style/SettingsValueInLayout" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/new_vibrations_enable" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingsLayout">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_vibrations_new" android:layout_weight="1.0" android:contentDescription="@string/settings_vibrations_new" />
+                            <androidx.appcompat.widget.SwitchCompat android:id="@id/settings_vibrations_switch_new" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/settings_vibrations_new_description" android:contentDescription="@string/settings_vibrations_new_description" style="@style/SettingsValueInLayout" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/settings_in_app" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                        <View style="@style/ThinHR" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingsLayout">
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_in_app_chats" android:layout_weight="1.0" android:contentDescription="@string/settings_in_app_chats" />
+                                <androidx.appcompat.widget.SwitchCompat android:id="@id/settings_in_app_chats_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/settings_notification_in_app" android:contentDescription="@string/settings_notification_in_app" style="@style/SettingsValueInLayout" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_notification_channels" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_send_notifications_for" android:contentDescription="@string/settings_preferences" style="@style/SettingsHeader" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/settings_individual_chats" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingsLayout">
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_individual_chats" android:layout_weight="1.0" android:contentDescription="@string/settings_individual_chats" />
+                        <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@id/settings_individual_chats_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <View style="@style/ThinHR" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/settings_group_chats" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingsLayout">
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_group_chats" android:layout_weight="1.0" android:contentDescription="@string/settings_group_chats" />
+                        <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@id/settings_group_chats_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <View style="@style/ThinHR" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/settings_taps" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingsLayout">
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_taps" android:layout_weight="1.0" android:contentDescription="@string/settings_taps" />
+                        <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@id/settings_taps_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <View style="@style/ThinHR" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/settings_video_call" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingsLayout">
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_video_call" android:layout_weight="1.0" android:contentDescription="@string/settings_video_call" />
+                        <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@id/settings_video_calls_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_notification_channels_new" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_send_notifications_for" android:contentDescription="@string/settings_preferences" style="@style/SettingsHeader" />
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/settings_individual_chats_new" android:background="@drawable/transparent_ripple" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_individual_chats" android:contentDescription="@string/settings_individual_chats" style="@style/Settings" />
+                    <View style="@style/ThinHR" />
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/settings_group_chats_new" android:background="@drawable/transparent_ripple" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_group_chats" android:contentDescription="@string/settings_group_chats" style="@style/Settings" />
+                    <View style="@style/ThinHR" />
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/settings_taps_new" android:background="@drawable/transparent_ripple" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_taps" android:contentDescription="@string/settings_taps" style="@style/Settings" />
+                    <View style="@style/ThinHR" />
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/settings_video_call_new" android:background="@drawable/transparent_ripple" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_video_call" android:contentDescription="@string/settings_video_call" style="@style/Settings" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:background="@color/grindr_transparent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <androidx.appcompat.widget.Toolbar android:id="@id/fragment_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification_settings" />
+            </androidx.appcompat.widget.Toolbar>
+            <View android:id="@id/toolbar_shadow" android:background="@drawable/toolbar_layout_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_shadow_height" android:elevation="4.0dip" />
+        </com.google.android.material.appbar.AppBarLayout>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

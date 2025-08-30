@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/activity_content" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/activity_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_snooze_notifications_container" android:background="@drawable/transparent_ripple" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Settings">
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_snooze_notications" android:contentDescription="@string/settings_email" />
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_middle_gray" android:gravity="start" android:id="@id/settings_snooze_value" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="4.0dip" android:text="@string/settings_snooze_off_label" android:layout_weight="1.0" />
+                </LinearLayout>
+                <View style="@style/ThinHR" />
+                <LinearLayout android:orientation="horizontal" android:background="@color/grindr_dark_gray_3" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:animateLayoutChanges="true" style="@style/Settings">
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_quiet_hours" android:layout_weight="1.0" android:contentDescription="@string/settings_quiet_hours" />
+                    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@id/settings_quiet_hours_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/quiet_hours_container" android:paddingTop="@dimen/spacing_xsmall" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/spacing_xsmall" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Settings">
+                        <com.grindrapp.android.view.SnoozeStartSpinner android:id="@id/snooze_start_spinner" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:hasLabel="true" app:itemZero="@string/edit_my_type_no_minimum" />
+                        <com.grindrapp.android.view.SnoozeEndSpinner android:id="@id/snooze_end_spinner" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:hasLabel="true" app:itemZero="@string/edit_my_type_no_minimum" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/spacing_small" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Settings">
+                        <com.grindrapp.android.view.SnoozeRepeatSpinner android:id="@id/snooze_repeat_spinner" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:hasLabel="true" app:itemZero="@string/edit_my_type_no_minimum" />
+                        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Settings">
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:id="@id/quiet_hours_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_quiet_hours_desc" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:background="@color/grindr_transparent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <androidx.appcompat.widget.Toolbar android:id="@id/fragment_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:customTypeface="medium" style="@style/GrindrToolbar">
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_do_not_disturb" />
+            </androidx.appcompat.widget.Toolbar>
+            <View android:id="@id/toolbar_shadow" android:background="@drawable/toolbar_layout_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_shadow_height" app:elevation="4.0dip" />
+        </com.google.android.material.appbar.AppBarLayout>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

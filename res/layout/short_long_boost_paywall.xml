@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_bottom_sheet_round_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:cropToPadding="true">
+            <com.grindrapp.android.base.view.RoundedLottieAnimationView android:id="@id/boost_paywall_lottie" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:cropToPadding="true" app:lottie_autoPlay="true" app:lottie_fileName="lottie_boost_paywall.json" app:lottie_loop="true" />
+            <ImageView app:tint="@color/grindr_pure_white" style="@style/BottomSheetHandle" />
+        </FrameLayout>
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:textColor="@color/grindr_dark_gray_4" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/short_long_boost_paywall_title" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1" android:textColor="@color/grindr_dark_gray_4" android:gravity="center" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="24.0dip" android:text="@string/boost_paywall_desc" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/boostItemsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+            <include android:id="@id/productShortPeriodBoost" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/short_long_boost_product" />
+            <include android:id="@id/product_regular_period_boost" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/short_long_boost_product" />
+            <include android:id="@id/productLongPeriodBoost" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/short_long_boost_product" />
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton android:id="@id/buttonContinue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="24.0dip" android:text="@string/lockout_continue" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/PrimaryButton" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/activity_content" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/activity_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/GrindrToolbarV2" />
+    <com.grindrapp.android.base.view.AutoScrollDownView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/activity_toolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH3" android:textColor="@color/grindr_off_white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/onboard_phone_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/onboard_phone_number" app:layout_constraintTop_toTopOf="parent" />
+            <com.grindrapp.android.base.view.PhoneInputViewV2 android:id="@id/phone_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="24.0dip" app:layout_constraintTop_toBottomOf="@id/onboard_phone_title" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:id="@id/onboard_hint_change_phone" android:layout_width="fill_parent" android:layout_marginTop="@dimen/spacing_medium" android:text="@string/onboard_change_phone_number" app:layout_constraintTop_toBottomOf="@id/phone_input_layout" style="@style/OnboardMessage.Normal" />
+            <Space android:id="@id/space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/spacing_medium" app:layout_constrainedHeight="true" app:layout_constraintBottom_toTopOf="@id/onboard_hint_phone" app:layout_constraintTop_toBottomOf="@id/onboard_hint_change_phone" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:id="@id/onboard_hint_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_xsmall" android:text="@string/onboard_send_code_hint" app:layout_constraintBottom_toTopOf="@id/onboard_btn_phone_continue" style="@style/OnboardMessage.Hint" />
+            <com.google.android.material.button.MaterialButton android:textAppearance="@style/IbmPlexTextAppearanceH6" android:id="@id/onboard_btn_phone_continue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_xsmall" android:text="@string/settings_pin_popup_continue" app:layout_constraintBottom_toBottomOf="parent" style="@style/OnboardButton" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.grindrapp.android.base.view.AutoScrollDownView>
+    <include layout="@layout/view_progress_bar" />
+</RelativeLayout>

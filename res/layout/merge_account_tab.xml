@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/account_tabs_layout" android:layout_width="fill_parent" android:layout_height="56.0dip" app:tabIndicatorColor="@color/grindr_pure_white" app:tabIndicatorHeight="2.0dip" />
+    <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</merge>

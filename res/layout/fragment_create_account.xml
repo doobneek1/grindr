@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/fragment_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_create_account_button" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_toolbar">
+        <LinearLayout android:orientation="vertical" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.grindrapp.android.base.view.IbmPlexTextInputLayout android:id="@id/email_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grindr_vertical_margin" style="@style/LoginTextInputLayout">
+                <com.grindrapp.android.view.EmailValidationEditText android:id="@id/fragment_auth_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/create_account_hint_email" android:inputType="textEmailAddress" style="@style/LoginEditText" />
+            </com.grindrapp.android.base.view.IbmPlexTextInputLayout>
+            <com.grindrapp.android.base.view.IbmPlexTextInputLayout android:id="@id/password_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:passwordToggleEnabled="true" app:passwordToggleTint="@color/text_secondary_light_bg" style="@style/LoginTextInputLayout">
+                <com.grindrapp.android.view.PasswordValidationEditText android:id="@id/fragment_auth_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/create_account_hint_password" android:inputType="textPassword" style="@style/LoginEditText" />
+            </com.grindrapp.android.base.view.IbmPlexTextInputLayout>
+            <com.grindrapp.android.base.view.IbmPlexTextInputLayout android:id="@id/confirm_password_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:passwordToggleEnabled="true" app:passwordToggleTint="@color/text_secondary_light_bg" style="@style/LoginTextInputLayout">
+                <com.grindrapp.android.view.ConfirmPasswordValidationEditText android:id="@id/fragment_create_account_confirm_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/create_account_hint_confirm_password" android:inputType="textPassword" style="@style/LoginEditText" />
+            </com.grindrapp.android.base.view.IbmPlexTextInputLayout>
+            <com.grindrapp.android.base.view.IbmPlexTextInputLayout android:id="@id/date_of_birth_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LoginTextInputLayout">
+                <com.grindrapp.android.view.DateValidationEditText android:id="@id/fragment_create_account_date_of_birth" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/create_account_hint_date_of_birth" android:cursorVisible="false" android:inputType="none" style="@style/LoginEditText" />
+            </com.grindrapp.android.base.view.IbmPlexTextInputLayout>
+            <androidx.appcompat.widget.AppCompatCheckBox android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:id="@id/create_account_marketing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/create_account_marketing" android:layout_marginStart="@dimen/grindr_standard_horizontal_margin" android:layout_marginEnd="@dimen/grindr_standard_horizontal_margin" style="@style/CreateAccountCheckboxLabel" />
+            <com.google.android.material.button.MaterialButton android:enabled="false" android:id="@id/fragment_create_account_create_account_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium" android:text="@string/login_create_account_button" android:layout_marginStart="@dimen/spacing_medium" android:layout_marginEnd="@dimen/spacing_medium" style="@style/PrimaryButton" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:textColor="@color/text_secondary_light_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_xlarge" android:text="@string/create_account_continue_with" android:layout_marginStart="@dimen/spacing_medium" />
+            <include layout="@layout/layout_third_party_login" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/view_progress_bar" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/crop_image_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/grindr_pure_black" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_off_white" android:gravity="center" android:id="@id/crop_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grindr_vertical_margin" android:text="@string/crop_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <com.google.android.material.button.MaterialButton android:layout_gravity="bottom" android:id="@id/activity_crop_save_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grindr_standard_button_bottom_margin" android:text="@string/crop_next" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/grindr_standard_button_horizontal_margin" android:layout_marginEnd="@dimen/grindr_standard_button_horizontal_margin" style="@style/PrimaryButton" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/crop_tools" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/activity_crop_save_button">
+            <ImageButton android:id="@id/choose_image" android:background="@drawable/crop_ripple" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_marginEnd="52.0dip" custom:srcCompat="@drawable/new_camera" />
+            <ImageButton android:id="@id/flip_vertically" android:background="@drawable/crop_ripple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_marginEnd="52.0dip" custom:srcCompat="@drawable/flip_vertically" />
+            <ImageButton android:id="@id/crop_rotate" android:background="@drawable/crop_ripple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" custom:srcCompat="@drawable/crop_rotate" />
+        </LinearLayout>
+        <FrameLayout android:background="@color/grindr_pure_black" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/grindr_vertical_margin" android:layout_above="@id/crop_tools" android:layout_below="@id/crop_title">
+            <com.edmodo.cropper.CropImageView android:layout_gravity="center" android:id="@id/activity_crop_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:measureType="fitCenter" />
+        </FrameLayout>
+    </RelativeLayout>
+    <include layout="@layout/view_progress_bar" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_unit_choices">
+        <item>ইম্পিরিয়াল (ইউ.এস.)</item>
+        <item>মেট্রিক</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH3" android:gravity="center" android:id="@id/filed_phone_dial_code" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="112.0dip" android:cursorVisible="false" android:inputType="textNoSuggestions" android:layout_marginEnd="4.0dip" style="@style/OnboardEditText" />
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/filed_phone_number" android:layout_width="fill_parent" android:maxLength="15" android:inputType="number" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" style="@style/OnboardEditText" />
+</merge>

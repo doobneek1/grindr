@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip android:textAppearance="@style/IbmPlexTextAppearanceBody1Medium" android:textColor="@color/grindr_dark_gray_3" android:id="@id/chip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" app:chipBackgroundColor="@color/fill_highlight_primary" app:chipEndPadding="16.0dip" app:chipMinHeight="40.0dip" app:chipStartPadding="16.0dip" app:closeIcon="@drawable/ic_cross" app:closeIconEnabled="true" app:closeIconTint="@color/fill_primary_dark_bg" app:closeIconVisible="true" style="@style/Widget.MaterialComponents.Chip.Choice"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

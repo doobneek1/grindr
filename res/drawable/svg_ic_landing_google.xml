@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dip" android:width="16.0dip" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/grindr_off_white" android:pathData="M16,8.182c0,-0.567 -0.052,-1.113 -0.149,-1.636H8.163V9.64h4.393c-0.189,1 -0.764,1.847 -1.628,2.415v2.007h2.638C15.109,12.669 16,10.618 16,8.182z" />
+    <path android:fillColor="@color/grindr_off_white" android:pathData="M8.163,16c2.204,0 4.052,-0.716 5.403,-1.938l-2.638,-2.007c-0.731,0.48 -1.666,0.763 -2.765,0.763 -2.126,0 -3.926,-1.407 -4.568,-3.298H0.868v2.073C2.211,14.207 4.972,16 8.163,16z" />
+    <path android:fillColor="@color/grindr_off_white" android:pathData="M3.596,9.52C3.432,9.04 3.34,8.527 3.34,8s0.092,-1.04 0.256,-1.52V4.407H0.868C0.315,5.487 0,6.71 0,8s0.315,2.513 0.868,3.593L3.596,9.52z" />
+    <path android:fillColor="@color/grindr_off_white" android:pathData="M8.163,3.182c1.199,0 2.275,0.403 3.12,1.196l2.342,-2.294C12.211,0.793 10.364,0 8.163,0 4.973,0 2.211,1.793 0.868,4.407L3.595,6.48c0.642,-1.891 2.442,-3.298 4.568,-3.298z" />
+</vector>

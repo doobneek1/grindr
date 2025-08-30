@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval" android:hardwareAccelerated="false">
+            <padding android:left="4.0dip" android:top="4.0dip" android:right="4.0dip" android:bottom="4.0dip" />
+            <size android:height="24.0dip" android:width="24.0dip" />
+            <stroke android:width="4.0dip" android:color="@color/grindr_golden_rod" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval" android:hardwareAccelerated="false">
+            <size android:height="16.0dip" android:width="16.0dip" />
+            <solid android:color="@color/grindr_dark_gray_1" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.grindrapp.android.view.ChatReceivedMessageContainer android:background="@color/grindr_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/message_container" android:background="@drawable/rounded_border_white" android:paddingLeft="@dimen/spacing_large" android:paddingTop="10.0dip" android:paddingRight="@dimen/spacing_large" android:paddingBottom="10.0dip" android:paddingHorizontal="@dimen/spacing_large" android:paddingVertical="10.0dip" style="@style/messageContainerV2.received">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/expiring_icon" android:layout_width="@dimen/spacing_large" android:layout_height="@dimen/spacing_large" app:srcCompat="@drawable/ic_expiring_photo" app:tint="@color/fill_highlight_secondary" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/expiring_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_small" />
+    </LinearLayout>
+</com.grindrapp.android.view.ChatReceivedMessageContainer>

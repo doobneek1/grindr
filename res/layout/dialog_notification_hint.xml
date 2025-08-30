@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/spacing_large" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_dark_gray_1" android:id="@id/hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_notification_text_body" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/settings_notification" />
+</LinearLayout>

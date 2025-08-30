@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/title_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_above="@id/edu_detail" android:layout_marginStart="@dimen/spacing_medium">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/tip_count" android:layout_marginBottom="6.0dip" android:text="@string/feature_edu_tip_two_in_two" android:letterSpacing="0.01" style="@style/Text16spOffwhiteBoldAllcaps" />
+        <com.grindrapp.android.view.GarageGothicTextView android:text="@string/feature_edu_say_hi" android:layout_below="@id/tip_count" android:lineSpacingExtra="-9.0sp" style="@style/Text68spOffwhiteBoldAllcaps" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/edu_detail" android:visibility="invisible" android:layout_marginBottom="24.0dip" android:text="@string/feature_edu_message_desc" android:layout_above="@id/got_it" android:layout_marginStart="16.0dip" android:layout_marginEnd="17.0dip" android:letterSpacing="0.01" style="@style/Text16spOffwhiteBold" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:textSize="16.0sp" android:id="@id/got_it" android:visibility="invisible" android:layout_width="133.0dip" android:layout_height="50.0dip" android:layout_marginBottom="48.0dip" android:text="@string/feature_edu_got_it" android:layout_alignParentBottom="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/spacing_medium" style="@style/GoldenRodButton" />
+    <ImageView android:id="@id/highlight_img" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/svg_ic_highlight_chat" />
+</RelativeLayout>

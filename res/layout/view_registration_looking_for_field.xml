@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_pure_black" android:gravity="end" android:id="@id/profile_reg_looking_for_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewEnd" android:layout_alignParentEnd="true" />
+</merge>

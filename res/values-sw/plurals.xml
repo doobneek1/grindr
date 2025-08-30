@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="boost_bundle_credits">
+        <item quantity="other">Maongezo</item>
+        <item quantity="one">Ongeza</item>
+    </plurals>
+    <plurals name="boost_bundle_credits_postfix">
+        <item quantity="other">%s/ea</item>
+        <item quantity="one">%s</item>
+    </plurals>
+    <plurals name="chat">
+        <item quantity="other">gumzo</item>
+        <item quantity="one">gumzo</item>
+    </plurals>
+    <plurals name="chat_record_time_left">
+        <item quantity="other">zimebaki sekunde %d</item>
+        <item quantity="one">Imebaki sekunde %d</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Sogeza mbele haraka kwa sekunde %d</item>
+        <item quantity="one">Sogeza mbele haraka kwa sekunde %d</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Rudisha nyuma kwa sekunde %d</item>
+        <item quantity="one">Rudisha nyuma kwa sekunde %d</item>
+    </plurals>
+    <plurals name="expiring_remaining_count">
+        <item quantity="other">%d picha zilizobaki zinazoisha muda wake</item>
+        <item quantity="one">%d picha iliyobaki inayoisha muda wake</item>
+    </plurals>
+    <plurals name="favoritesDaysAgo">
+        <item quantity="other">%d siku zilizopita</item>
+        <item quantity="one">%d siku iliyopita</item>
+    </plurals>
+    <plurals name="favoritesHoursAgo">
+        <item quantity="other">%d masaa yaliyopita</item>
+        <item quantity="one">%d lisaa lililopita</item>
+    </plurals>
+    <plurals name="groupchat_invite_members">
+        <item quantity="other">Umewakaribisha watu %d</item>
+        <item quantity="one">Ulialika mtu</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">miezi</item>
+        <item quantity="one">mwezi</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">Arifa %d mpya</item>
+        <item quantity="one">Arifa %d mpya</item>
+    </plurals>
+    <plurals name="note">
+        <item quantity="other">%d maelezo</item>
+        <item quantity="one">%d elezo</item>
+    </plurals>
+    <plurals name="photoApproved">
+        <item quantity="other">Picha zako za umbo zimekubaliwa</item>
+        <item quantity="one">Picha yako ya umbo imekubaliwa</item>
+    </plurals>
+    <plurals name="photoModerated">
+        <item quantity="other">Picha zako za umbo mpya ziko chini ya ukadirifu</item>
+        <item quantity="one">Picha yako ya umbo mpya iko chini ya ukadirifu</item>
+    </plurals>
+    <plurals name="photoRejected">
+        <item quantity="other">Picha zako za umbo zimekataliwa</item>
+        <item quantity="one">Picha yako ya umbo imekataliwa</item>
+    </plurals>
+    <plurals name="pride_countdown_in_days">
+        <item quantity="other">Kwa siku %d</item>
+        <item quantity="one">Kwa siku %d</item>
+    </plurals>
+    <plurals name="pride_countdown_in_hours">
+        <item quantity="other">Kwa masaa %d</item>
+        <item quantity="one">Kwa saa %d</item>
+    </plurals>
+    <plurals name="pride_countdown_in_minutes">
+        <item quantity="other">Kwa dakika %d</item>
+        <item quantity="one">Kwa dakika %d</item>
+    </plurals>
+    <plurals name="private_video_remaining_count">
+        <item quantity="other">%d video za faragha zimebakia</item>
+        <item quantity="one">%d video ya faragha imebakia</item>
+    </plurals>
+    <plurals name="profileChattedHoursAgo">
+        <item quantity="other">Nimezungumza %d masaa yaliyopita</item>
+        <item quantity="one">Nimezungumza lisaa %d lililopita</item>
+    </plurals>
+    <plurals name="profileChattedMinutesAgo">
+        <item quantity="other">Nimezungumza dakika %d zilizopita</item>
+        <item quantity="one">Nimezungumza dakika %d iliyopita</item>
+    </plurals>
+    <plurals name="profileFeetAbbreviated">
+        <item quantity="other">%d ft</item>
+        <item quantity="one">%d ft</item>
+    </plurals>
+    <plurals name="profileFeetAway">
+        <item quantity="other">%d futi mbali</item>
+        <item quantity="one">%d fiti mbali</item>
+    </plurals>
+    <plurals name="profileKilometersAbbreviated">
+        <item quantity="other">%d km</item>
+        <item quantity="one">%d km</item>
+    </plurals>
+    <plurals name="profileKilometersAway">
+        <item quantity="other">%d km mbali</item>
+        <item quantity="one">%d km mbali</item>
+    </plurals>
+    <plurals name="profileMetersAbbreviated">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="profileMetersAway">
+        <item quantity="other">%d mita mbali</item>
+        <item quantity="one">%d mita mbali</item>
+    </plurals>
+    <plurals name="profileMetersAwayAbbreviated">
+        <item quantity="other">%d mita mbali</item>
+        <item quantity="one">%d mita mbali</item>
+    </plurals>
+    <plurals name="profileMilesAbbreviated">
+        <item quantity="other">%d mi</item>
+        <item quantity="one">%d mi</item>
+    </plurals>
+    <plurals name="profileMilesAway">
+        <item quantity="other">%d maili mbali</item>
+        <item quantity="one">%d maili mbali</item>
+    </plurals>
+    <plurals name="profileMilesAwayAbbreviated">
+        <item quantity="other">%d maili mbali</item>
+        <item quantity="one">%d maili mbali</item>
+    </plurals>
+    <plurals name="profileOnlineDaysAgo">
+        <item quantity="other">Mtandaoni %d siku zilizopita</item>
+        <item quantity="one">Mtandaoni %d siku iliyopita</item>
+    </plurals>
+    <plurals name="profileOnlineHoursAgo">
+        <item quantity="other">Mtandaoni %d masaa yaliyopita</item>
+        <item quantity="one">Mtandaoni %d lisaa lilopita</item>
+    </plurals>
+    <plurals name="profileTappedDaysAgo">
+        <item quantity="other">Alikugusa %d siku zilizopita</item>
+        <item quantity="one">Alikugusa %d siku iliyopita</item>
+    </plurals>
+    <plurals name="profileTappedHoursAgo">
+        <item quantity="other">Amegusa %d masaa yaliyopita</item>
+        <item quantity="one">Amegusa %d lisaa lililopita</item>
+    </plurals>
+    <plurals name="profileTappedMinutesAgo">
+        <item quantity="other">Alikugusa %d dakika zilizopita</item>
+        <item quantity="one">Alikugusa %d dakika iliyopita</item>
+    </plurals>
+    <plurals name="profileViewedMeHoursAgo">
+        <item quantity="other">Alikutazama masaa %d yaliyopita</item>
+        <item quantity="one">Alikutazama saa %d iliyopita</item>
+    </plurals>
+    <plurals name="profileViewedMeMinutesAgo">
+        <item quantity="other">Alikutazama dakika %d zilizopita</item>
+        <item quantity="one">Alikutazama dakika %d iliyopita</item>
+    </plurals>
+    <plurals name="search_inbox">
+        <item quantity="other">%d gumzo</item>
+        <item quantity="one">%d gumzo</item>
+    </plurals>
+    <plurals name="sendExpiringPhotos">
+        <item quantity="other">TUMA KILICHOISHA MUDA WAKE (%d)</item>
+        <item quantity="one">TUMA KILICHOISHA MUDA WAKE (%d)</item>
+    </plurals>
+    <plurals name="sendNonExpiringPhotos">
+        <item quantity="other">TUMA (%d)</item>
+        <item quantity="one">TUMA (%d)</item>
+    </plurals>
+    <plurals name="tap">
+        <item quantity="other">miguso</item>
+        <item quantity="one">mguso</item>
+    </plurals>
+    <plurals name="video_call_less_than_n_min">
+        <item quantity="other">Chini ya dakika %d</item>
+        <item quantity="one">Chini ya dakika %d</item>
+    </plurals>
+    <plurals name="view">
+        <item quantity="other">mitazamo</item>
+        <item quantity="one">mtazamo</item>
+    </plurals>
+    <plurals name="viewed_me_count_less_than_thousand">
+        <item quantity="other">%s alikutazama</item>
+        <item quantity="one">%s alikutazama</item>
+    </plurals>
+    <plurals name="viewer">
+        <item quantity="other">%d watazamaji</item>
+        <item quantity="one">%d mtazamaji</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">wiki</item>
+        <item quantity="one">wiki</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">miaka</item>
+        <item quantity="one">mwaka</item>
+    </plurals>
+</resources>

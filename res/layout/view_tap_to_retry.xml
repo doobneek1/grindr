@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/view_root" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_middle_gray" android:id="@id/tv_something_went_wrong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/something_went_wrong" android:layout_centerInParent="true" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_middle_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/tap_to_retry" android:layout_below="@id/tv_something_went_wrong" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/iv_retry" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="5.0dip" android:layout_above="@id/tv_something_went_wrong" android:layout_centerHorizontal="true" app:srcCompat="@drawable/retry_button" app:tint="@color/grindr_gray_2" />
+</RelativeLayout>

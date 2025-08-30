@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/grindr_dark_gray_2" app:cardCornerRadius="4.0dip" app:contentPaddingBottom="18.0dip" app:contentPaddingTop="18.0dip" app:rippleColor="@color/grindr_pure_white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="41.0dip" android:layout_marginRight="41.0dip" android:layout_marginHorizontal="41.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/grindr_gold_star_gay" android:gravity="center" android:id="@id/drawer_profile_offer_card_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/grindr_middle_gray" android:gravity="center" android:id="@id/drawer_profile_offer_card_remaining_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

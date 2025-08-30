@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:textColor="@color/text_secondary_dark_bg" android:gravity="bottom" android:id="@id/profile_tags_searchlist_title_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_large" android:layout_marginBottom="@dimen/spacing_medium" android:text="@string/profile_tag_all_tags" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:textColor="@color/text_secondary_dark_bg" android:id="@id/profile_tags_searchlist_title_item_explanation" android:paddingBottom="@dimen/spacing_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/word_explanation_question" android:drawablePadding="@dimen/spacing_xsmall" app:drawableEndCompat="@drawable/profile_info_icon" app:drawableTint="@color/link_primary_dark_bg" />
+</LinearLayout>

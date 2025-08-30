@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="?Imgly.PESDK.Widget.ActionBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ly.img.android.pesdk.ui.widgets.buttons.CancelButton android:id="@id/cancelButton" style="?Imgly.PESDK.Widget.ActionBar.Button.CancelButton" />
+        <ly.img.android.pesdk.ui.widgets.ImgLyTabBar android:id="@id/tabBar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ly.img.android.pesdk.ui.widgets.buttons.AcceptTextButton android:textColor="@color/link_primary_dark_bg" android:gravity="center_vertical" android:id="@id/acceptButton" android:background="@drawable/imgly_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/explore_cascade_progress_spinner_start" android:paddingEnd="@dimen/grindr_vertical_margin" style="@style/IbmPlexTextAppearanceAction1" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/actionBarTitleBox" style="?Imgly.PESDK.Widget.ActionBar.TitleAnimationContainer" />
+</RelativeLayout>

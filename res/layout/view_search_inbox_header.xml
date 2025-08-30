@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH6" android:textColor="@color/text_secondary_dark_bg" android:id="@id/search_inbox_header_title" android:paddingTop="25.0dip" android:paddingBottom="@dimen/spacing_xsmall" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewStart" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceAction1" android:textColor="@color/text_secondary_dark_bg" android:id="@id/clear_all_button" android:background="?selectableItemBackground" android:paddingTop="25.0dip" android:paddingBottom="@dimen/spacing_xsmall" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_all" />
+</LinearLayout>

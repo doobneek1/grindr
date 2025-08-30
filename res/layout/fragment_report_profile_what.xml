@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:background="@color/grindr_pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/fragment_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_profile_reason_details_what_happened" />
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/report_profile_what_count" android:overScrollMode="never">
+            <com.grindrapp.android.base.view.IbmPlexEditText android:textSize="16.0sp" android:textColor="@color/grindr_pure_black" android:textColorHint="@color/grindr_middle_gray" android:gravity="top" android:id="@id/fragment_report_what_happened_edit" android:background="@color/grindr_transparent" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/report_profile_what_hint" android:imeOptions="flagNoExtractUi" />
+        </ScrollView>
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/grindr_middle_gray" android:id="@id/report_profile_what_count" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_toStartOf="@id/fab" android:layout_alignParentStart="true" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_arrow_forward" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" app:backgroundTint="@color/grindr_gold_star_gay" app:layout_anchorGravity="end|bottom" />
+    </RelativeLayout>
+</com.google.android.material.appbar.AppBarLayout>

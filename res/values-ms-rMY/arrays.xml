@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_unit_choices">
+        <item>Imperial (A.S.)</item>
+        <item>Metrik</item>
+    </string-array>
+</resources>

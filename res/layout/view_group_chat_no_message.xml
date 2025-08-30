@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/chat_group_icon_no_members_and_message" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_middle_gray" android:gravity="center" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/chat_group_no_members_and_message" android:lineSpacingMultiplier="1.3" />
+</LinearLayout>

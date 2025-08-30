@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@android:color/black" android:id="@id/info_text" android:paddingTop="@dimen/spacing_xxsmall" android:paddingBottom="@dimen/spacing_xxsmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="@dimen/spacing_medium" app:drawableLeftCompat="@drawable/info_list_bullet"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

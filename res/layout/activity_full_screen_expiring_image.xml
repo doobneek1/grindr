@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.grindrapp.android.ui.photos.ZoomableWatermarkView android:orientation="vertical" android:id="@id/profile_image_full_size" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressTint="@color/grindr_gold_star_gay" style="?android:progressBarStyleHorizontal" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/load_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateTint="@color/grindr_gold_star_gay" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/reload" android:background="@drawable/transparent_ripple" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" app:srcCompat="@drawable/ic_refresh" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/sender_disclaimer" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/expiring_photo_disclaimer" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center|bottom" android:id="@id/early_abort_btn" android:background="@drawable/transparent_ripple" android:padding="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:contentDescription="@string/cancel" android:scaleX="2.0" android:scaleY="2.0" app:srcCompat="@drawable/svg_ic_close" app:tint="@color/grindr_pure_white" />
+</FrameLayout>

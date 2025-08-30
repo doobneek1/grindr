@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.grindrapp.android.view.GrindrMapView android:id="@id/map" android:layout_width="fill_parent" android:layout_height="180.0dip" app:cameraZoom="15.0" app:chatBubble="true" app:liteMode="true" app:mapType="normal" />
+    <com.google.android.material.button.MaterialButton android:id="@id/action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/explore_cascade_entry_action_title" android:layout_centerInParent="true" style="@style/PrimaryButtonPhoto" />
+</RelativeLayout>

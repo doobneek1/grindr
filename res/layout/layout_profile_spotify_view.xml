@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_gray_2" android:layout_gravity="center_vertical" android:id="@id/profile_spotify_title" android:paddingTop="@dimen/spacing_medium" android:paddingBottom="@dimen/spacing_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/spotify_my_top_songs" android:paddingVertical="@dimen/spacing_medium" />
+    <com.grindrapp.android.view.SpotifyScrollView android:scrollbarSize="2.0dip" android:scrollbarThumbHorizontal="@drawable/spotify_scrollbar_vertical_thumb" android:id="@id/profile_spotify_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollbarDefaultDelayBeforeFade="1000">
+        <LinearLayout android:orientation="horizontal" android:id="@id/profile_spotify_song_list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_medium" />
+    </com.grindrapp.android.view.SpotifyScrollView>
+</merge>

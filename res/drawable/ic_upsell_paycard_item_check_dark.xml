@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="20.0dip" />
+            <solid android:color="@color/grindr_transparent" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="20.0dip" />
+                    <solid android:color="@color/grindr_gold_star_gay" />
+                </shape>
+            </item>
+            <item android:gravity="center" android:drawable="@drawable/svg_check_black_12dp" android:left="5.0dip" android:top="5.0dip" android:right="5.0dip" android:bottom="5.0dip" />
+        </layer-list>
+    </item>
+</selector>

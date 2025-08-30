@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="boost_bundle_credits">
+        <item quantity="other">บูสต์</item>
+    </plurals>
+    <plurals name="boost_bundle_credits_postfix">
+        <item quantity="other">%s/ea</item>
+    </plurals>
+    <plurals name="chat">
+        <item quantity="other">การสนทนา</item>
+    </plurals>
+    <plurals name="chat_record_time_left">
+        <item quantity="other">เหลือ %sd วินาที</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">กรอไปข้างหน้า %d วินาที</item>
+        <item quantity="one">กรอไปข้างหน้า %d วินาที</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">กรอกลับ %d วินาที</item>
+        <item quantity="one">กรอกลับ %d วินาที</item>
+    </plurals>
+    <plurals name="expiring_remaining_count">
+        <item quantity="other">รูปภาพจำกัดเวลาเหลือ %d รูป</item>
+    </plurals>
+    <plurals name="favoritesDaysAgo">
+        <item quantity="other">%d วันก่อน</item>
+    </plurals>
+    <plurals name="favoritesHoursAgo">
+        <item quantity="other">%d ชม. ก่อน</item>
+    </plurals>
+    <plurals name="groupchat_invite_members">
+        <item quantity="other">คุณได้เชิญ %d คน</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">เดือน</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="note">
+        <item quantity="other">%d โน้ต</item>
+    </plurals>
+    <plurals name="photoApproved">
+        <item quantity="other">รูปโปรไฟล์ของคุณได้รับการอนุมัติแล้ว</item>
+    </plurals>
+    <plurals name="photoModerated">
+        <item quantity="other">รูปโปรไฟล์ใหม่ของคุณอยู่ระหว่างการพิจารณา</item>
+    </plurals>
+    <plurals name="photoRejected">
+        <item quantity="other">รูปโปรไฟล์ของคุณถูกปฏิเสธ</item>
+    </plurals>
+    <plurals name="pride_countdown_in_days">
+        <item quantity="other">ใน %d วัน</item>
+    </plurals>
+    <plurals name="pride_countdown_in_hours">
+        <item quantity="other">ใน %d ชั่วโมง</item>
+    </plurals>
+    <plurals name="pride_countdown_in_minutes">
+        <item quantity="other">ใน %d นาที</item>
+    </plurals>
+    <plurals name="private_video_remaining_count">
+        <item quantity="other">มี %d วิดีโอส่วนตัวเหลืออยู่</item>
+    </plurals>
+    <plurals name="profileChattedHoursAgo">
+        <item quantity="other">แชทกัน %d ชั่วโมงก่อน</item>
+    </plurals>
+    <plurals name="profileChattedMinutesAgo">
+        <item quantity="other">แชทกัน %d นาทีก่อน</item>
+    </plurals>
+    <plurals name="profileFeetAbbreviated">
+        <item quantity="other">%d ฟุต</item>
+    </plurals>
+    <plurals name="profileFeetAway">
+        <item quantity="other">ห่าง %d ฟุต</item>
+    </plurals>
+    <plurals name="profileKilometersAbbreviated">
+        <item quantity="other">%d กม.</item>
+    </plurals>
+    <plurals name="profileKilometersAway">
+        <item quantity="other">ห่าง %d กม.</item>
+    </plurals>
+    <plurals name="profileMetersAbbreviated">
+        <item quantity="other">%d ม.</item>
+    </plurals>
+    <plurals name="profileMetersAway">
+        <item quantity="other">ห่าง %d เมตร</item>
+    </plurals>
+    <plurals name="profileMetersAwayAbbreviated">
+        <item quantity="other">ห่าง %d ม.</item>
+    </plurals>
+    <plurals name="profileMilesAbbreviated">
+        <item quantity="other">%d ไมล์</item>
+    </plurals>
+    <plurals name="profileMilesAway">
+        <item quantity="other">ห่าง %d ไมล์</item>
+    </plurals>
+    <plurals name="profileMilesAwayAbbreviated">
+        <item quantity="other">ห่าง %d ไมล์</item>
+    </plurals>
+    <plurals name="profileOnlineDaysAgo">
+        <item quantity="other">ออนไลน์ %d วันก่อน</item>
+    </plurals>
+    <plurals name="profileOnlineHoursAgo">
+        <item quantity="other">ออนไลน์ %d ชั่วโมงก่อน</item>
+    </plurals>
+    <plurals name="profileTappedDaysAgo">
+        <item quantity="other">Tap คุณ %d วันก่อน</item>
+    </plurals>
+    <plurals name="profileTappedHoursAgo">
+        <item quantity="other">Tap คุณ %d ชั่วโมงก่อน</item>
+    </plurals>
+    <plurals name="profileTappedMinutesAgo">
+        <item quantity="other">Tap คุณ %d นาทีก่อน</item>
+    </plurals>
+    <plurals name="profileViewedMeHoursAgo">
+        <item quantity="other">ดูคุณเมื่อ %d ชม. ก่อน</item>
+    </plurals>
+    <plurals name="profileViewedMeMinutesAgo">
+        <item quantity="other">ดูคุณเมื่อ %d นาทีก่อน</item>
+    </plurals>
+    <plurals name="search_inbox">
+        <item quantity="other">%d แชท</item>
+    </plurals>
+    <plurals name="sendExpiringPhotos">
+        <item quantity="other">ส่งรูปภาพจำกัดเวลา (%d)</item>
+    </plurals>
+    <plurals name="sendNonExpiringPhotos">
+        <item quantity="other">ส่ง (%d)</item>
+    </plurals>
+    <plurals name="tap">
+        <item quantity="other">แท็บ</item>
+    </plurals>
+    <plurals name="video_call_less_than_n_min">
+        <item quantity="other">น้อยกว่า %d นาที</item>
+    </plurals>
+    <plurals name="view">
+        <item quantity="other">การดู</item>
+    </plurals>
+    <plurals name="viewed_me_count_less_than_thousand">
+        <item quantity="other">%s ดูคุณ</item>
+    </plurals>
+    <plurals name="viewer">
+        <item quantity="other">%d คนดู</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">สัปดาห์</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">ปี</item>
+    </plurals>
+</resources>

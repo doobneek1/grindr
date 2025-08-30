@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/grindr_gold_star_gay" android:id="@id/debug_section_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" style="@style/Debug" />
+    <FrameLayout android:id="@id/debug_section_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View style="@style/DebugThinHR" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="32.0dip" android:paddingBottom="27.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_add" app:tint="@color/grindr_golden_brown" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceAction1" android:textColor="@color/grindr_golden_brown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gender_selection_more_genders" android:layout_marginStart="6.0dip" />
+</LinearLayout>

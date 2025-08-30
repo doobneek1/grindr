@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/retry_container" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SendLocationRetryContainer">
+        <ImageView android:id="@id/retry_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" app:srcCompat="@drawable/retry_button" app:tint="@color/grindr_gray_2" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/retry_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_send_location_retry_title" style="@style/SendLocationRetryTitle" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:id="@id/retry_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tap_to_retry" style="@style/SendLocationRetryDesc" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/map_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/spinner_container" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center|bottom" android:orientation="vertical" android:id="@id/button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/send_location_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grindr_standard_vertical_small_margin" android:layout_marginBottom="@dimen/grindr_small_horizontal_margin" android:layout_marginStart="@dimen/grindr_standard_button_horizontal_margin" android:layout_marginEnd="@dimen/grindr_standard_button_horizontal_margin" layout="@layout/save_button" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/grindr_pure_black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grindr_standard_button_horizontal_margin" android:text="@string/location_can_be_unsent" />
+    </LinearLayout>
+</FrameLayout>

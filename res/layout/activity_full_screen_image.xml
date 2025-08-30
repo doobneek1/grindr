@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.gesture.GestureOverlayView android:layout_width="fill_parent" android:layout_height="0.0dip" android:gestureColor="@color/grindr_transparent" android:uncertainGestureColor="@color/grindr_transparent" android:eventsInterceptionEnabled="false" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@id/full_image_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/activity_toolbar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="center|top" android:id="@id/pager_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_marginVertical="12.0dip" />
+            </androidx.appcompat.widget.Toolbar>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_photos_layout" android:background="@color/grindr_pure_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_received_photos_title" android:contentDescription="@string/chat_received_photos_title" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/chat_received_photos_desc" android:contentDescription="@string/chat_received_photos_desc" />
+        </LinearLayout>
+        <com.grindrapp.android.ui.profileV2.ChatTapsQuickbarView android:id="@id/profile_images_quickbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:animateLoading="true" app:inputHintText="@string/albums_reply_content_hint" app:sendText="@string/chat_message_option_reply" app:textInputOnly="true" app:useSendTextInsteadOfIcon="true" />
+        <FrameLayout android:id="@id/progress_bar_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GoldenRodProgressBar" />
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/inbox_thumbnail" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="@dimen/inbox_standard_margin" android:layout_marginEnd="@dimen/inbox_standard_margin" app:srcCompat="@drawable/cascade_no_photo" />
+</LinearLayout>

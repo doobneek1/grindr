@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_white_round" android:paddingTop="20.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_pure_black" android:gravity="center" android:id="@id/reminder_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reporting_lag_time_report_reason_reminder" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:textColor="@color/grindr_golden_brown" android:gravity="center" android:id="@id/community_text_view" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/settings_profile_guidelines" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/fill_secondary_dark_bg" android:padding="@dimen/spacing_medium" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_fields_first_things_first" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2" android:id="@id/registration_tip_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_xsmall" android:text="@string/profile_fields_edit_anytime" />
+</LinearLayout>

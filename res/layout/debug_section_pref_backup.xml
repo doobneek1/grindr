@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_trigger_clear_chat_messages" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="trigger clear chat messages" style="@style/DebugButton" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_print_pref_db_data_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="print pref db data logs" style="@style/DebugButton" />
+</LinearLayout>

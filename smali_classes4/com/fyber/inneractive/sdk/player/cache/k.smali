@@ -1,0 +1,23 @@
+.class public Lcom/fyber/inneractive/sdk/player/cache/k;
+.super Lcom/fyber/inneractive/sdk/player/cache/b;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/fyber/inneractive/sdk/player/cache/b;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Lcom/fyber/inneractive/sdk/player/cache/a;Ljava/lang/String;)Lcom/fyber/inneractive/sdk/player/cache/b$a;
+    .locals 0
+
+    sget-object p1, Lcom/fyber/inneractive/sdk/player/cache/b$a;->a:Lcom/fyber/inneractive/sdk/player/cache/b$a;
+
+    return-object p1
+.end method

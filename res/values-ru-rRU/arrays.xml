@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_unit_choices">
+        <item>Имперская (США)</item>
+        <item>Метрическая</item>
+    </string-array>
+</resources>

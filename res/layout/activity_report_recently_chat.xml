@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/fragment_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="8.0dip" style="@style/GrindrToolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reporting_lag_time_title" />
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout android:id="@id/recycler_view_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_toolbar">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/reminder_container" android:background="@color/grindr_dark_gray_4" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_middle_gray" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/reporting_lag_time_reminder" android:layout_weight="1.0" />
+            <ImageView android:id="@id/close_reminder_image_view" android:padding="6.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginStart="16.0dip" app:srcCompat="@drawable/svg_ic_close" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/reminder_container" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:textColor="@color/grindr_middle_gray" android:id="@id/empty_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reporting_lag_no_recent_chats" android:layout_centerInParent="true" />
+    <include layout="@layout/view_progress_bar" />
+</RelativeLayout>

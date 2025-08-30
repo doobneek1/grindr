@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/fragment_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/complete_profile" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    </androidx.appcompat.widget.Toolbar>
+    <include android:id="@id/viewRegistrationTipPureText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_toolbar" layout="@layout/view_registration_tip_pure_text" />
+    <ScrollView android:id="@id/edit_profile_scrollbar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/viewRegistrationTipPureText">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="60.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <RelativeLayout android:layout_gravity="center" android:id="@id/profile_pic_overlay" android:layout_width="fill_parent" android:layout_height="218.0dip">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/registration_profile_image" android:layout_width="168.0dip" android:layout_height="168.0dip" android:layout_centerInParent="true" fresco:placeholderImage="@drawable/profile_registration_placeholder" fresco:roundedCornerRadius="15.0dip" />
+                <include android:id="@id/mergePendingProfilePic" android:layout_width="168.0dip" android:layout_height="168.0dip" android:layout_centerInParent="true" layout="@layout/merge_pending_profile_pic" />
+                <ImageView android:id="@id/edit_profile_edit_photo_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grindr_standard_vertical_small_margin" android:layout_alignBottom="@id/registration_profile_image" android:layout_marginStart="@dimen/grindr_standard_vertical_small_margin" android:layout_alignStart="@id/registration_profile_image" fresco:srcCompat="@drawable/new_camera" />
+            </RelativeLayout>
+            <View android:id="@id/reg_static_divider_top" android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="16.0dip" android:alpha="0.35" />
+            <LinearLayout android:orientation="vertical" android:id="@id/registration_profile_fields_container" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/reg_static_display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_display_name" />
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/grindr_middle_gray" android:id="@id/reg_count_profile_display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/reg_static_display_name" android:layout_alignParentEnd="true" />
+                    <com.grindrapp.android.base.view.IbmPlexEditText android:textColor="@color/grindr_gray_2" android:textColorHint="@color/grindr_middle_gray" android:id="@id/edit_profile_display_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/profile_fields_display_name_hint" android:maxLines="1" android:maxLength="15" android:layout_below="@id/reg_static_display_name" android:inputType="textNoSuggestions" android:imeOptions="actionDone" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/edit_profile_display_name_banned_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/edit_profile_display_name">
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_ketchup_stain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="4.0dip" android:text="@string/banned_term_title" />
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/edit_profile_display_name_banned" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" style="@style/BannedTermsStyle" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_small">
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="start" android:id="@id/reg_static_show_age" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_show_age" />
+                    <androidx.appcompat.widget.SwitchCompat android:gravity="end" android:id="@id/age_switch" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/spacing_small" />
+                <LinearLayout android:orientation="vertical" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_small">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_gravity="start" android:id="@id/reg_static_looking_for" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_profile_identity_gender" />
+                        <com.grindrapp.android.view.GenderExtendedProfileSignupFieldView android:layout_gravity="end" android:id="@id/edit_third_profile_gender" android:paddingBottom="16.0dip" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="32.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/edit_profile_gender_banned_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_ketchup_stain" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/banned_term_title" />
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/edit_profile_gender_banned" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BannedTermsStyle" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/approximateDistanceContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_small">
+                    <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_small">
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_approximate_distance" />
+                        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBadge" android:gravity="center" android:id="@id/distanceNewBadgeTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="18.0dip" android:text="@string/message_new" android:includeFontPadding="false" android:layout_marginStart="@dimen/spacing_medium" style="@style/NewObjectBadge" />
+                        <androidx.appcompat.widget.SwitchCompat android:gravity="end" android:id="@id/distanceSwitch" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="false" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/text_secondary_dark_bg" android:id="@id/distancePromptTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_xsmall" android:text="@string/approximate_distance_setting_option_hidden_hint" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/view_progress_bar" />
+    <include android:id="@id/toolbar_next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grindr_standard_button_bottom_margin" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/grindr_standard_button_horizontal_margin" android:layout_marginEnd="@dimen/grindr_standard_button_horizontal_margin" layout="@layout/save_button" />
+</RelativeLayout>

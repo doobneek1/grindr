@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chat_sticker_tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:id="@id/send_sticker_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginBottom="@dimen/spacing_medium" android:text="@string/chat_send_gif" android:layout_marginStart="@dimen/spacing_medium" android:layout_marginEnd="@dimen/spacing_medium" style="@style/PrimaryButton" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/sticker_button_giphy" android:layout_width="@dimen/chat_sticker_tab_height" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_chat_bottom_giphy" style="@style/ChatStickerButton" />
+        <ImageView android:id="@id/sticker_button_gaymoji" android:layout_width="@dimen/chat_sticker_tab_height" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_chat_bottom_sticker" style="@style/ChatStickerButton" />
+    </LinearLayout>
+</LinearLayout>

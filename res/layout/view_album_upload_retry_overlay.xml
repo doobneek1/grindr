@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/grindr_ketchup_stain_alpha_50" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/retry_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" app:layout_constraintBottom_toTopOf="@id/retry_text" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" app:srcCompat="@drawable/ic_retry_white" />
+    <TextView android:id="@id/retry_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/retry_upload" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/retry_image" style="@style/IbmPlexTextAppearanceBody1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

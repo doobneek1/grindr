@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.grindrapp.android.view.ChatSentMessageContainer android:background="@color/grindr_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/message_container" style="@style/messageContainerV2.sent">
+        <com.grindrapp.android.view.ChatReplyBoxView android:layout_gravity="start" android:id="@id/reply_layout_box" android:background="@drawable/reply_message_rectangle_rounded_corner_with_background_upper_rounded" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="170.0dip" android:layout_alignParentTop="true" android:layout_marginEnd="7.0dip" android:layout_alignStart="@id/chat_item_content_map" android:layout_alignEnd="@id/chat_item_content_map" />
+        <com.grindrapp.android.view.GrindrMapView android:name="com.google.android.gms.maps.MapFragment" android:id="@id/chat_item_content_map" android:background="@color/grindr_off_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/reply_layout_box" app:cameraZoom="15.0" app:chatBubble="true" app:liteMode="true" app:mapType="normal" app:percent_height="0.33" app:percent_width="0.5" />
+    </RelativeLayout>
+</com.grindrapp.android.view.ChatSentMessageContainer>

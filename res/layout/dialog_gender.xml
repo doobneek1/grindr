@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/gender_dialog" android:background="@android:color/white" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/grindr_gray_1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" />
+    <ScrollView android:id="@id/gender_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gender_explanation" style="@style/IdentityDialogDescription" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:id="@id/gender_explanation_link_dialog_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/word_explanation_question" style="@style/IdentityDialogLink" />
+            <View android:background="@color/grindr_gray_1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/identity_general_margin" android:layout_marginBottom="@dimen/identity_general_margin" />
+            <RadioGroup android:id="@id/gender_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/identity_general_margin">
+                <com.grindrapp.android.view.IdentityRadioButton android:textStyle="italic" android:id="@id/gender_no_response" android:text="@string/no_response_no_italic" style="@style/DialogRadioButton" />
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:text="@string/gender_man_title" style="@style/IdentityCategoryTitle" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/gender_man" android:text="@string/gender_man" style="@style/DialogRadioButton" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/gender_cis_man" android:text="@string/gender_cis_man" style="@style/DialogRadioButton" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/gender_trans_man" android:text="@string/gender_trans_man" style="@style/DialogRadioButton" />
+                <com.grindrapp.android.view.CustomIdentityRadioButton android:id="@id/gender_custom_man" app:editText="@id/gender_custom_man_edittext" style="@style/CustomIdentityRadioButton" />
+                <com.grindrapp.android.view.CustomIdentityEditText android:id="@id/gender_custom_man_edittext" app:hintText="@string/gender_custom_man" app:minMaxEditTextColor="@color/grindr_dark_gray_3" app:radioButton="@id/gender_custom_man" style="@style/CustomIdentityEditText" />
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:text="@string/gender_woman_title" style="@style/IdentityCategoryTitle" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/gender_woman" android:text="@string/gender_woman" style="@style/DialogRadioButton" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/gender_cis_woman" android:text="@string/gender_cis_woman" style="@style/DialogRadioButton" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/gender_trans_woman" android:text="@string/gender_trans_woman" style="@style/DialogRadioButton" />
+                <com.grindrapp.android.view.CustomIdentityRadioButton android:id="@id/gender_custom_woman" app:editText="@id/gender_custom_woman_edittext" style="@style/CustomIdentityRadioButton" />
+                <com.grindrapp.android.view.CustomIdentityEditText android:id="@id/gender_custom_woman_edittext" app:hintText="@string/gender_custom_woman" app:radioButton="@id/gender_custom_woman" style="@style/CustomIdentityEditText" />
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody2Emphasized" android:text="@string/gender_nonbinary_title" style="@style/IdentityCategoryTitle" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/gender_nonbinary" android:text="@string/gender_non_binary" style="@style/DialogRadioButton" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/gender_nonconforming" android:text="@string/gender_non_conforming" style="@style/DialogRadioButton" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/gender_queer" android:text="@string/gender_queer" style="@style/DialogRadioButton" />
+                <com.grindrapp.android.view.IdentityRadioButton android:id="@id/gender_crossdresser" android:text="@string/gender_crossdresser" style="@style/DialogRadioButton" />
+                <com.grindrapp.android.view.CustomIdentityRadioButton android:id="@id/gender_custom_nonbinary" app:editText="@id/gender_custom_nonbinary_editext" style="@style/CustomIdentityRadioButton" />
+                <com.grindrapp.android.view.CustomIdentityEditText android:id="@id/gender_custom_nonbinary_editext" app:hintText="@string/gender_custom_nonbinary" app:radioButton="@id/gender_custom_nonbinary" style="@style/CustomIdentityEditText" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="@color/grindr_gray_1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

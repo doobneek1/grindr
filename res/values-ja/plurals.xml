@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="boost_bundle_credits">
+        <item quantity="other">ブースト</item>
+    </plurals>
+    <plurals name="boost_bundle_credits_postfix">
+        <item quantity="other">各%s</item>
+    </plurals>
+    <plurals name="chat">
+        <item quantity="other">チャット</item>
+    </plurals>
+    <plurals name="chat_record_time_left">
+        <item quantity="other">残り%s秒</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d 秒早送り</item>
+        <item quantity="one">%d 秒早送り</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d 秒巻き戻し</item>
+        <item quantity="one">%d 秒巻き戻し</item>
+    </plurals>
+    <plurals name="expiring_remaining_count">
+        <item quantity="other">期限付きの写真残り%d枚</item>
+    </plurals>
+    <plurals name="favoritesDaysAgo">
+        <item quantity="other">%d日前</item>
+    </plurals>
+    <plurals name="favoritesHoursAgo">
+        <item quantity="other">%d時間前</item>
+    </plurals>
+    <plurals name="groupchat_invite_members">
+        <item quantity="other">あなたは%d人を招待しました</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">か月</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="note">
+        <item quantity="other">%d件のメモ</item>
+    </plurals>
+    <plurals name="photoApproved">
+        <item quantity="other">あなたのプロフィール写真が承認されました</item>
+    </plurals>
+    <plurals name="photoModerated">
+        <item quantity="other">あなたの新しいプロフィール写真は審査を受けています</item>
+    </plurals>
+    <plurals name="photoRejected">
+        <item quantity="other">あなたのプロフィール写真が拒否されました</item>
+    </plurals>
+    <plurals name="pride_countdown_in_days">
+        <item quantity="other">%d日後</item>
+    </plurals>
+    <plurals name="pride_countdown_in_hours">
+        <item quantity="other">%d時間後</item>
+    </plurals>
+    <plurals name="pride_countdown_in_minutes">
+        <item quantity="other">%d分後</item>
+    </plurals>
+    <plurals name="private_video_remaining_count">
+        <item quantity="other">プライベート動画残りあと%d件</item>
+    </plurals>
+    <plurals name="profileChattedHoursAgo">
+        <item quantity="other">%d時間前にチャット済み</item>
+    </plurals>
+    <plurals name="profileChattedMinutesAgo">
+        <item quantity="other">%d分前にチャット済み</item>
+    </plurals>
+    <plurals name="profileFeetAbbreviated">
+        <item quantity="other">%dフィート</item>
+    </plurals>
+    <plurals name="profileFeetAway">
+        <item quantity="other">%dフィート先</item>
+    </plurals>
+    <plurals name="profileKilometersAbbreviated">
+        <item quantity="other">%dキロ</item>
+    </plurals>
+    <plurals name="profileKilometersAway">
+        <item quantity="other">%dkm先</item>
+    </plurals>
+    <plurals name="profileMetersAbbreviated">
+        <item quantity="other">%dメートル</item>
+    </plurals>
+    <plurals name="profileMetersAway">
+        <item quantity="other">%dメートル先</item>
+    </plurals>
+    <plurals name="profileMetersAwayAbbreviated">
+        <item quantity="other">%dm先</item>
+    </plurals>
+    <plurals name="profileMilesAbbreviated">
+        <item quantity="other">%dマイル</item>
+    </plurals>
+    <plurals name="profileMilesAway">
+        <item quantity="other">%dマイル先</item>
+    </plurals>
+    <plurals name="profileMilesAwayAbbreviated">
+        <item quantity="other">%dmi先</item>
+    </plurals>
+    <plurals name="profileOnlineDaysAgo">
+        <item quantity="other">%d日前にオンライン</item>
+    </plurals>
+    <plurals name="profileOnlineHoursAgo">
+        <item quantity="other">%d時間前にオンライン</item>
+    </plurals>
+    <plurals name="profileTappedDaysAgo">
+        <item quantity="other">%d日前にあなたをタップしました</item>
+    </plurals>
+    <plurals name="profileTappedHoursAgo">
+        <item quantity="other">%d時間前にあなたをタップしました</item>
+    </plurals>
+    <plurals name="profileTappedMinutesAgo">
+        <item quantity="other">%d分前にあなたをタップしました</item>
+    </plurals>
+    <plurals name="profileViewedMeHoursAgo">
+        <item quantity="other">%d時間前にあなたを表示しました</item>
+    </plurals>
+    <plurals name="profileViewedMeMinutesAgo">
+        <item quantity="other">%d分前にあなたを表示しました</item>
+    </plurals>
+    <plurals name="search_inbox">
+        <item quantity="other">%d件のチャット</item>
+    </plurals>
+    <plurals name="sendExpiringPhotos">
+        <item quantity="other">期限付きを送信（%d）</item>
+    </plurals>
+    <plurals name="sendNonExpiringPhotos">
+        <item quantity="other">送信（%d）</item>
+    </plurals>
+    <plurals name="tap">
+        <item quantity="other">タップ</item>
+    </plurals>
+    <plurals name="video_call_less_than_n_min">
+        <item quantity="other">%d分未満</item>
+    </plurals>
+    <plurals name="view">
+        <item quantity="other">閲覧</item>
+    </plurals>
+    <plurals name="viewed_me_count_less_than_thousand">
+        <item quantity="other">%s人があなたを表示しました</item>
+    </plurals>
+    <plurals name="viewer">
+        <item quantity="other">%d人の閲覧者</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">週間</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">年</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_unit_choices">
+        <item>ఇంపెరియల్ (యు.ఎస్.)</item>
+        <item>మెట్రిక్</item>
+    </string-array>
+</resources>

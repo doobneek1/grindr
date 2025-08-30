@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chat_media_title" style="@style/ChatBottomDrawerTitle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/chat_photo_cascade" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title" />
+</RelativeLayout>

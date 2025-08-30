@@ -1,0 +1,37 @@
+.class public final Lcom/grindrapp/android/api/r0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ldagger/internal/Factory;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ldagger/internal/Factory<",
+        "Lcom/grindrapp/android/favorites/e;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public static a(Lretrofit2/Retrofit;)Lcom/grindrapp/android/favorites/e;
+    .locals 1
+
+    sget-object v0, Lcom/grindrapp/android/api/q0;->a:Lcom/grindrapp/android/api/q0;
+
+    invoke-virtual {v0, p0}, Lcom/grindrapp/android/api/q0;->a(Lretrofit2/Retrofit;)Lcom/grindrapp/android/favorites/e;
+
+    move-result-object p0
+
+    invoke-static {p0}, Ldagger/internal/Preconditions;->checkNotNullFromProvides(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/grindrapp/android/favorites/e;
+
+    return-object p0
+.end method

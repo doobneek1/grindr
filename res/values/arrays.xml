@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="add_chat_photo_options">
+        <item>@string/chat_take_photo</item>
+        <item>@string/chat_choose_from_gallery</item>
+    </string-array>
+    <string-array name="al_exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/al_exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <integer-array name="al_exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="chat_message_album_shared_options">
+        <item>@string/chat_message_option_reply</item>
+        <item>@string/chat_message_option_remove_album</item>
+    </string-array>
+    <string-array name="chat_message_call_options">
+        <item>@string/chat_message_option_delete</item>
+    </string-array>
+    <string-array name="chat_message_common_options">
+        <item>@string/chat_message_option_reply</item>
+        <item>@string/chat_message_option_delete</item>
+        <item>@string/chat_message_option_recall</item>
+    </string-array>
+    <string-array name="chat_message_common_options_without_reply">
+        <item>@string/chat_message_option_delete</item>
+        <item>@string/chat_message_option_recall</item>
+    </string-array>
+    <string-array name="chat_message_delete_options">
+        <item>@string/chat_message_delete_option_delete_for_me</item>
+        <item>@string/chat_message_delete_option_cancel</item>
+    </string-array>
+    <string-array name="chat_message_non_text_error_options">
+        <item>@string/chat_message_option_retry</item>
+        <item>@string/chat_message_option_delete</item>
+    </string-array>
+    <string-array name="chat_message_text_error_options">
+        <item>@string/chat_message_option_retry</item>
+        <item>@string/chat_message_option_copy</item>
+        <item>@string/chat_message_option_delete</item>
+        <item>@string/chat_message_option_save_phrase</item>
+    </string-array>
+    <string-array name="chat_message_text_options">
+        <item>@string/chat_message_option_reply</item>
+        <item>@string/chat_message_option_copy</item>
+        <item>@string/chat_message_option_delete</item>
+        <item>@string/chat_message_option_recall</item>
+        <item>@string/chat_message_option_translate</item>
+        <item>@string/chat_message_option_save_phrase</item>
+    </string-array>
+    <string-array name="chat_photo_options">
+        <item>@string/chat_photo_options_preview</item>
+        <item>@string/chat_photo_options_delete</item>
+    </string-array>
+    <string-array name="chat_video_options">
+        <item>@string/chat_record_video</item>
+        <item>@string/chat_live_chat</item>
+    </string-array>
+    <string-array name="country_code">
+        <item>Afghanistan,,93,,AF</item>
+        <item>Albania,,355,,AL</item>
+        <item>Algeria,,213,,DZ</item>
+        <item>American Samoa,,1,,AS</item>
+        <item>Andorra,,376,,AD</item>
+        <item>Angola,,244,,AO</item>
+        <item>Anguilla,,1,,AI</item>
+        <item>Antigua,,1,,AG</item>
+        <item>Argentina,,54,,AR</item>
+        <item>Armenia,,374,,AM</item>
+        <item>Aruba,,297,,AW</item>
+        <item>Australia,,61,,AU</item>
+        <item>Austria,,43,,AT</item>
+        <item>Azerbaijan,,994,,AZ</item>
+        <item>Bahrain,,973,,BH</item>
+        <item>Bangladesh,,880,,BD</item>
+        <item>Barbados,,1,,BB</item>
+        <item>Belarus,,375,,BY</item>
+        <item>Belgium,,32,,BE</item>
+        <item>Belize,,501,,BZ</item>
+        <item>Benin,,229,,BJ</item>
+        <item>Bermuda,,1,,BM</item>
+        <item>Bhutan,,975,,BT</item>
+        <item>Bolivia,,591,,BO</item>
+        <item>Bonaire, Sint Eustatius and Saba,,599,,BQ</item>
+        <item>Bosnia and Herzegovina,,387,,BA</item>
+        <item>Botswana,,267,,BW</item>
+        <item>Brazil,,55,,BR</item>
+        <item>British Indian Ocean Territory,,246,,IO</item>
+        <item>British Virgin Islands,,1,,VG</item>
+        <item>Brunei,,673,,BN</item>
+        <item>Bulgaria,,359,,BG</item>
+        <item>Burkina Faso,,226,,BF</item>
+        <item>Burundi,,257,,BI</item>
+        <item>Cambodia,,855,,KH</item>
+        <item>Cameroon,,237,,CM</item>
+        <item>Canada,,1,,CA</item>
+        <item>Cape Verde,,238,,CV</item>
+        <item>Cayman Islands,,1,,KY</item>
+        <item>Central African Republic,,236,,CF</item>
+        <item>Chad,,235,,TD</item>
+        <item>Chile,,56,,CL</item>
+        <item>China,,86,,CN</item>
+        <item>Colombia,,57,,CO</item>
+        <item>Comoros,,269,,KM</item>
+        <item>Cook Islands,,682,,CK</item>
+        <item>Costa Rica,,506,,CR</item>
+        <item>"Côte d'Ivoire,,225,,CI"</item>
+        <item>Croatia,,385,,HR</item>
+        <item>Cuba,,53,,CU</item>
+        <item>Curaçao,,599,,CW</item>
+        <item>Cyprus,,357,,CY</item>
+        <item>Czech Republic,,420,,CZ</item>
+        <item>Democratic Republic of the Congo,,243,,CD</item>
+        <item>Denmark,,45,,DK</item>
+        <item>Djibouti,,253,,DJ</item>
+        <item>Dominica,,1,,DM</item>
+        <item>Dominican Republic,,1,,DO</item>
+        <item>Ecuador,,593,,EC</item>
+        <item>Egypt,,20,,EG</item>
+        <item>El Salvador,,503,,SV</item>
+        <item>Equatorial Guinea,,240,,GQ</item>
+        <item>Eritrea,,291,,ER</item>
+        <item>Estonia,,372,,EE</item>
+        <item>Ethiopia,,251,,ET</item>
+        <item>Falkland Islands,,500,,FK</item>
+        <item>Faroe Islands,,298,,FO</item>
+        <item>Federated States of Micronesia,,691,,FM</item>
+        <item>Fiji,,679,,FJ</item>
+        <item>Finland,,358,,FI</item>
+        <item>France,,33,,FR</item>
+        <item>French Guiana,,594,,GF</item>
+        <item>French Polynesia,,689,,PF</item>
+        <item>Gabon,,241,,GA</item>
+        <item>Georgia,,995,,GE</item>
+        <item>Germany,,49,,DE</item>
+        <item>Ghana,,233,,GH</item>
+        <item>Gibraltar,,350,,GI</item>
+        <item>Greece,,30,,GR</item>
+        <item>Greenland,,299,,GL</item>
+        <item>Grenada,,1,,GD</item>
+        <item>Guadeloupe,,590,,GP</item>
+        <item>Guam,,1,,GU</item>
+        <item>Guatemala,,502,,GT</item>
+        <item>Guernsey,,44,,GG</item>
+        <item>Guinea,,224,,GN</item>
+        <item>Guinea-Bissau,,245,,GW</item>
+        <item>Guyana,,592,,GY</item>
+        <item>Haiti,,509,,HT</item>
+        <item>Honduras,,504,,HN</item>
+        <item>Hong Kong,,852,,HK</item>
+        <item>Hungary,,36,,HU</item>
+        <item>Iceland,,354,,IS</item>
+        <item>India,,91,,IN</item>
+        <item>Indonesia,,62,,ID</item>
+        <item>Iran,,98,,IR</item>
+        <item>Iraq,,964,,IQ</item>
+        <item>Ireland,,353,,IE</item>
+        <item>Isle Of Man,,44,,IM</item>
+        <item>Israel,,972,,IL</item>
+        <item>Italy,,39,,IT</item>
+        <item>Jamaica,,1,,JM</item>
+        <item>Japan,,81,,JP</item>
+        <item>Jersey,,44,,JE</item>
+        <item>Jordan,,962,,JO</item>
+        <item>Kazakhstan,,7,,KZ</item>
+        <item>Kenya,,254,,KE</item>
+        <item>Kiribati,,686,,KI</item>
+        <item>Kosovo,,383,,XK</item>
+        <item>Kuwait,,965,,KW</item>
+        <item>Kyrgyzstan,,996,,KG</item>
+        <item>Laos,,856,,LA</item>
+        <item>Latvia,,371,,LV</item>
+        <item>Lebanon,,961,,LB</item>
+        <item>Lesotho,,266,,LS</item>
+        <item>Liberia,,231,,LR</item>
+        <item>Libya,,218,,LY</item>
+        <item>Liechtenstein,,423,,LI</item>
+        <item>Lithuania,,370,,LT</item>
+        <item>Luxembourg,,352,,LU</item>
+        <item>Macau,,853,,MO</item>
+        <item>North Macedonia,,389,,MK</item>
+        <item>Madagascar,,261,,MG</item>
+        <item>Malawi,,265,,MW</item>
+        <item>Malaysia,,60,,MY</item>
+        <item>Maldives,,960,,MV</item>
+        <item>Mali,,223,,ML</item>
+        <item>Malta,,356,,MT</item>
+        <item>Marshall Islands,,692,,MH</item>
+        <item>Martinique,,596,,MQ</item>
+        <item>Mauritania,,222,,MR</item>
+        <item>Mauritius,,230,,MU</item>
+        <item>Mayotte,,262,,YT</item>
+        <item>Mexico,,52,,MX</item>
+        <item>Moldova,,373,,MD</item>
+        <item>Monaco,,377,,MC</item>
+        <item>Mongolia,,976,,MN</item>
+        <item>Montenegro,,382,,ME</item>
+        <item>Montserrat,,1,,MS</item>
+        <item>Morocco,,212,,MA</item>
+        <item>Mozambique,,258,,MZ</item>
+        <item>Myanmar,,95,,MM</item>
+        <item>Namibia,,264,,NA</item>
+        <item>Nauru,,674,,NR</item>
+        <item>Nepal,,977,,NP</item>
+        <item>Netherlands,,31,,NL</item>
+        <item>New Caledonia,,687,,NC</item>
+        <item>New Zealand,,64,,NZ</item>
+        <item>Nicaragua,,505,,NI</item>
+        <item>Niger,,227,,NE</item>
+        <item>Nigeria,,234,,NG</item>
+        <item>Niue,,683,,NU</item>
+        <item>Norfolk Island,,672,,NF</item>
+        <item>North Korea,,850,,KP</item>
+        <item>Northern Mariana Islands,,1,,MP</item>
+        <item>Norway,,47,,NO</item>
+        <item>Oman,,968,,OM</item>
+        <item>Pakistan,,92,,PK</item>
+        <item>Palau,,680,,PW</item>
+        <item>Palestine,,970,,PS</item>
+        <item>Panama,,507,,PA</item>
+        <item>Papua New Guinea,,675,,PG</item>
+        <item>Paraguay,,595,,PY</item>
+        <item>Peru,,51,,PE</item>
+        <item>Philippines,,63,,PH</item>
+        <item>Poland,,48,,PL</item>
+        <item>Portugal,,351,,PT</item>
+        <item>Puerto Rico,,1,,PR</item>
+        <item>Qatar,,974,,QA</item>
+        <item>Republic of the Congo,,242,,CG</item>
+        <item>Réunion,,262,,RE</item>
+        <item>Romania,,40,,RO</item>
+        <item>Russia,,7,,RU</item>
+        <item>Rwanda,,250,,RW</item>
+        <item>Saint Helena,,290,,SH</item>
+        <item>Saint Kitts and Nevis,,1,,KN</item>
+        <item>Saint Pierre and Miquelon,,508,,PM</item>
+        <item>Saint Vincent and the Grenadines,,1,,VC</item>
+        <item>Samoa,,685,,WS</item>
+        <item>San Marino,,378,,SM</item>
+        <item>Sao Tome and Principe,,239,,ST</item>
+        <item>Saudi Arabia,,966,,SA</item>
+        <item>Senegal,,221,,SN</item>
+        <item>Serbia,,381,,RS</item>
+        <item>Seychelles,,248,,SC</item>
+        <item>Sierra Leone,,232,,SL</item>
+        <item>Singapore,,65,,SG</item>
+        <item>Sint Maarten,,1,,SX</item>
+        <item>Slovakia,,421,,SK</item>
+        <item>Slovenia,,386,,SI</item>
+        <item>Solomon Islands,,677,,SB</item>
+        <item>Somalia,,252,,SO</item>
+        <item>South Africa,,27,,ZA</item>
+        <item>South Korea,,82,,KR</item>
+        <item>South Sudan,,211,,SS</item>
+        <item>Spain,,34,,ES</item>
+        <item>Sri Lanka,,94,,LK</item>
+        <item>St. Lucia,,1,,LC</item>
+        <item>Sudan,,249,,SD</item>
+        <item>Suriname,,597,,SR</item>
+        <item>Swaziland,,268,,SZ</item>
+        <item>Sweden,,46,,SE</item>
+        <item>Switzerland,,41,,CH</item>
+        <item>Syria,,963,,SY</item>
+        <item>Taiwan,,886,,TW</item>
+        <item>Tajikistan,,992,,TJ</item>
+        <item>Tanzania,,255,,TZ</item>
+        <item>Thailand,,66,,TH</item>
+        <item>The Bahamas,,1,,BS</item>
+        <item>The Gambia,,220,,GM</item>
+        <item>Timor-Leste,,670,,TL</item>
+        <item>Togo,,228,,TG</item>
+        <item>Tokelau,,690,,TK</item>
+        <item>Tonga,,676,,TO</item>
+        <item>Trinidad and Tobago,,1,,TT</item>
+        <item>Tunisia,,216,,TN</item>
+        <item>Turkey,,90,,TR</item>
+        <item>Turkmenistan,,993,,TM</item>
+        <item>Turks and Caicos Islands,,1,,TC</item>
+        <item>Tuvalu,,688,,TV</item>
+        <item>Uganda,,256,,UG</item>
+        <item>Ukraine,,380,,UA</item>
+        <item>United Arab Emirates,,971,,AE</item>
+        <item>United Kingdom,,44,,GB</item>
+        <item>United States,,1,,US</item>
+        <item>Uruguay,,598,,UY</item>
+        <item>US Virgin Islands,,1,,VI</item>
+        <item>Uzbekistan,,998,,UZ</item>
+        <item>Vanuatu,,678,,VU</item>
+        <item>Venezuela,,58,,VE</item>
+        <item>Vietnam,,84,,VN</item>
+        <item>Wallis and Futuna,,681,,WF</item>
+        <item>Western Sahara,,212,,EH</item>
+        <item>Yemen,,967,,YE</item>
+        <item>Zambia,,260,,ZM</item>
+        <item>Zimbabwe,,263,,ZW</item>
+    </string-array>
+    <array name="crypto_fingerprint_fallback_prefixes" />
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="delete_profile_all_reasons">
+        <item>@string/delete_profile_reason_not_functioning_properly</item>
+        <item>@string/delete_profile_reason_unhappy_with_experience_on_app</item>
+        <item>@string/delete_profile_reason_in_exclusive_relationship</item>
+        <item>@string/delete_profile_reason_want_to_start_over_with_new_account</item>
+        <item>@string/delete_profile_reason_account_was_hacked</item>
+        <item>@string/delete_profile_reason_prefer_more_privacy</item>
+        <item>@string/delete_profile_reason_want_to_take_a_break</item>
+        <item>@string/delete_profile_reason_other</item>
+    </string-array>
+    <string-array name="edit_profile_photo_options">
+        <item>@string/edit_profile_take_photo</item>
+        <item>@string/edit_profile_choose_from_gallery</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <array name="halloween_colors">
+        <item>@color/grindr_ketchup_stain</item>
+        <item>@color/grindr_grey_black_4</item>
+        <item>@color/grindr_ketchup_stain</item>
+    </array>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <array name="imgly_empty_array" />
+    <string-array name="imgly_operation_adjustment">
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxClarityOperation</item>
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxSharpnessOperation</item>
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxAdjustOperation</item>
+    </string-array>
+    <string-array name="imgly_operation_cropmask">
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxCropMaskOperation</item>
+    </string-array>
+    <string-array name="imgly_operation_filter">
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxFilterOperation</item>
+    </string-array>
+    <string-array name="imgly_operation_focus">
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxFocusOperation</item>
+    </string-array>
+    <string-array name="imgly_operation_layer">
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxLayerCombineOperation</item>
+    </string-array>
+    <string-array name="imgly_operation_load">
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxVideoCompositionOperation</item>
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxLoadOperation</item>
+    </string-array>
+    <string-array name="imgly_operation_save">
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxSaveOperation</item>
+    </string-array>
+    <string-array name="imgly_operation_segmentation">
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxBackgroundRemoveOperation</item>
+    </string-array>
+    <string-array name="imgly_operation_show">
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxScreenOperation</item>
+    </string-array>
+    <string-array name="imgly_operation_watermark">
+        <item>ly.img.android.pesdk.backend.operator.rox.RoxWatermarkOperation</item>
+    </string-array>
+    <array name="imgly_operator_export_stack">
+        <item>@array/imgly_operation_load</item>
+        <item>@array/imgly_operation_segmentation</item>
+        <item>@array/imgly_operation_filter</item>
+        <item>@array/imgly_operation_adjustment</item>
+        <item>@array/imgly_operation_focus</item>
+        <item>@array/imgly_operation_layer</item>
+        <item>@array/imgly_operation_cropmask</item>
+        <item>@array/imgly_operation_watermark</item>
+        <item>@array/imgly_operation_save</item>
+    </array>
+    <array name="imgly_operator_stack">
+        <item>@array/imgly_operation_load</item>
+        <item>@array/imgly_operation_segmentation</item>
+        <item>@array/imgly_operation_filter</item>
+        <item>@array/imgly_operation_adjustment</item>
+        <item>@array/imgly_operation_focus</item>
+        <item>@array/imgly_operation_layer</item>
+        <item>@array/imgly_operation_cropmask</item>
+        <item>@array/imgly_operation_watermark</item>
+        <item>@array/imgly_operation_show</item>
+    </array>
+    <array name="pride_rainbow_bottom">
+        <item>@color/grindr_lime_time</item>
+        <item>@color/grindr_electric_blue</item>
+        <item>@color/grindr_lime_time</item>
+    </array>
+    <array name="pride_rainbow_top">
+        <item>@color/grindr_ketchup_stain</item>
+        <item>@color/grindr_gold_star_gay</item>
+        <item>@color/grindr_ketchup_stain</item>
+    </array>
+    <array name="rainbow_colors">
+        <item>@color/grindr_ketchup_stain</item>
+        <item>@color/grindr_gold_star_gay</item>
+        <item>@color/grindr_lime_time</item>
+        <item>@color/grindr_electric_blue</item>
+        <item>@color/grindr_amethyst_purple</item>
+        <item>@color/grindr_ketchup_stain</item>
+    </array>
+    <string-array name="report_reason_details_allowed_nudity_pornography">
+        <item>@string/report_profile_nudity_pornography_allowed_details_1</item>
+        <item>@string/report_profile_nudity_pornography_allowed_details_2</item>
+        <item>@string/report_profile_nudity_pornography_allowed_details_3</item>
+        <item>@string/report_profile_nudity_pornography_allowed_details_4</item>
+    </string-array>
+    <string-array name="report_reason_details_harassment_bullying">
+        <item>@string/report_profile_harassment_bullying_details_1</item>
+        <item>@string/report_profile_harassment_bullying_details_2</item>
+        <item>@string/report_profile_harassment_bullying_details_3</item>
+    </string-array>
+    <string-array name="report_reason_details_hate_discrimination">
+        <item>@string/report_profile_hate_discrimination_details_1</item>
+        <item>@string/report_profile_hate_discrimination_details_2</item>
+    </string-array>
+    <string-array name="report_reason_details_illegal_activity">
+        <item>@string/report_profile_illegal_activity_details_1</item>
+        <item>@string/report_profile_illegal_activity_details_2</item>
+    </string-array>
+    <string-array name="report_reason_details_impersonation">
+        <item>@string/report_profile_impersonation_details_1</item>
+        <item>@string/report_profile_impersonation_details_2</item>
+        <item>@string/report_profile_impersonation_details_3</item>
+    </string-array>
+    <string-array name="report_reason_details_nudity_pornography">
+        <item>@string/report_profile_nudity_pornography_details_1</item>
+        <item>@string/report_profile_nudity_pornography_details_2</item>
+    </string-array>
+    <string-array name="report_reason_details_spam">
+        <item>@string/report_profile_spam_details_1</item>
+        <item>@string/report_profile_spam_details_2</item>
+    </string-array>
+    <string-array name="report_reason_details_underage">
+        <item>@string/report_profile_underage_details_1</item>
+        <item>@string/report_profile_underage_details_2</item>
+    </string-array>
+    <string-array name="save_phrases_delete_options">
+        <item>@string/chat_saved_phrase_delete</item>
+    </string-array>
+    <string-array name="settings_unit_choices">
+        <item>Imperial (U.S.)</item>
+        <item>Metric</item>
+    </string-array>
+    <array name="zui_avatar_view__background_color_palette">
+        <item>#ffb35827</item>
+        <item>#ff03363d</item>
+        <item>#ff144a75</item>
+        <item>#ff03363d</item>
+        <item>#ff68737d</item>
+    </array>
+</resources>

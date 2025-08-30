@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_applovin_mediation_debugger" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Launch AppLovin Mediation Debugger" style="@style/DebugButton" />
+    <RadioGroup android:orientation="vertical" android:id="@id/btnGroupAdsManagers" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip">
+        <RadioButton android:id="@id/radioBtnDefault" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Default" />
+        <RadioButton android:id="@id/radioBtnTesting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dummy For Testing" />
+        <RadioButton android:id="@id/radioBtnAppLovin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AppLovin" />
+        <RadioButton android:id="@id/radioBtnQueerty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Queerty" />
+        <RadioButton android:id="@id/radioBtnLGBTQNation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LGBTQNation" />
+        <RadioButton android:id="@id/radioBtnBraze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Braze" />
+    </RadioGroup>
+</LinearLayout>

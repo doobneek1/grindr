@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/dialog_chat_debug_smack_version" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Debug" />
+    <TextView android:id="@id/dialog_chat_debug_connected" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Debug" />
+    <TextView android:id="@id/dialog_chat_debug_authenticated" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Debug" />
+    <android.widget.Space android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/dialog_chat_debug_connect_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DebugButton" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/dialog_chat_debug_send_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Test Send Messages" style="@style/DebugButton" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/dialog_chat_debug_add_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add Messages TO DB" style="@style/DebugButton" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_create_fake_conversations" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="create fake conversations" style="@style/DebugButton" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_leave_all_groups" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="leave all groupchats" style="@style/DebugButton" />
+</LinearLayout>

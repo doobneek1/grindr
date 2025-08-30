@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.grindrapp.android.base.view.IbmPlexEditText android:textColor="@color/grindr_gray_2" android:id="@id/filed_phone_dial_code" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="90.0dip" android:layout_height="wrap_content" android:cursorVisible="false" android:inputType="textNoSuggestions" android:layout_marginEnd="12.0dip" style="@style/LoginEditText" />
+    <com.grindrapp.android.base.view.IbmPlexTextInputLayout android:id="@id/phone_input_text_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" app:errorTextAppearance="@style/LoginEditTextError" app:hintTextAppearance="@style/LoginEditFloatingLabel" style="@style/LoginTextInputLayout">
+        <com.grindrapp.android.view.PhoneValidationEditText android:id="@id/filed_phone_number" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_title_phone" android:maxLength="15" android:inputType="number" />
+    </com.grindrapp.android.base.view.IbmPlexTextInputLayout>
+</merge>

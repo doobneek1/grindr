@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="boost_bundle_credits">
+        <item quantity="other">Mga Pag-boost</item>
+        <item quantity="one">Pag-boost</item>
+    </plurals>
+    <plurals name="boost_bundle_credits_postfix">
+        <item quantity="other">%s/ea</item>
+        <item quantity="one">%s</item>
+    </plurals>
+    <plurals name="chat">
+        <item quantity="other">mga chat</item>
+        <item quantity="one">chat</item>
+    </plurals>
+    <plurals name="chat_record_time_left">
+        <item quantity="other">%d (na) segundo ang natitira</item>
+        <item quantity="one">%d segundo ang natitira</item>
+    </plurals>
+    <plurals name="expiring_remaining_count">
+        <item quantity="other">%d (na) Litratong Mag-e-expire ang natitira</item>
+        <item quantity="one">%d Litratong Mag-e-expire ang natitira</item>
+    </plurals>
+    <plurals name="favoritesDaysAgo">
+        <item quantity="other">%d (na) araw ang nakalipas</item>
+        <item quantity="one">%d araw ang nakalipas</item>
+    </plurals>
+    <plurals name="favoritesHoursAgo">
+        <item quantity="other">%d (na) oras ang nakalipas</item>
+        <item quantity="one">%d oras ang nakalipas</item>
+    </plurals>
+    <plurals name="groupchat_invite_members">
+        <item quantity="other">Inimbitahan mo ang %d na tao</item>
+        <item quantity="one">May inimbitahan ka</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">na buwan</item>
+        <item quantity="one">buwan</item>
+    </plurals>
+    <plurals name="note">
+        <item quantity="other">%d (na) note</item>
+        <item quantity="one">%d note</item>
+    </plurals>
+    <plurals name="photoApproved">
+        <item quantity="other">Naaprubahan ang iyong mga litrato sa profile</item>
+        <item quantity="one">Naaprubahan ang iyong litrato sa profile</item>
+    </plurals>
+    <plurals name="photoModerated">
+        <item quantity="other">Kasalukuyang mino-moderate ang iyong mga bagong larawan ng profile</item>
+        <item quantity="one">Kasalukuyang mino-moderate ang iyong bagong larawan ng profile</item>
+    </plurals>
+    <plurals name="photoRejected">
+        <item quantity="other">Tinanggihan ang iyong mga litrato sa profile</item>
+        <item quantity="one">Tinanggihan ang iyong litrato sa profile</item>
+    </plurals>
+    <plurals name="pride_countdown_in_days">
+        <item quantity="other">Sa loob ng %d na araw</item>
+        <item quantity="one">Sa loob ng %d araw</item>
+    </plurals>
+    <plurals name="pride_countdown_in_hours">
+        <item quantity="other">Sa loob ng %d na oras</item>
+        <item quantity="one">Sa loob ng %d oras</item>
+    </plurals>
+    <plurals name="pride_countdown_in_minutes">
+        <item quantity="other">Sa loob ng %d na minuto</item>
+        <item quantity="one">Sa loob ng %d minuto</item>
+    </plurals>
+    <plurals name="private_video_remaining_count">
+        <item quantity="other">%d na Pribadong Video ang natitira</item>
+        <item quantity="one">%d Pribadong Video ang natitira</item>
+    </plurals>
+    <plurals name="profileChattedHoursAgo">
+        <item quantity="other">Nag-chat %d (na) oras ang nakalipas</item>
+        <item quantity="one">Nag-chat %d oras ang nakalipas</item>
+    </plurals>
+    <plurals name="profileChattedMinutesAgo">
+        <item quantity="other">Nag-chat %d (na) minuto ang nakalipas</item>
+        <item quantity="one">Nag-chat %d minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="profileFeetAbbreviated">
+        <item quantity="other">%d (na) talampakan</item>
+        <item quantity="one">%d talampakan</item>
+    </plurals>
+    <plurals name="profileFeetAway">
+        <item quantity="other">%d (na) talampakan ang layo</item>
+        <item quantity="one">%d talampakan ang layo</item>
+    </plurals>
+    <plurals name="profileKilometersAbbreviated">
+        <item quantity="other">%d (na) km</item>
+        <item quantity="one">%d km</item>
+    </plurals>
+    <plurals name="profileKilometersAway">
+        <item quantity="other">%d (na) km ang layo</item>
+        <item quantity="one">%d km ang layo</item>
+    </plurals>
+    <plurals name="profileMetersAbbreviated">
+        <item quantity="other">%d (na) m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="profileMetersAway">
+        <item quantity="other">%d (na) metro ang layo</item>
+        <item quantity="one">%d metro ang layo</item>
+    </plurals>
+    <plurals name="profileMetersAwayAbbreviated">
+        <item quantity="other">%d (na) m ang layo</item>
+        <item quantity="one">%d m ang layo</item>
+    </plurals>
+    <plurals name="profileMilesAbbreviated">
+        <item quantity="other">%d (na) mi</item>
+        <item quantity="one">%d mi</item>
+    </plurals>
+    <plurals name="profileMilesAway">
+        <item quantity="other">%d (na) milya ang layo</item>
+        <item quantity="one">%d milya ang layo</item>
+    </plurals>
+    <plurals name="profileMilesAwayAbbreviated">
+        <item quantity="other">%d (na) mi ang layo</item>
+        <item quantity="one">%d mi ang layo</item>
+    </plurals>
+    <plurals name="profileOnlineDaysAgo">
+        <item quantity="other">Online %d (na) araw ang nakalipas</item>
+        <item quantity="one">Online %d araw ang nakalipas</item>
+    </plurals>
+    <plurals name="profileOnlineHoursAgo">
+        <item quantity="other">Online %d (na) oras ang nakalipas</item>
+        <item quantity="one">Online %d oras ang nakalipas</item>
+    </plurals>
+    <plurals name="profileTappedDaysAgo">
+        <item quantity="other">Na-tap ka %d (na) araw ang nakalipas</item>
+        <item quantity="one">Na-tap ka %d araw ang nakalipas</item>
+    </plurals>
+    <plurals name="profileTappedHoursAgo">
+        <item quantity="other">Na-tap ka %d (na) oras ang nakalipas</item>
+        <item quantity="one">Na-tap ka %d oras ang nakalipas</item>
+    </plurals>
+    <plurals name="profileTappedMinutesAgo">
+        <item quantity="other">Na-tap ka %d (na) minuto ang nakalipas</item>
+        <item quantity="one">Na-tap ka %d minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="profileViewedMeHoursAgo">
+        <item quantity="other">Tinignan ka %d (na) oras ang nakalipas</item>
+        <item quantity="one">Tinignan ka %d oras ang nakalipas</item>
+    </plurals>
+    <plurals name="profileViewedMeMinutesAgo">
+        <item quantity="other">Tinignan ka %d (na) minuto ang nakalipas</item>
+        <item quantity="one">Tinignan ka %d minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="search_inbox">
+        <item quantity="other">%d (na) chat</item>
+        <item quantity="one">%d chat</item>
+    </plurals>
+    <plurals name="sendExpiringPhotos">
+        <item quantity="other">IPADALA ANG MAG-E-EXPIRE (%d)</item>
+        <item quantity="one">IPADALA ANG MAG-E-EXPIRE (%d)</item>
+    </plurals>
+    <plurals name="sendNonExpiringPhotos">
+        <item quantity="other">IPADALA (%d)</item>
+        <item quantity="one">IPADALA (%d)</item>
+    </plurals>
+    <plurals name="tap">
+        <item quantity="other">mga pag-tap</item>
+        <item quantity="one">pag-tap</item>
+    </plurals>
+    <plurals name="video_call_less_than_n_min">
+        <item quantity="other">Wala pang %d (na) minuto</item>
+        <item quantity="one">Wala pang %d minuto</item>
+    </plurals>
+    <plurals name="view">
+        <item quantity="other">mga pagtingin</item>
+        <item quantity="one">pagtingin</item>
+    </plurals>
+    <plurals name="viewed_me_count_less_than_thousand">
+        <item quantity="other">Tinignan ka ni %s</item>
+    </plurals>
+    <plurals name="viewer">
+        <item quantity="other">%d (na) tumitingin</item>
+        <item quantity="one">%d tumitingin</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">na linggo</item>
+        <item quantity="one">linggo</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">mga taon</item>
+        <item quantity="one">taon</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/svg_menu_video_call" android:id="@id/menu_video_call" android:title="@string/video_chat" app:showAsAction="always" />
+    <item android:icon="@drawable/svg_menu_more" android:id="@id/more_options" android:title="@string/more_options" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/fragment_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upgrade_title" />
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:background="@color/grindr_pure_white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/fragment_upgrade_layout_inner" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/fragment_upgrade_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" style="@style/GoldenRodProgressBar" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_pure_black" android:gravity="center" android:id="@id/fragment_upgrade_title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="10.0dip" android:text="@string/upgrade_upgrading" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_pure_black" android:gravity="center" android:id="@id/fragment_upgrade_message_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="@string/upgrade_message" />
+            <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/fragment_upgrade_done_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="@string/upgrade_done" style="@style/GoldenRodBottomButton" />
+        </LinearLayout>
+    </FrameLayout>
+</com.google.android.material.appbar.AppBarLayout>

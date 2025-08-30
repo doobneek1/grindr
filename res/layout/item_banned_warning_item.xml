@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_round_10_dark_gray_2" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iconImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1Emphasized" android:textColor="@color/grindr_pure_white" android:id="@id/titleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="9.0dip" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceBadge" android:textColor="@color/grindr_dark_gray_4" android:gravity="center" android:id="@id/countTextView" android:background="@drawable/rounded_8_star_gay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dip" android:minWidth="16.0dip" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceBody1" android:textColor="@color/grindr_middle_gray" android:id="@id/contentTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceAction1" android:textColor="@color/grindr_gold_star_gay" android:id="@id/linkTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/banned_warning_harassment_learn_more" />
+</LinearLayout>

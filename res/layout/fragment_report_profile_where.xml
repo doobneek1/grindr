@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:background="@color/grindr_pure_white" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/fragment_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GrindrToolbar">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_profile_where" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.core.widget.NestedScrollView android:background="@color/grindr_off_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/report_profile_where_about_container" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceH5" android:textColor="@color/grindr_pure_black" android:id="@id/fragment_report_where_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/report_profile_where_title" />
+                <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/grindr_pure_black" android:id="@id/fragment_report_where_subtitle" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/report_profile_where_subtitle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/report_profile_where_about_container">
+                <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <androidx.recyclerview.widget.GrindrPagedRecyclerView android:id="@id/fragment_report_profile_where_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+                <View android:background="@color/grindr_dark_gray_1" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_arrow_forward" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" app:backgroundTint="@color/grindr_gold_star_gay" app:layout_anchorGravity="end|bottom" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.google.android.material.appbar.AppBarLayout>

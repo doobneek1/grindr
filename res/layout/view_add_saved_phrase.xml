@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_add_saved_phrase_button" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="13.0dip" android:paddingStart="7.0dip" android:paddingEnd="10.0dip" android:layout_marginStart="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/add_phrase_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH7" android:textColor="@color/grindr_middle_gray" android:textColorLink="@color/grindr_middle_gray" android:autoLink="none" android:id="@id/saved_phrase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+</LinearLayout>

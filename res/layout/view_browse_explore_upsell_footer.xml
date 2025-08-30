@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="100.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:id="@id/cascade_upsell_footer_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/explore_see_more_guys" android:layout_weight="1.0" style="@style/CascadeUpsellFooterText" />
+        <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/cascade_upsell_footer_button" android:layout_width="wrap_content" android:layout_height="@dimen/cascade_footer_upgrade_button_height" android:text="@string/upsell_upgrade" android:textAllCaps="false" style="@style/CascadeUpsellFooterUpgradeButton" />
+    </LinearLayout>
+</RelativeLayout>

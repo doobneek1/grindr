@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/BottomSheetMenu"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/record_video" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chat_record_video" app:drawableStartCompat="@drawable/ic_chat_media_menu_record_video" style="@style/BottomSheetMenuItem" />
+    <TextView android:id="@id/live_chat" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chat_live_chat" app:drawableStartCompat="@drawable/ic_chat_media_menu_live_chat" style="@style/BottomSheetMenuItem" />
+</LinearLayout>

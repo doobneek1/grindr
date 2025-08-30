@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.grindrapp.android.base.view.CascadeSwipeRefreshLayout android:id="@id/fragment_cascade_swipe_refresh_layout" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.GrindrPagedRecyclerView android:id="@id/fragment_explore_base_recycler_view" android:tag="@string/explore_title" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:textColor="@color/grindr_pure_white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/toolbar_in_collapsing" android:background="@color/grindr_dark_gray_3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/collapsing_toolbar_height" android:lines="1" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+            <include android:id="@id/empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/view_empty_explore_cascade" />
+        </FrameLayout>
+    </com.grindrapp.android.base.view.CascadeSwipeRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

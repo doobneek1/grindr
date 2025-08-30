@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/activity_content" android:background="@color/grindr_dark_gray_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/activity_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.button.MaterialButton android:layout_gravity="bottom" android:id="@id/proceed_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_large" android:text="@string/feature_edu_next" android:layout_marginStart="@dimen/spacing_medium" android:layout_marginEnd="@dimen/spacing_medium" style="@style/PrimaryButton" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

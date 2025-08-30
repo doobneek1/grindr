@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/IbmPlexTextAppearanceH4" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/albums_previous_uploads" style="@style/ChatBottomDrawerTitle" />
+    <include android:id="@id/album_shared_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/title" layout="@layout/view_divider_light" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/album_shared_recycler_view" android:paddingTop="8.0dip" android:paddingBottom="60.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/album_shared_divider" />
+    <ImageView android:id="@id/retry_button" android:visibility="gone" android:layout_width="@dimen/retry_image_size" android:layout_height="@dimen/retry_image_size" android:layout_centerInParent="true" app:srcCompat="@drawable/retry_button" app:tint="@color/grindr_middle_gray" />
+    <include android:id="@id/view_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/view_loading" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_trigger_auto_remote_backup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="trigger auto remote backup" style="@style/DebugButton" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_start_restore_service" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="start restore service" style="@style/DebugButton" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_local_backup_SAF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="local backup by SAF" style="@style/DebugButton" />
+    <com.grindrapp.android.base.view.IbmPlexButton android:id="@id/debug_local_restore_SAF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="local restore by SAF" style="@style/DebugButton" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/profile_card" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:foreground="?android:selectableItemBackgroundBorderless" app:cardBackgroundColor="@color/grindr_dark_gray_2" app:cardCornerRadius="2.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/photo_cascade_thumbnail" android:layout_width="@dimen/spacing_large" android:layout_height="@dimen/spacing_large" android:layout_centerInParent="true" app:layout_constraintBottom_toTopOf="@id/photo_action_text" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+        <TextView android:textAppearance="@style/IbmPlexTextAppearanceMetadata" android:id="@id/photo_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/photo_cascade_thumbnail" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/photo_cascade_thumbnail" />
+        <View android:id="@id/grey_out_overlay_on_action_button" android:background="@color/grindr_pure_black_alpha_50" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

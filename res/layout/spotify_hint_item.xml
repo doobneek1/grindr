@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textColor="@color/grindr_middle_gray" android:id="@id/search_hint" android:paddingTop="13.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/spotify_hint" android:textDirection="locale" android:paddingStart="18.0dip" />
+    <View android:background="@drawable/spotify_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/SpotifyDivider" />
+</LinearLayout>
