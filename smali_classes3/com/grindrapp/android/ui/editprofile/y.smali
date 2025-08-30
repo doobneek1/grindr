@@ -7,7 +7,8 @@
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Lcom/grindrapp/android/ui/editprofile/y$a;,
-        Lcom/grindrapp/android/ui/editprofile/y$b;
+        Lcom/grindrapp/android/ui/editprofile/y$b;,
+        Lcom/grindrapp/android/ui/editprofile/y$ExportProfileClickListener;
     }
 .end annotation
 
@@ -231,6 +232,7 @@
         "D",
         "a",
         "b",
+        "ExportProfileClickListener",
         "core_prodRelease"
     }
     k = 0x1
@@ -2535,6 +2537,205 @@
     return-object v0
 .end method
 
+.class public Lcom/grindrapp/android/ui/editprofile/y$ExportProfileClickListener;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+# instance fields
+.field final synthetic this$0:Lcom/grindrapp/android/ui/editprofile/y;
+
+# direct methods
+.method public constructor <init>(Lcom/grindrapp/android/ui/editprofile/y;)V
+    .locals 0
+    iput-object p1, p0, Lcom/grindrapp/android/ui/editprofile/y$ExportProfileClickListener;->this$0:Lcom/grindrapp/android/ui/editprofile/y;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    return-void
+.end method
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 4
+    .param p1, "v"    # Landroid/view/View;
+
+    .line 1
+    iget-object p1, p0, Lcom/grindrapp/android/ui/editprofile/y$ExportProfileClickListener;->this$0:Lcom/grindrapp/android/ui/editprofile/y;
+
+    .line 2
+    invoke-virtual {p1}, Lcom/grindrapp/android/ui/editprofile/y;->c1()Lcom/grindrapp/android/ui/editprofile/EditProfileViewModel;
+
+    move-result-object v0
+
+    .line 3
+    invoke-virtual {v0}, Lcom/grindrapp/android/ui/editprofile/EditProfileViewModel;->N()Lcom/grindrapp/android/persistence/model/Profile;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 4
+    invoke-virtual {v0}, Lcom/grindrapp/android/persistence/model/Profile;->getDisplayName()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    move-result-object p1
+
+    .line 6
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Exporting profile for: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    .line 7
+    invoke-static {p1, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+
+    move-result-object p1
+
+    .line 8
+    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+
+    .line 9
+    iget-object p1, p0, Lcom/grindrapp/android/ui/editprofile/y$ExportProfileClickListener;->this$0:Lcom/grindrapp/android/ui/editprofile/y;
+    invoke-virtual {p1}, Lcom/grindrapp/android/ui/editprofile/y;->exportProfileData()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public exportProfileData()V
+    .locals 5
+    .line 1
+    new-instance v0, Lorg/json/JSONObject;
+    invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
+    .line 2
+    invoke-virtual {p0}, Lcom/grindrapp/android/ui/editprofile/y;->c1()Lcom/grindrapp/android/ui/editprofile/EditProfileViewModel;
+    move-result-object v1
+    invoke-virtual {v1}, Lcom/grindrapp/android/ui/editprofile/EditProfileViewModel;->N()Lcom/grindrapp/android/persistence/model/Profile;
+    move-result-object v1
+    if-eqz v1, :cond_c
+    :try_start_0
+    const-string v2, "displayName"
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getDisplayName()Ljava/lang/String;
+    move-result-object v3
+    invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    const-string v2, "aboutMe"
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getAboutMe()Ljava/lang/String;
+    move-result-object v3
+    invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    const-string v2, "age"
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getAge()I
+    move-result v3
+    invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+    const-string v2, "ethnicity"
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getEthnicity()I
+    move-result v3
+    invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+    const-string v2, "bodyType"
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getBodyType()I
+    move-result v3
+    invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+    const-string v2, "hivStatus"
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getHivStatus()I
+    move-result v3
+    invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+    const-string v2, "lastTestedDate"
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getLastTestedDate()J
+    move-result-wide v3
+    invoke-virtual {v0, v2, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
+    const-string v2, "relationshipStatus"
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getRelationshipStatus()I
+    move-result v3
+    invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+    const-string v2, "lookingFor"
+    new-instance v3, Lorg/json/JSONArray;
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getLookingFor()Ljava/util/List;
+    move-result-object v4
+    invoke-direct {v3, v4}, Lorg/json/JSONArray;-><init>(Ljava/util/Collection;)V
+    invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    const-string v2, "grindrTribes"
+    new-instance v3, Lorg/json/JSONArray;
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getGrindrTribes()Ljava/util/List;
+    move-result-object v4
+    invoke-direct {v3, v4}, Lorg/json/JSONArray;-><init>(Ljava/util/Collection;)V
+    invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    const-string v2, "meetAt"
+    new-instance v3, Lorg/json/JSONArray;
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getMeetAt()Ljava/util/List;
+    move-result-object v4
+    invoke-direct {v3, v4}, Lorg/json/JSONArray;-><init>(Ljava/util/Collection;)V
+    invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    const-string v2, "acceptNsfwPics"
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getAcceptNSFWPics()I
+    move-result v3
+    invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+    const-string v2, "vaccines"
+    new-instance v3, Lorg/json/JSONArray;
+    invoke-virtual {v1}, Lcom/grindrapp/android/persistence/model/Profile;->getVaccines()Ljava/util/List;
+    move-result-object v1
+    invoke-direct {v3, v1}, Lorg/json/JSONArray;-><init>(Ljava/util/Collection;)V
+    invoke-virtual {v0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+    goto :goto_0
+    :catch_0
+    move-exception v1
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
+    :goto_0
+    const-string v1, "profile.json"
+    :try_start_1
+    new-instance v2, Ljava/io/File;
+    sget-object v3, Landroid/os/Environment;->DIRECTORY_DOWNLOADS:Ljava/lang/String;
+    invoke-static {v3}, Landroid/os/Environment;->getExternalStoragePublicDirectory(Ljava/lang/String;)Ljava/io/File;
+    move-result-object v3
+    invoke-direct {v2, v3, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    new-instance v1, Ljava/io/FileWriter;
+    invoke-direct {v1, v2}, Ljava/io/FileWriter;-><init>(Ljava/io/File;)V
+    invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+    move-result-object v0
+    invoke-virtual {v1, v0}, Ljava/io/Writer;->write(Ljava/lang/String;)V
+    invoke-virtual {v1}, Ljava/io/Writer;->flush()V
+    invoke-virtual {v1}, Ljava/io/Writer;->close()V
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+    move-result-object v0
+    const-string v1, "Profile exported successfully"
+    const/4 v2, 0x1
+    invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    move-result-object v0
+    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+    :try_end_1
+    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
+    goto :goto_1
+    :catch_1
+    move-exception v0
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+    move-result-object v0
+    const-string v1, "Failed to export profile"
+    const/4 v2, 0x1
+    invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    move-result-object v0
+    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+    :cond_c
+    :goto_1
+    return-void
+.end method
+
 .method public final U0()Lcom/grindrapp/android/ui/editprofile/e0;
     .locals 1
 
@@ -4567,6 +4768,18 @@
 
     .line 13
     invoke-virtual/range {v0 .. v5}, Lcom/grindrapp/android/ui/editprofile/e0;->g(Ljava/lang/String;Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/result/ActivityResultRegistry;Lcom/grindrapp/android/tagsearch/model/TranslationsResponse;Lcom/grindrapp/android/ui/editprofile/e0$a;)V
+
+    .line 14
+    invoke-virtual {p0}, Lcom/grindrapp/android/ui/editprofile/y;->T0()Lcom/grindrapp/android/databinding/d6;
+    move-result-object p1
+
+    iget-object p1, p1, Lcom/grindrapp/android/databinding/d6;->w:Lcom/google/android/material/button/MaterialButton;
+
+    new-instance p2, Lcom/grindrapp/android/ui/editprofile/y$ExportProfileClickListener;
+
+    invoke-direct {p2, p0}, Lcom/grindrapp/android/ui/editprofile/y$ExportProfileClickListener;-><init>(Lcom/grindrapp/android/ui/editprofile/y;)V
+
+    invoke-virtual {p1, p2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_0
     return-void

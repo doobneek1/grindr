@@ -56,7 +56,7 @@
 
     const-string v0, "allow_mock_location"
 
-    const/4 v1, 0x0
+    const/4 v1, 0x1
 
     invoke-direct {p0, v0, v1}, Lcom/grindrapp/android/featureConfig/b;-><init>(Ljava/lang/String;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
 
